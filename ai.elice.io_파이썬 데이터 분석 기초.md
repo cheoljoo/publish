@@ -675,4 +675,58 @@ if __name__ == "__main__":
     main()
 ```
 
+## 최종 시험
+- 트윗 분류
+```python
+def trump_tweet(text) :
+    # 주어진 규칙에 맞추어 trump_twit()함수를 구현해주세요.
+    # pass는 지우고 코드를 작성해주세요.
+    hashList = []
+    mentionList = []
+    textList = []
+    # print(text)
+    for t in text.split():
+        if t.startswith('@'):
+            mentionList.append(t[1:])
+        elif t.startswith('#'):
+            hashList.append(t[1:])
+        else:
+            textList.append(t)
+    print('hash list :',hashList)
+    print('mention list :',mentionList)
+    print('text list :',textList)
+
+
+
+# 아래 부분은 수정하지 마세요!
+# 입력과 출력을 수행하는 코드입니다.
+t = input()
+trump_tweet(t)
+```
+
+- text로 시작하는 상위 20개 출력
+```python
+def filter_by_text(text) :
+    # 주어진 규칙에 맞추어 filter_by_text()함수를 구현해주세요.
+    # corpus.txt에 있는 텍스트를 읽어와서 corpus라는 리스트에 추가한다.
+    corpus = []
+    with open('corpus.txt','r') as file:
+        for t in file:
+            word , freq = t.split('/')
+            corpus.append( (word , int(freq)) )
+    
+    
+    # corpus에 있는 데이터 중, text로 시작하는 단어만을 추려서 result라는 리스트에 저장한다.
+    result = [ t for t in corpus if t[0].startswith(text)]
+    
+    # 찾은 영어 단어를 빈도수를 기준으로 내림차순으로 정렬하여 20개만 출력한다.
+    print( sorted(result,key=lambda x: x[1],reverse=True)[:20])
+    
+    
+# 아래 부분은 수정하지 마세요!
+# 입력과 출력을 수행하는 코드입니다.
+t = input()
+filter_by_text(t)
+```
+
 
