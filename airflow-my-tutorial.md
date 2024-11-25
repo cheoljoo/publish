@@ -47,8 +47,10 @@
           from preprocess.naver_preprocess import preprocessing
       ModuleNotFoundError: No module named 'preprocess.naver_preprocess'; 'preprocess' is not a package
       ```
-- 웹서버 사용하기
-  - 예시 DAG : example_branch_datetime_operator_2
+  - 웹서버 사용하기
+    - 예시 DAG : example_branch_datetime_operator_2
+- [>> operator overloading 설명 in airflow](https://github.com/cheoljoo/publish/blob/main/airflow_operator_overloading.md)
 - DAG 만들기
   - [가장 기본 DAG 만들어 실행해보기](https://magpienote.tistory.com/196)  <- [Example Source](https://github.com/hyunseokjoo/airflow_sample_code)
-    - [>> operator overloading 설명](https://github.com/cheoljoo/publish/blob/main/airflow_operator_overloading.md)
+    - list에 들어간 것은 병렬 처리
+    - DAG에 대한 병렬 , Branch 등에 대해서는 이해가 되나 , 실제로 수행되는 것에 대한 색과 그 return값에 대해서는 어떻게 하는지 더 찾아봐야 할 듯 하다.
