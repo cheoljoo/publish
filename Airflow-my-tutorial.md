@@ -37,4 +37,6 @@
 - [Airflow 엄청 자세한 튜토리얼 #왕초심자용](https://velog.io/@clueless_coder/Airflow-%EC%97%84%EC%B2%AD-%EC%9E%90%EC%84%B8%ED%95%9C-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-%EC%99%95%EC%B4%88%EC%8B%AC%EC%9E%90%EC%9A%A9)
   - my system does not work well with ```pip3 install apache-airflow```
 - 웹서버 사용하기
+  - 예시 DAG : example_branch_datetime_operator_2
+- DAG 만들기
   - 
