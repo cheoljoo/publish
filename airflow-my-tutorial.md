@@ -54,3 +54,47 @@
   - [가장 기본 DAG 만들어 실행해보기](https://magpienote.tistory.com/196)  <- [Example Source](https://github.com/hyunseokjoo/airflow_sample_code)
     - list에 들어간 것은 병렬 처리
     - DAG에 대한 병렬 , Branch 등에 대해서는 이해가 되나 , 실제로 수행되는 것에 대한 색과 그 return값에 대해서는 어떻게 하는지 더 찾아봐야 할 듯 하다.
+  - success / failure 처리
+    - Bash에서 exit 코드에 따른 동작
+      - exit 0: 성공 상태(success), DAG 흐름이 계속됨.
+      - exit != 0: 실패 상태(failed), DAG 흐름이 중단되거나 재시도.
+    - Python에서 에러 처리
+      - raise Exception: Task가 실패로 기록되고 이후 실행이 중단.
+      - 조건 처리와 예외 발생을 통해 실패 조건을 명확히 정의 가능.
+    - How BranchPythonOperator Works
+      - Task Completion: The BranchPythonOperator itself is marked as successful (success) if the Python callable executes without raising an exception. If an exception occurs in the callable, the task is marked as failed (failed), and the DAG's execution flow stops or retries based on your configuration.
+      - Return Value Determines Next Task(s): The return value of the callable is a **task ID** (or list of task IDs) that the BranchPythonOperator will trigger as the next step. Tasks not returned are automatically skipped.
+      - ```
+        from airflow import DAG
+        from airflow.operators.python import BranchPythonOperator
+        from airflow.operators.dummy_operator import DummyOperator
+        from datetime import datetime
+        
+        def decide_branch():
+            # Logic to decide the branch
+            value = 1
+            if value == 1:
+                return "task_true"    # it runs task with (task_id="task_true")
+            else:
+                return "task_false"   # it runs task with (task_id="task_false"). return string == task_id
+        
+        with DAG(
+            dag_id="branch_example",
+            start_date=datetime(2023, 1, 1),
+            schedule_interval=None,
+            catchup=False,
+        ) as dag:
+            start = DummyOperator(task_id="start")
+        
+            branch = BranchPythonOperator(
+                task_id="branch",
+                python_callable=decide_branch
+            )
+        
+            task_true = DummyOperator(task_id="task_true")
+            task_false = DummyOperator(task_id="task_false")
+            end = DummyOperator(task_id="end")
+        
+            start >> branch >> [task_true, task_false]
+            [task_true, task_false] >> end
+        ```
