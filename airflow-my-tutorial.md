@@ -63,7 +63,7 @@
     - How BranchPythonOperator Works
       - Task Completion: The BranchPythonOperator itself is marked as successful (success) if the Python callable executes without raising an exception. If an exception occurs in the callable, the task is marked as failed (failed), and the DAG's execution flow stops or retries based on your configuration.
       - Return Value Determines Next Task(s): The return value of the callable is a **task ID** (or list of task IDs) that the BranchPythonOperator will trigger as the next step. Tasks not returned are automatically skipped.
-      - ```
+      - ```python
         from airflow import DAG
         from airflow.operators.python import BranchPythonOperator
         from airflow.operators.dummy_operator import DummyOperator
