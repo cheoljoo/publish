@@ -53,6 +53,121 @@
 - DAG 만들기
   - [가장 기본 DAG 만들어 실행해보기](https://magpienote.tistory.com/196)  <- [Example Source](https://github.com/hyunseokjoo/airflow_sample_code)
     - list에 들어간 것은 병렬 처리
+    - run 할때 하나 하나 해보는게 실행을 시키면 기본으로 active로 enable 이 된다. 이때 job들이 scheduler에 매우 많이 들어가기에 , 예를 수행해 볼때는 active 되는 것을 off 시키면서 수행을 해주면 하나하나 수행되는 것을 잘 확인할 수가 있다.
+    - BashOperator에서 bash_command는 여기에 길게 적어도 되며 , 길경우 변수에 담아서 사용하면 된다.
+    - >> 의 변수가 list이면 병렬 처리 이다.
+    - branch는 task_id와 return string을 맞추어야 한다.
+    - group도 생성할수 있다. 다중 nested 허용
+    - subDAG - directory를 따로 만들어 운영 ```import subDags.child_subdag1 as cs1```   ```subdag=cs1.child_subdag1(parent_dag_name=dag_id, child_dag_name="parent_subDAG_sample1")```
+      - 모듈화: 큰 DAG를 여러 개의 subDAG으로 나누어 각 subDAG의 기능을 독립적으로 관리할 수 있습니다.
+      - 재사용성: 동일한 subDAG를 여러 DAG에서 재사용할 수 있어 코드 중복을 줄일 수 있습니다.
+      - 병렬 처리: subDAG는 독립적으로 실행될 수 있어, 전체 DAG의 실행 시간을 단축할 수 있습니다.
+      - subDAG를 사용할 때는 주의할 점도 있습니다. 예를 들어, subDAG의 상태가 부모 DAG에 영향을 미칠 수 있으므로, subDAG의 성공 또는 실패가 전체 DAG의 흐름에 미치는 영향을 고려해야 합니다.
+    - label 기능
+    - TriggerDagRunOperator : 의존 관계를 만들지 않고 , 프로그램상으로 의존성 + 조건에 따른 의존성을 만들기 위해서 사용된다.
+      - ```
+        # 첫 번째 DAG (first_dag): DummyOperator를 사용하여 시작과 끝을 정의합니다.
+        # TriggerDagRunOperator를 사용하여 second_dag를 트리거합니다. 이때 trigger_dag_id 매개변수에 트리거할 DAG의 ID를 지정합니다.
+        # conf 매개변수를 통해 추가적인 파라미터를 전달할 수 있습니다. 이 정보는 트리거된 DAG에서 사용할 수 있습니다.
+        # 두 번째 DAG (second_dag): 이 DAG은 schedule_interval이 None으로 설정되어 있어, 수동으로만 실행됩니다. 즉, first_dag에서 트리거될 때만 실행됩니다.
+        # 사용 시나리오
+        # 의존성 관리: first_dag의 작업이 완료된 후 second_dag를 자동으로 실행하여 데이터 파이프라인의 흐름을 관리할 수 있습니다.
+        # 조건부 실행: 특정 조건이 충족되었을 때만 second_dag를 실행하도록 설정할 수 있습니다.
+        # 이와 같은 방식으로 TriggerDagRunOperator를 활용하여 여러 DAG 간의 연계를 쉽게 관리할 수 있습니다.
+
+        from airflow import DAG
+        from airflow.operators.dagrun_operator import TriggerDagRunOperator
+        from airflow.operators.dummy_operator import DummyOperator
+        from datetime import datetime
+
+        # 첫 번째 DAG 정의
+        with DAG('first_dag',
+                schedule_interval='@daily',
+                start_date=datetime(2023, 11, 1),
+                catchup=False) as dag1:
+
+            start = DummyOperator(task_id='start')
+
+            trigger_second_dag = TriggerDagRunOperator(
+                task_id='trigger_second_dag',
+                trigger_dag_id='second_dag',  # 트리거할 DAG의 ID
+                conf={"key": "value"},  # 추가적인 파라미터
+                dag=dag1
+            )
+
+            end = DummyOperator(task_id='end')
+
+            start >> trigger_second_dag >> end
+
+        # 두 번째 DAG 정의
+        with DAG('second_dag',
+                schedule_interval=None,  # 수동으로 트리거되므로 None
+                start_date=datetime(2023, 11, 1),
+                catchup=False) as dag2:
+
+            start_second = DummyOperator(task_id='start_second')
+
+            end_second = DummyOperator(task_id='end_second')
+
+            start_second >> end_second
+        ```
+    - ExternalTaskSensor를 사용하면 여러 DAG 간의 의존성을 쉽게 관리할 수 있습니다.
+      - ExternalTaskSensor는 Apache Airflow에서 사용되는 센서 중 하나로, 특정 외부 작업이 완료되었는지를 감지하는 데 사용됩니다. 이 센서는 다른 DAG(Directed Acyclic Graph)에서 실행된 작업의 상태를 확인하고, 해당 작업이 성공적으로 완료되면 다음 작업을 실행하도록 트리거합니다.
+    - xcom으로 task간 데이터 전달
+    - task간 json data 전달
+      - ```
+        # DAG 정의: DAG 객체를 생성하고, 시작 날짜와 스케줄을 설정합니다.
+        # JSON 데이터 푸시: push_json_data 함수는 JSON 데이터를 생성하고, xcom_push 메서드를 사용하여 XCom에 데이터를 푸시합니다. kwargs['ti']는 태스크 인스턴스를 참조합니다.
+        # JSON 데이터 풀기: pull_json_data 함수는 xcom_pull 메서드를 사용하여 이전 태스크에서 푸시한 JSON 데이터를 가져옵니다. 가져온 데이터는 콘솔에 출력됩니다.
+        # 태스크 의존성 설정: push_task가 완료된 후에 pull_task가 실행되도록 의존성을 설정합니다.
+        from airflow import DAG
+        from airflow.operators.python_operator import PythonOperator
+        from datetime import datetime
+
+        # JSON 데이터를 생성하는 함수
+        def push_json_data(**kwargs):
+            json_data = {
+                "id": 1,
+                "name": "Alice",
+                "email": "alice@example.com"
+            }
+            # XCom에 JSON 데이터 푸시
+            kwargs['ti'].xcom_push(key='user_data', value=json_data)
+
+        # JSON 데이터를 가져오는 함수
+        def pull_json_data(**kwargs):
+            # XCom에서 JSON 데이터 가져오기
+            ti = kwargs['ti']
+            json_data = ti.xcom_pull(task_ids='push_task', key='user_data')
+            print(f"Retrieved JSON data: {json_data}")
+
+        # DAG 정의
+        with DAG('json_data_transfer_dag',
+                start_date=datetime(2023, 11, 25),
+                schedule_interval='@daily',
+                catchup=False) as dag:
+
+            # JSON 데이터를 푸시하는 태스크
+            push_task = PythonOperator(
+                task_id='push_task',
+                python_callable=push_json_data,
+                provide_context=True
+            )
+
+            # JSON 데이터를 풀어오는 태스크
+            pull_task = PythonOperator(
+                task_id='pull_task',
+                python_callable=pull_json_data,
+                provide_context=True
+            )
+
+            # 태스크 의존성 설정
+            push_task >> pull_task
+        ```
+    - DAG객체 안에 user_defined_macros를 설정하면 Task에서 JinjaTemplate으로 불러 사용가능하다.
+      - MACRO_VARS={     "id" : "sampleID",     "pw" : 1234,     "dataset" : "userDS" }
+    - error 발생시 : success가 아닌 결과가 나타남.
+      - Graph에서 박스를 누그로 Log를 선택하며 보면 console log를 볼수 있음.
   - success / failure 처리 (return or exception or exit)
     - Bash에서 exit 코드에 따른 동작
       - exit 0: 성공 상태(success), DAG 흐름이 계속됨.
@@ -97,3 +212,6 @@
             start >> branch >> [task_true, task_false]
             [task_true, task_false] >> end
         ```
+
+# >> operation overloading
+- https://github.com/cheoljoo/publish/blob/main/airflow_operator_overloading.md
