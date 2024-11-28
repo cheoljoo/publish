@@ -16,7 +16,7 @@
     - error - I do not have access right. because i am not a workspace member.
   - other mail service
     - I tried kaka.com and naver.com.  but i can not succeed.
-    - one blog succeeds with naver.com.  it use send an Email (IMAP). but i can not find this module in make.com
+    - [one blog succeeds with naver.com](https://2nd-deck.tistory.com/entry/Make-%EB%84%A4%EC%9D%B4%EB%B2%84-%EB%A9%94%EC%9D%BC%EC%9D%84-Email-%EB%AA%A8%EB%93%88%EB%A1%9C-%EC%84%A4%EC%A0%95).  it use send an Email (IMAP). but i can not find this module in make.com
 ![email set : image-1.png](image-1.png)
 
 ## telegram
