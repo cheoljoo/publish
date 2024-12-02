@@ -213,5 +213,18 @@
             [task_true, task_false] >> end
         ```
 
+# Airflow 외부 python 함수 수행하기
+- common 한 것들을 plugins/common/*.py로 모아두고 사용하고 싶을때 [Link](https://letzgorats.tistory.com/entry/Airflow-%EC%99%B8%EB%B6%80-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%ED%95%A8%EC%88%98-%EC%88%98%ED%96%89%ED%95%98%EA%B8%B0)
+- code 안에서는 ```from common.common_func import get_A``` 선언하고 사용할때 문제가 없으려면
+  - .env 안에 다음을 선언해야 한다.
+    - WORKSPACE_FOLDER=..../airflow
+    - PYTHONPATH=${WORKSPACE_FOLDER}/plugins
+
+
+# 실제로 사용하려면 분산 환경에서 일을 주고 받을 수 있어야 할 것이다.
+- 분산 환경에서 일을 할당하며 관리하는 것에 대해서 알아볼 것이다.
+- 
+
+
 # >> operation overloading
 - https://github.com/cheoljoo/publish/blob/main/airflow_operator_overloading.md
