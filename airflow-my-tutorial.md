@@ -221,10 +221,19 @@
     - PYTHONPATH=${WORKSPACE_FOLDER}/plugins
 
 
-# 실제로 사용하려면 분산 환경에서 일을 주고 받을 수 있어야 할 것이다.
-- 분산 환경에서 일을 할당하며 관리하는 것에 대해서 알아볼 것이다.
-- 
+# 분산 환경
+- 실제로 사용하려면 분산 환경에서 일을 주고 받을 수 있어야 할 것이다. 분산 환경에서 일을 할당하며 관리하는 것에 대해서 알아볼 것이다.
+  - https://airflow.apache.org/docs/apache-airflow/stable/index.html
+  - https://louisdev.tistory.com/3
 
 
-# >> operation overloading
-- https://github.com/cheoljoo/publish/blob/main/airflow_operator_overloading.md
+# 기타
+- >> operation overloading
+  - https://github.com/cheoljoo/publish/blob/main/airflow_operator_overloading.md
+- TaskFlow API : 새로운 문법으로 Airflow DAG 생성하기
+  - https://phi-friday.github.io/@post/python/airflow1/
+- email operator
+  - https://letzgorats.tistory.com/entry/Airflow-Email-Operator%EB%A1%9C-%EB%A9%94%EC%9D%BC-%EC%A0%84%EC%86%A1%ED%95%98%EA%B8%B0
+  - I failed to do it with email operator in my company instead of gmail.
+- Airflow - DAG workflow 작성 / 실행 / 이해 
+  - https://da2so.tistory.com/40
