@@ -240,7 +240,7 @@ Complexity kills. It sucks the life out of developers, it makes products difficu
   - "Lazy Initialization/Evaluation(게으른 초기화)"의 일반적인 형태이다. ```if (service == null)  service = new MyServiceImpl(...);```  이것때문에 의존성 증대.    잘 정돈된 견고한 시스템을 만들기 위해서는 전역적이고 일관된 의존성 해결 방법을 통해 위와 같은 작은 편의 코드들이 모듈성의 저해를 가져오는 것을 막아야 한다.
   - 생성 로직을 어플리케이션의 시작이 아닌 메인으로
   - 팩토리 기법 : 객체의 생성 시기를 직접 결정하려면 main에서 완성된 객체를 던져주기 보다 factory 객체를 만들어서 던져주자. 만약 자세한 구현을 숨기고 싶다면 Abstract Factory 패턴을 사용하자. 
-    - ![separation-construction-with-factory](image-3.png)
+    - ![separation-construction-with-factory](./img/image-3.png)
 - 의존성 주입(Dependency Injection) : 의존성 관리의 관점에서는 "객체는 그 자신의 의존성들을 직접 생성하지 말고 다른 'authoritative mechanism'에게 맡겨야 한다."라고 한다.  ??? 
 - 스케일링
 - 시스템 아키텍쳐를 테스트 주도하라(Test Drive the System Architecture)
