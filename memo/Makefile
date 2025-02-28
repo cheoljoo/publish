@@ -19,11 +19,13 @@ all:
 	cp -r ../memo ../mod_publish
 	python3 remove_files.py --dir=../github_publish/memo --remove_tags=private,lge
 	python3 remove_files.py --dir=../mod_publish/memo --remove_tags=private
-k:
 	python3 revision_creation.py
+	cd ../github_publish/memo; git checkout -f revision.json
+	cd ../mod_publish/memo; git checkout -f revision.json
 	cd ../github_publish/memo; python3 revision_creation.py
 	cd ../mod_publish/memo; python3 revision_creation.py
 t:
+	git checkout -f revision.json
 	python3 revision_creation.py
 p:
 	python3 ../processMap/draw_pm.py --authname cheoljoo.lee --authpasswd your_host_passwd --input processmap.csv
