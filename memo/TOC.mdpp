@@ -1,0 +1,16 @@
+- description : TOC (it includes all item of memo.)
+- tag : readme, TOC
+- First, run ```$ bash readme.sh```. It is created by get-all-description-and-tag.py.
+- [Network Graph (Map)](get-all-description-and-tag-network_graph.html) <- download and run in browser.
+
+
+!TOC
+
+!INCLUDE "TOC.md"
+
+## plantuml server install 
+  - ```$ docker run -d -p 18080:8080 plantuml/plantuml-server:tomcat```
+
+  
+# REVISION
+- [revision.md](./revision.md)

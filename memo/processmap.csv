@@ -1,0 +1,11 @@
+Project,From,Execution,To,FromLocation,FromSuccessCheckPoint,FromFailCheckPoint,FromShowCheckPoint,FromType,FromLastTime,FromResult,FromDescription,ToLocation,ToSuccessCheckPoint,ToFailCheckPoint,ToShowCheckPoint,ToType,ToLastTime,ToResult,ToDescription,Periodic,Replace,Description,Virtical
+processMap-memo,memo,Makefile,,,,,,text,,,,,,,,text,,,,,,,O
+processMap-memo,Makefile,convert_csv_to_md.py,,,,,,text,,,,,,,,text,,,,,,,
+processMap-memo,*/index.csv,convert_csv_to_md.py,*/index.md,,,,,text,,,,,,,,text,,,,,,"ai,book,education,youtube",
+processMap-memo,,convert_csv_to_md.py,*/tag.json,,,,,text,,,,,,,,text,,,,,,"ai,book,education,youtube",
+processMap-memo,*.md [all directories],get-all-description-and-tag.py,get-all-description-and-tag.json,,,,,text,,,,,,,,text,,,,,,,
+processMap-memo,*/tag.json,get-all-description-and-tag.py,TOC.md,,,,,text,,,"ai,book,education,youtube",,,,,text,,,,,,,
+processMap-memo,TOC.md,markdown-pp,README.md,,,,,text,,,,,,,,text,,,,,,,
+processMap-memo,TOC.mdpp,markdown-pp,,,,,,text,,,,,,,,text,,,,,,,
+processMap-memo,Makefile,get-all-description-and-tag-to-network-graph.py,,,,,,text,,,,,,,,text,,,,,,,
+processMap-memo,get-all-description-and-tag.json,get-all-description-and-tag-to-network-graph.py,./get-all-description-and-tag-to-network-graph.html,,,,,text,,,,,,,,text,,,Network Graph,,,,

@@ -1,0 +1,8 @@
+Date,CreateDate,Category,Title,URL,Categories,Tags,NotesLink,Description,Remarks
+2025-03-30,,done,Fundamentals of data engineering,https://www.redpanda.com/guides/fundamentals-of-data-engineering,data-science,de,,,DE Top 1 of 3
+2025-01-22,2022-03-02,going,금융 데이터 분석을 위한 파이썬 판다스,,coding,"python,finance,analysys,data",./python-pandas-금융-데이터-분석을-위한/index.md,,
+2025-06-30,2025-02-13,going,알고리즘-문제해결전략,,coding,"problem,solving",./알고리즘-문제해결전략/알고리즘-문제해결전략.md,문제 해결 전략,
+2025-01-21,2025-02-13,done,대규모-데이터!-세트를-위한-알고리즘과-데이터-구조,,data,"data-science,algorithm,bigdata",./대규모-데이터!-세트를-위한-알고리즘과-데이터-구조/index.md,외부 메모리를 이용한 대용량 데이터 처리,algorithms-and-data-structures-for-massive-datasets
+2025-04-15,,going,일론머스크 플랜3,,,,,,
+2025-04-30,2025-02-04,going,"Designing Data-Intensive Applications The Big Ideas Behind Reliable, Scalable, and Maintainable Systems ( PDFDrive )",https://github.com/samayun/devbooks/blob/master/Designing%20Data-Intensive%20Applications%20The%20Big%20Ideas%20Behind%20Reliable%2C%20Scalable%2C%20and%20Maintainable%20Systems%20(%20PDFDrive%20).pdf,data-science,de,,,DE Top 2 of 3
+2025-06-30,,going,Designing Machine Learning Systems with Python,https://github.com/shahumar/Free-Machine-Learning-Books.git,data-science,de,,,DE Top 3 of 3

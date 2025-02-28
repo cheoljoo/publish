@@ -1,0 +1,434 @@
+- description : youtube review : Youtube 동영상 시청한 내용 정리
+- tag : youtube , list
+- date : [today]
+
+- [ai news](../ai/index.md)
+
+
+<H1>YOUTUBE Lists</H1>
+
+- [index.csv](./index.csv)
+
+# ai
+## 챗GPT로 미국 주식 포트폴리오 자동으로 관리하는 방법 feat 구글 스프레드 시트, Apps Script 코드 작성 (2025-01-14)
+- Date: 2025-01-14
+- CreateDate: 2025-01-11
+- Title: [챗GPT로 미국 주식 포트폴리오 자동으로 관리하는 방법 feat 구글 스프레드 시트, Apps Script 코드 작성](https://www.youtube.com/watch?v=NN9pFgIHc50&list=WL&index=3&ab_channel=%EB%A9%94%ED%83%80%EC%BD%94%EB%93%9CM)
+- Categories: ai
+- Tags:  gpt,google,spreadsheet,apps_script
+- [NotesLink](./챗GPT로-미국-주식-포트폴리오-자동으로-관리하는-방법-feat-구글-스프레드-시트-Apps-Script-코드-작성/readme.md)
+- Description: apps script를 이용하여 google spreadsheet에 주식 관련 내용 쉽게 처리 가능
+
+## 공부와 일의 효율을 2배로! NotebookLM (2025-01-19)
+- Date: 2025-01-19
+- CreateDate: 2025-01-09
+- Title: [공부와 일의 효율을 2배로! NotebookLM](https://www.youtube.com/watch?v=Vse0oFS4BBw&list=PLo6G6c3Za_Rw4HNuVmKNCr9zA2S9D8sDX&index=1&pp=iAQB)
+- Categories: ai
+- Tags: notebooklm,google
+- Description: upload한 문서 기준으로 요약 및 Q&A , 공유도 가능
+- Remarks: 생산성 앱의 모든 것 : https://www.youtube.com/watch?v=Vse0oFS4BBw&list=PLo6G6c3Za_Rw4HNuVmKNCr9zA2S9D8sDX
+
+## 무료 Google AI Studio, 유료 챗GPT에도 없는 기능 제공! 과연 답변 퀄리티는? (2025-01-19)
+- Date: 2025-01-19
+- CreateDate: 2025-01-18
+- Title: [무료 Google AI Studio, 유료 챗GPT에도 없는 기능 제공! 과연 답변 퀄리티는?](https://www.youtube.com/watch?v=h9l-d61GjI8)
+- Categories: ai
+- Tags: google,ai_studio,gemini
+- [NotesLink](./google-ai-studio-free/readme.md)
+- Description: screen share (audio로만 답변) , Tool을 사용하면서 기능에 대해서 모르면 어떻게 기능을 수행하는지 문의 (menu중심 설명?), 2개의 모델을 비교하는 chat가능
+- Remarks: https://aistudio.google.com/
+
+## 구글 AI 제미나이(gemini) 2.0 사용법 총정리(실시간 화면 공유, 음성 대화, 검색 기능 등) (2025-01-19)
+- Date: 2025-01-19
+- CreateDate: 2024-12-30
+- Title: [구글 AI 제미나이(gemini) 2.0 사용법 총정리(실시간 화면 공유, 음성 대화, 검색 기능 등)](https://www.youtube.com/watch?v=sUBU2lH73Rw)
+- Categories: ai
+- Tags: google,ai_studio,gemini
+- [NotesLink](./google-ai-studio-free/readme.md)
+- Description: ai-studio의 사용예로 screen share에 대한 좋은 예를 보여줌 (Tool 사용, 작업하면서 바로 문의)
+  - Talk to gemini를 눌러서 idea 회의를 한다. 
+  - gemini 2.0 은 youtube 요약도 된다. 한국어보다는 영어만 잘된다.
+- Remarks: 구글 AI 스튜디오 https://aistudio.google.com/
+  - 제미나이 사이트 https://gemini.google.com/app
+  - 구글 제미나이 2.0에 대한 설명
+  - https://blog.google/intl/ko-kr/compan...
+
+## AI에게 맡기는 비트코인 투자 자동화 with 빗썸, GPT, Gemini (2025-01-20)
+- Date: 2025-01-20
+- CreateDate: 2025-01-10
+- Title: [AI에게 맡기는 비트코인 투자 자동화 with 빗썸, GPT, Gemini](https://www.youtube.com/watch?v=g71g8GKlmjE&t=26s)
+- Categories: ai
+- Tags: google,bitcoin,gemini,trading,auto,automation,jocoding
+- Description: Remarks의 내용을 보면 gpt에 물어보고 , 물어보기 위한 fear&greed index 값을 받아오는 등의 작업을 이해 할수 있다. 여러가지 값을 넣어주고 , GPT에게 buy/sell  중에 선택을 하게 한다.
+- Remarks: https://jocoding.net/gptbitcoin-bithumb
+  - 유사 youtube : https://www.youtube.com/watch?v=EOnaOpZy9ew
+  - https://jocoding.net/gptbitcoin
+
+## ChatGPT, Perplexity, Claude 보다 시각화에 엄청 더 쎈놈이 나타났다! 이제는 Felo의 시대! I AI에 날개를 달다 | 노가다헌터 | 정진일 (2025-01-20)
+- Date: 2025-01-20
+- CreateDate: 2025-01-13
+- Title: [ChatGPT, Perplexity, Claude 보다 시각화에 엄청 더 쎈놈이 나타났다! 이제는 Felo의 시대! I AI에 날개를 달다 | 노가다헌터 | 정진일](https://www.youtube.com/watch?v=_n4nmIwLcJk)
+- Categories: ai
+- Tags: chatgpt,perplexity,claude,felo
+- Description: FELO 를 사용하자. (시각화)
+  - mindmap , notion 연동 가능 (유료는 ppt 생성)
+  - 기본적으로 URL을 넣으면 기사나 동영상을 요약해서 보여준다.
+  - 모든 것을 요약해서 발표 자료로 만든다.
+  - 클로드 , openAi 등 선택할 수 있다.
+- Remarks: https://felo.ai/ko/search
+
+## Agents에 대한 모든 기초 설명 (2025-01-20)
+- Date: 2025-01-20
+- CreateDate: 2025-01-11
+- Title: [Agents에 대한 모든 기초 설명](https://www.youtube.com/watch?v=HujQhD8J2LQ)
+- Categories: ai
+- Tags: agents
+- Description: google agents 개발 백서 설명
+  1. Agents can leverage one or more language models to decide when and how to transition through states and use external tools to complete any number of complex tasks that would be difficult or impossible for the model to complete on its own.
+  2. ReAct, Chain-of-Thought, and Tree-of-Thoughts
+  3. Tools, such as Extensions, Functions, and Data Stores, serve as the keys to the outside world for agents
+
+## Github Copilot vs Cursor, Windsurf | 제가 대신 비교 해봤습니다 (2025-01-26)
+- Date: 2025-01-26
+- CreateDate: 2024-12-29
+- Title: [Github Copilot vs Cursor, Windsurf | 제가 대신 비교 해봤습니다](https://www.youtube.com/watch?v=82UUYNEu2iM&list=WL&index=33&pp=gAQBiAQB)
+- Categories: ai
+- Tags: github,copilot,cursor,windsurf,comparison
+- Description: github copilot 사용법을 proudct생성으로 간단히 보여줌. (markdown으로 PRD를 만들어 사용)
+  - cursor도 내부에서 설치등도 처리를 함. 개발도 하여 결과도 보여줌.
+  - **cursor가 만든 것의 완성도가 높음**
+- Remarks: 역시 개발은 MAC이네.. linux를 깔아야 하나?
+
+## NO코드 #RAG #Agent #Workflow 구축해보기! (2025-01-26)
+- Date: 2025-01-26
+- CreateDate: 2025-01-11
+- Title: [NO코드 #RAG #Agent #Workflow 구축해보기!](https://www.youtube.com/watch?v=OTsf94r_BkQ&list=WL&index=17&pp=gAQBiAQB)
+- Categories: ai
+- Tags: rag,workflow,openwebui,dify
+- Description: openWebUI로 시작해서 Dify로 workflow를 설계하여 여러가지 LLM 환경을 구축
+  - NO-Code로 Dify를 이용하여 RAG / langchain을 구성할수 있다.
+- Remarks: TeddyNote : https://teddylee777.github.io/
+  - https://github.com/teddylee777/langchain-kr
+  - <랭체인LangChain 노트> - LangChain 한국어 튜토리얼🇰🇷 : https://wikidocs.net/book/14314
+  - LangGraph is a library for building stateful, multi-actor applications with LLMs, used to create agent and multi-agent workflows.
+  - LangSmith is a platform for building production-grade LLM applications. It allows you to closely monitor and evaluate your application, so you can ship quickly and with confidence. 
+  - [Dify](https://velog.io/@korkite/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-LLMOps%EC%9D%98-%EB%81%9D%ED%8C%90%EC%99%95-dify) : 오픈 소스 LLM 앱 개발 플랫폼 Dify는 사용자가 직관적으로 AI 워크플로우와 모델 관리를 통해 여러 가지 기능을 결합할 수 있는 오픈 소스 플랫폼입니다. 
+
+## [Paper Review] AI agent가 연구도 할 수 있을까?: The AI Scientist (2025-01-27)
+- Date: 2025-01-27
+- CreateDate: 2024-12-29
+- Title: [[Paper Review] AI agent가 연구도 할 수 있을까?: The AI Scientist](https://www.youtube.com/watch?v=OuvE7t3pmZ0&list=WL&index=22)
+- Categories: ai
+- Tags: agents,ai-scientist
+- Description: AI agnet에 대한 설명 (석사과정 이지윤)
+  1. 논문 제목: The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery
+  2. 논문 링크: https://arxiv.org/abs/2408.06292
+  3. Overview:
+    - 완전 자동화된 연구 수행을 가능하게 하는 최초의 end-to-end 프레임워크 (The AI Scientist)
+    - 아이디어 생성, 실험 설계, 실행, 결과 시각화 및 완전한 원고 작성까지 포함
+    - 생성된 논문의 품질을 평가하기 위한 자동화된 리뷰 프로세스 고안 (Automated Reviewer)
+- Remarks: www.simform.com/blog/ai-agent
+  - IMO : 제안서도 작성 가능할 듯. 우리가 만든 모든 내용을 NotebookLM에 넣는다든지 , RAG에 넣으면 가능하지 않을까?
+
+## [홍장원의 불앤베어] 엔비디아 칩은 여전히 잘 팔릴 것 같다. 월가 주도주 변경 시나리오일 수 있다. 트럼프 관세 협박에 장기물 금리 하락 이유 (deepseek, kimi) (2025-01-28)
+- Date: 2025-01-28
+- CreateDate: 2025-01-28
+- Title: [[홍장원의 불앤베어] 엔비디아 칩은 여전히 잘 팔릴 것 같다. 월가 주도주 변경 시나리오일 수 있다. 트럼프 관세 협박에 장기물 금리 하락 이유 (deepseek, kimi)](https://www.youtube.com/watch?v=KH2LW1xCF9U&ab_channel=%EB%A7%A4%EA%B2%BD%EC%9B%94%EA%B0%80%EC%9B%94%EB%B6%80)
+- Categories: ai
+- Tags: deepseek,kimi
+- Description: 주도주 변경? 10년물 금리 큰 폭 하락 (트럼프 먹힘)
+  - 리사 쿡 연준이사 : 작은 충격으로 크게 하락 가능
+  - DeepSeek (H800 GPU)충격으로 800조 증발
+
+## 중국의 DeepSeek-R1, OpenAI o1 설계도를 공개해줌 :) (2025-01-28)
+- Date: 2025-01-28
+- CreateDate: 2025-01-25
+- Title: [중국의 DeepSeek-R1, OpenAI o1 설계도를 공개해줌 :)](https://www.youtube.com/watch?v=K7cPOaiOJj0)
+- Categories: ai
+- Tags: deepseek,openai
+- Description: dataset이 어떻게 만들어지는지가 중요한데 이 부분은 paper에 없음.
+  - reward를 간략히 준게 중요한 변화
+  - aha moment가 학습의 중간과정에서 나타남.
+  - resoning-oriented reinforcement learning을 한다는 것은 결국 뭔가 학습시킬 dataset이 얼마나 중요한가를 나타내는 것인가? (data가 어떻게 사용되어져있는지를 알수 있다면, SFT(Supervised Fine-Tuning)에 무엇을 포함할지를 알수 있지 않을까?
+  - 좋은 dataset을 가지고 배우는 것이 성능이 훨씬 좋다.
+
+- Remarks: script : https://ameli.notion.site/Deepseek-R1-Open-AI-O1-1852eb5de6448071a8a1f74cfc991fdb
+
+## 잘못 알고 계십니다... AI 빅테크 무너진다? 중국AI 딥씨크 논란 | 논문 분석 | NVIDIA, OpenAI는 끝? (2025-01-29)
+- Date: 2025-01-29
+- CreateDate: 2025-01-27
+- Title: [잘못 알고 계십니다... AI 빅테크 무너진다? 중국AI 딥씨크 논란 | 논문 분석 | NVIDIA, OpenAI는 끝?](https://youtu.be/0W_I7OW-RxY?si=BpivdJJIWwBElZk4)
+- Categories: ai
+- Tags: deepseek
+- Description: **DeepSeek R1**에 대한 나의 의견 : 강화학습으로 더 좋은 성과를 보인 것은 대단. 그러나, 강화학습시 보상을 주는 것을 기존에는 사람이 해준 것을 deepseek는 알아서 해주었다는건데 AI가 알아서 해준다는 것은 컴퓨터가 알아서 참조할만한 뭔가가 있어야 한다. 기존에 잘 판단해주는 openai가 있었기 때문에 이것을 기반으로 컴퓨터가 알아서 판단하는게 아닐까 싶다. 예로 , 바둑에서 최종으로는 강화(reinforcement)로만 했다고 했는데 컴퓨터끼리 바둑을 두면서 강화 학습을 한 것으로 판단기준인 Rule이 정확히 정해져 있어 뭐가 좋은지 판단이 용이하다.
+
+## Understanding How Vector Databases Work! (2025-01-29)
+- Date: 2025-01-29
+- CreateDate: 2024-05-02
+- Title: [Understanding How Vector Databases Work!](https://youtu.be/035I2WKj5F0?si=vuqwzIYd_vVmdVIY)
+- Categories: ai
+- Tags: vector,database,ML,vector-database
+- [NotesLink](./Understanding-How-Vector-Databases-Work/readme.md)
+- Description: vector database가 무엇이고, 이것을 왜 이용하는지를 잘 설명해줌. vector의 dot를 이용하여 같은 distance라도 cos의 각도를 이용하여 더 근접한 값을 찾아내는 것이다. (중심에서의 양쪽 점 사이의 각도)
+
+## A Beginner's Guide to Vector Embeddings (2025-01-29)
+- Date: 2025-01-29
+- CreateDate: 2023-06-09
+- Title: [A Beginner's Guide to Vector Embeddings](https://youtu.be/NEreO2zlXDk?si=dXvcl0Hx__TDFCzY)
+- Categories: ai
+- Tags: vector,embedding,database,vector-database
+- Description: vector embedding은 ML에서 이용할수 있도록 정보들을 vector로 변경하는 것이다.
+- Remarks: [What are Vector Embeddings](https://www.pinecone.io/learn/vector-embeddings/)
+  - [What is a Vector Database](https://www.pinecone.io/learn/vector-database/)
+  - [Hugging Face Colorful Vectors (3D model)](https://huggingface.co/spaces/jphwang/colorful_vectors)
+
+
+# automation
+## CC) Automate stock investment easily - Complete automatic trading system in 20 minutes (2025-01-20)
+- Date: 2025-01-20
+- CreateDate: 2022-07-04
+- Title: [CC) Automate stock investment easily - Complete automatic trading system in 20 minutes](https://www.youtube.com/watch?v=2Hxfb5HT4kE)
+- Categories: automation
+- Tags: jocoding,stock,trading
+- Description: 한국투자증권은 restAPI사용한다. 
+- Remarks: https://github.com/youtube-jocoding/koreainvestment-autotrade
+
+## "업무 진척도 관리, 고객사에 보낼 데이터 생성, 성과 측정까지 AI가 담당" (송치훈 한국마이크로소프트 영업 부문 리드) (2025-01-28)
+- Date: 2025-01-28
+- CreateDate: 2025-01-28
+- Title: ["업무 진척도 관리, 고객사에 보낼 데이터 생성, 성과 측정까지 AI가 담당" (송치훈 한국마이크로소프트 영업 부문 리드)](https://www.youtube.com/watch?v=gh8IBdO51Fg&ab_channel=%ED%8B%B0%ED%83%80%EC%9E%84%EC%A6%88TV)
+- Categories: automation
+- Tags: ai,m365,copilot,ms
+- Description: 복잡한 업무를 AI가 대신해준다는 상상, 벌써 몇 년째 계속되고 있죠. 그 시기가 이제 눈 앞으로 다가왔습니다. 매주 진행되는 스케줄 업데이트를 AI가 대신해주고, 회사 데이터베이스에서 견적서를 꺼내와 고객사에 메일 초안도 써주죠. 이런 일들이 쌓이고 나면 AI가 결과들을 취합해 성과 관리까지 해줍니다. 미래의 일이 아닙니다
+- Remarks: 우리도 M365 copilot를 사용해야 할 듯!
+  - 나의 정보를 모두 넣어주어야 하는데...
+  - copilot actions. (반복작업 위임)
+  - copilot agents
+  - meeting agenda 작성 등...
+    - facilitator / project manager / employee self service / sharepoint / translate / dynamics 365 agents
+    - copilot agent : invoce를 보고 자동으로 review를 하고 응답을 한다.  SAP+M365
+    - copilot Analytics : 측량 : 활용정도에 따른 변화 측량
+
+## n8n 회의 할 일 등록 (2025-01-29)
+- Date: 2025-01-29
+- CreateDate: 2024-11-07
+- Title: [n8n 회의 할 일 등록](https://www.youtube.com/watch?v=Vp1mR7xLc28)
+- Categories: automation
+- Tags: n8n,todolist
+- Description: n8n 을 이용한 텍스트에서 특정 정보를 추출하는 데 사용되는 노드인 Information Extractor를 사용해서 텍스트로 변환된 회의 내용의 할 일을 추출해서 todoist 라고 하는 스케쥴 플랫폼에 등록하는 영상입니다.
+- Remarks: [flow,json, n8n 프로젝트 코드](https://github.com/Kimseongbeen/Study/tree/master/n8n/todoist)
+
+## 회의 요약 자동화 처음부터 따라하기 (2025-01-29)
+- Date: 2025-01-29
+- CreateDate: 2024-10-03
+- Title: [회의 요약 자동화 처음부터 따라하기](https://www.youtube.com/watch?v=SU6q4wMYUJw)
+- Categories: automation
+- Tags: n8n,app
+- Description: Linux에서 실행하는 Linux Ubuntu 22.04 LTS에서 Docker Desktop 설치부터 API 키 발급 후 설정 마무리 어플 다운로드 관련 내용까지의 내용입니다.
+  - [프로젝트코드](https://github.com/Kimseongbeen/Study/blob/master/n8n/AudioToDiscord/%EC%98%A4%EB%94%94%EC%98%A4%EC%9A%94%EC%95%BD%EB%94%94%EC%8A%A4%EC%BD%94%EB%93%9C.json)
+- Remarks: [회의 요약하는 어플도 제공](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa1lTdV9uem5NNl9PaGFlTUxzVkFta2I4azZTZ3xBQ3Jtc0tsUUIxZkFpMnpRdWlGZUxIVlJ5aktkNHdjNFFlMVBhU3dvV2hFd19kTld6MFJuZVNwOHE1UGV4NUU5RUZSZy1DblJGZ0IxUk1wbW1VX3ZBMU80ZFBKampiaDNrWDNYYVoxU25DRWdvMlBKNjJsRHpJZw&q=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F156h5Wt9-x-uRtwhXojIILrhTMMO0w2K0%2Fview%3Fusp%3Dsharing&v=SU6q4wMYUJw)
+
+
+# IT
+## [속보] 테슬라 FSD13 (사기다!!) (2025-01-24)
+- Date: 2025-01-24
+- CreateDate: 2024-12-03
+- Title: [[속보] 테슬라 FSD13 (사기다!!)](https://www.youtube.com/watch?v=LpMHYI4yIbs&ab_channel=%EC%9E%90%EB%8F%99%EC%B0%A8%EB%AF%B8%EC%83%9DAutoEngineerAmericanLife)
+- Categories: IT
+- Tags: FSD , tesla , self-driving
+- Description: 테슬라는 이 시스템을 다른 OEM에 팔 것이다. 카메라만 사용하고 network을 사용하므로 전기차/게솔린차 모두 될 것이다.  비보호 좌회전도 된다.  한국의 자율주행의 수준을 알아야 한다. 
+- Remarks: https://stibee.com/api/v1.0/emails/share/rjYnaa6OtEF8ykRO0h6c3o2x9eItcBg
+
+
+# economy
+## 강달러 끝? 원화 빠르게 반등하나 | 딥코노미 With 박소연 신영증권 연구원 (2025-01-26)
+- Date: 2025-01-26
+- CreateDate: 2025-01-23
+- Title: [강달러 끝? 원화 빠르게 반등하나 | 딥코노미 With 박소연 신영증권 연구원](https://www.youtube.com/watch?v=BfjOTI_2YVA&list=WL&index=5&ab_channel=%ED%95%9C%EA%B2%BD%EC%BD%94%EB%A6%AC%EC%95%84%EB%A7%88%EC%BC%93)
+- Categories: economy
+- Tags: 환율하락,경기
+- Description: 한국 국채를 사러 달러들 들어올수 있어 환율이 내릴 여지가 많지만, 미국에서 이자율을 낮추지 않으면 환율이 내리기 쉽지 않다.
+  - 트럼프는 규제 완화에 집중.
+
+
+# stock
+## 1억 있으면 ISA (김범곤 대표, 달물결 작가) (2025-01-28)
+- Date: 2025-01-28
+- CreateDate: 2025-01-28
+- Title: [1억 있으면 ISA (김범곤 대표, 달물결 작가)](https://www.youtube.com/watch?v=H0hDNLlhVAc&ab_channel=%EB%B6%80%ED%8B%B0%ED%94%8C-%EB%B6%80%EC%9D%98%EB%B0%B0%EC%88%98%EB%A5%BC%EB%86%92%EC%97%AC%EB%9D%BC)
+- Categories: stock
+- Tags: etf,isa
+- Description: 3가지
+  - 현금성자산: RISE 머니마켓액티브
+  - 미국주식: KODEX 미국S&P500TR/ KODEX 미국나스닥100TR
+  - 월배당 ETF: TIGER 미국배당다우존스 / TIGER 미국배당다우존스타켓커버드콜1호 / TIGER 미국배당다우존스타켓커버드콜2호 / KODEX 미국배당다우존스타켓커버드콜
+- Remarks: 채권 포트폴리오는 20%이상 수익이 나오는때도 있지만, 13년간 연평균 수익률은 0.63%로 , 채권보다는 현금성 자산의 비중을 높이는게 더 좋겠다고 함.
+
+
+# tax
+## 2025년 세법 개정안- IRP , ISA, 연금 저축 , 미국 주식 , 금투세 , 비트코인 ,건강보험료 (2025-01-28)
+- Date: 2025-01-28
+- CreateDate: 2025-01-26
+- Title: [2025년 세법 개정안- IRP , ISA, 연금 저축 , 미국 주식 , 금투세 , 비트코인 ,건강보험료](https://www.youtube.com/watch?v=wAakZl3RPQM&ab_channel=%EB%98%91%EC%9E%ACTV)
+- Categories: tax
+- Tags: irp,isa,pasion,stock,stock-tax,bitcoin,insurance-contribution
+- Description: 2025 현황
+  - 금투세 폐지
+  - ISA : 2천 -> 4천은 없던 것으로 현행유지 : 2천에 1억
+  - **TR ETF 폐지** (RISE 머니마켓액티브도 변경 예정)
+  - **양도소득세 이뤌과제 적용대산 자산확대** : 증여받은 주식을 1년이내 매도시 증여시점이 아닌 취득가액(최초 산 금액)으로 환산 하여 양도세 계산
+  - 가상 자산 과세 유예
+  - 연금저축 , IRP : 기존과 동일 (합이 600+300))
+  - 건강보험요율 동일 : 점수당 208.4원 (직접 자신의 점수를 앱으로 문의하면됨)
+
+## "법인 돈 이렇게 사용하면 온가족 부자됩니다" 가족법인 노후걱정 없이 설계하는 방법을 국세청 출신 세무사가 정확하게 알려드립니다. (2025-01-30)
+- Date: 2025-01-30
+- Title: ["법인 돈 이렇게 사용하면 온가족 부자됩니다" 가족법인 노후걱정 없이 설계하는 방법을 국세청 출신 세무사가 정확하게 알려드립니다.](https://www.youtube.com/watch?v=UxSfuHcj6GU&ab_channel=%EA%B5%AD%EC%84%B8%EC%B2%AD%EC%95%84%EB%8A%94%ED%98%95)
+- Categories: tax
+- Tags: 법인
+- Description: 법인은 10~20% 세금 (소득세는 40%까지)
+  - 임대소득 20%내 해결 (임대 소득세 최대 50%)
+  - 법인은 법인 설립할때 자녀를 주주로 포함시켜 추후 법인에서 발생하는 소득에 대해서 상속증여세를 내지 않는다.
+  - 법인에서 돈을 쉽게 못 빼는데 , 이것은 안 빼면 된다. 빼려면 월급 / 상여금 / 배당 등으로.. : 더 불리는게 유리
+  - 예1 : 다가구주택을 법인으로 하는 것은 절세 안된다.  주택의 경우는 법인 안 좋다. 세금이 매우 많다.
+  - 법인 활용법 : 근로 소득 / 사업 소득이 놓은 사람이 반 이상이 공과금으로 나가는 경우
+    - 가족 법인 만들어 운영
+  - 법인은 세금 이연 기능도 있음.
+  - 예2 : 오래된 상가를 철거하고 새 건물을 신축할때, 자녀를 주주로 하는 법인 명의로 건물을 신축 (Great!)
+  - [ ] 얼마나 있어야 법인을 하는게 의미가 있을까?  보통 고객은 병원장이라는데...
+- Remarks: 자녀가 주주인 가족법인으로 건물 취득하기
+
+
+# crawling
+## MAKE와 챗GPT로 코딩 없이 모든 웹사이트 크롤링하세요! (2025-01-28)
+- Date: 2025-01-28
+- CreateDate: 2024-12-14
+- Title: [MAKE와 챗GPT로 코딩 없이 모든 웹사이트 크롤링하세요!](https://www.youtube.com/watch?v=OcvvLAgUUaM&ab_channel=%EC%8B%9C%EB%AF%BC%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B5%AC%EC%94%A8)
+- Categories: crawling
+- Tags: web,make,gpt
+- Description: make에서 static , dynamic web site 를 모두 crawing
+  - 정적 web site : http module 추가 - make request  Raw-Json > Text Parser module  (Html to Text) > openai module (prompt) : Regex대신 GPT를 이용하여 정보 추출 (GPT는 example을 넣어주면 일을 더 잘함) > JSON mdoule (parse JSON) > Google Sheets module (add a row)
+  - 정적2 : http mdoule > text parser (html to text) > text parser (match pattern) for Regex (check global match) >>> 보고 해보면 될 듯!
+  - dynamic web site : 동적사이트는 순차적으로 보여주기에 HTTP module대신 apify moudle을 사용하여 크롤링을 해주어야 한다.  Make에서 apify를 사용 (무료 5$까지) apify (web scraper) apify의 API token 필요
+- Remarks: 웹크롤링 예제 : https://docs.google.com/spreadsheets/d/1Na1ESgG_QANJpT6IbMjnbg1N4MdrYs6Iw6mqfk6ZR3A/edit?gid=631861055#gid=631861055
+  - https://regex101.com/ 에서 우리가 만든 regex 시험 가능
+
+
+# education
+## Regression Analysis | Full Course 2025 (2025-01-29)
+- Date: 2025-01-29
+- CreateDate: 2025-01-21
+- Title: [Regression Analysis | Full Course 2025](https://youtu.be/T5AoqxQFkzY?si=EaUq-p9X_WgBs4fg)
+- Categories: education
+- Tags: regression,analysis,data
+- [NotesLink](./Regression-Analysis-Full-Course-2025/readme.md)
+- Description: regression에 대해서 six-sigma에서 다루는 내용으로 설명을 잘하는 강의이다. 영어지만 dataTab으로 예제를 보여주며 쉽게 설명함.
+- Remarks: dataTab은 AI를 이용하여 설명도 해주고 있다. AI Interpretation
+  - ROC Curve
+
+## Harvard CS50’s Artificial Intelligence with Python – Full University Course (2025-01-29)
+- Date: 2025-01-29
+- CreateDate: 2023-08-10
+- Title: [Harvard CS50’s Artificial Intelligence with Python – Full University Course](https://youtu.be/5NgNicANyqM?si=fO7W5ogrs2jfFpkn)
+- Categories: education
+- Tags: ai
+- Description: 꼭 들어야함. 
+  - [ ] 듣고 check필요
+- Remarks: 10시간 동영상
+
+## Python for Data Science - Course for Beginners (Learn Python, Pandas, NumPy, Matplotlib) (2025-01-29)
+- Date: 2025-01-29
+- CreateDate: 2020-06-02
+- Title: [Python for Data Science - Course for Beginners (Learn Python, Pandas, NumPy, Matplotlib)](https://youtu.be/LHBE6Q9XlzI?si=0LOYhxA8SjhZdlus)
+- Categories: education
+- Tags: data-science,data,python
+- Description: 필요할때 찾아보면 좋을 듯!
+  - 전체적으로 내용이 너무 길다. 함축된 것을 따로 보고나, 필요할때 collab에서 수행하는 sample code를 보는 것이 좋을 듯 하다.
+- Remarks: 12시간 동영상 code : https://github.com/datapublishings/Course-python-data-science
+
+## Data Analyst Bootcamp for Beginners (SQL, Tableau, Power BI, Python, Excel, Pandas, Projects, more) (2025-01-29)
+- Date: 2025-01-29
+- CreateDate: 2024-01-09
+- Title: [Data Analyst Bootcamp for Beginners (SQL, Tableau, Power BI, Python, Excel, Pandas, Projects, more)](https://youtu.be/PSNXoAs2FtQ?si=AqyiTyGvTm_Revdt)
+- Categories: education
+- Tags: data,analyst,data-science
+- Description: 꼭 들어야함. 
+  - [ ] 듣고 check필요 : 어떻게 이렇게 안 끊기고 이야기를 계속 이어서 할 수 있을까?
+  - playground : https://www.analystbuilder.com/
+- Remarks: 22시간 동영상
+  - Access the datasets used here:  https://github.com/AlexTheAnalyst
+
+## Statistics - A Full Lecture to learn Data Science (2025 Version) (2025-01-29)
+- Date: 2025-01-29
+- CreateDate: 2025-01-29
+- Title: [Statistics - A Full Lecture to learn Data Science (2025 Version)](https://youtu.be/K9teElePNkk?si=AEAgF8yEthFp6fi5)
+- Categories: education
+- Tags: statistics,data,data-science
+- Description: 꼭 들어야함. 
+  - [ ] 듣고 check필요
+  - hypothesis tests
+  - statistics , descriptive statistics , inferential statistics
+  - t-test,ANOVA,Correlation,Regression
+- Remarks: 4시간 동영상
+
+## Pandas Full Python Course - Data Science Fundamentals (2025-01-29)
+- Date: 2025-01-29
+- CreateDate: 2025-01-25
+- Title: [Pandas Full Python Course - Data Science Fundamentals](https://youtu.be/EhYC02PD_gc?si=3IfJcQ1HlyR6XV0g)
+- Categories: education
+- Tags: pandas,jupyter,colab
+- [NotesLink](./pandas.ipynb)
+- Description: 꼭 들어야함. 
+  - [X] 듣고 check필요
+  - jupyter
+  - pandas
+- Remarks: 1시간 동영상
+  - (0:00) Intro
+  - (2:16) Environment Setup
+  - (5:58) Series & Data Frames
+  - (12:38) Import & Export Data
+  - (17:00) Data Exploration Functions
+  - (22:24) Statistical Functions & Plotting
+  - (29:20) Accessing Data
+  - (35:29) Manipulating Data (Applying Functions)
+  - (42:44) Data Cleaning
+  - (46:19) Iterating Over Data Frames
+  - (48:03) Filtering & Querying Data
+  - (55:01) Grouping Data
+  - (58:57) Sorting Data
+  - (59:25) Merging, Concatenating & Joining Data
+  - (1:05:24) Outro
+
+
+# life
+## The Complete Data Science Roadmap (2025-01-29)
+- Date: 2025-01-29
+- CreateDate: 2024-08-01
+- Title: [The Complete Data Science Roadmap](https://youtu.be/9R3X0JoCLyU?si=fo13nb8DKDwnxhrP)
+- Categories: life
+- Tags: education,data-science,DE
+- Description: python,git,algorithm,SQL,statistics,pandas,visualization,ML,DeepLearning,BigData
+- Remarks: matplotlib,seaborn,pytorch,NLP,ComputerVision,Hadoop,Spark
+
+## 홀로 선 핵개인, 서로의 이름을 부르다 | 송길영 마인드 마이너, 작가, '시대예보:호명사회' 저자 | 미래 동기부여 자기계발 직장인 | 세바시 1908회 (2025-01-30)
+- Date: 2025-01-30
+- Title: [홀로 선 핵개인, 서로의 이름을 부르다 | 송길영 마인드 마이너, 작가, '시대예보:호명사회' 저자 | 미래 동기부여 자기계발 직장인 | 세바시 1908회](https://www.youtube.com/watch?v=8jDPkoXNZ-g&ab_channel=%EC%84%B8%EB%B0%94%EC%8B%9C%EA%B0%95%EC%97%B0SebasiTalk,life,sebasi)
+- Categories: life
+- Tags: personal , career , future , idea
+- Description: IMO
+  - 핵개인
+  - 세상은 변하고 있다. 앞을 보고, 내 이름을 찾자 (내가 어떤 일에 중심이 되는가?)
+  - 산업혁명 -> AI 로 인해서 사람이 할 일이 줄어듦
+  - **내가 설명하는 나의 가치관이나 나의 가치를 설명할수 있는가?**  내 이름을 대면 나를 대표하는 뭔가가 생각나게 ~~~ !!!
+
+## 일론 머스크의 1,350만원 하우스테크 혁신: 주거 위기의 해답을 찾다 | 상류층 (2025-01-30)
+- Date: 2025-01-30
+- Title: [일론 머스크의 1,350만원 하우스테크 혁신: 주거 위기의 해답을 찾다 | 상류층](ttps://www.youtube.com/watch?v=tK6P3BXKvgU&ab_channel=%EC%83%81%EB%A5%98%EC%B8%B5)
+- Categories: life
+- Tags: house , smart , sf , smart-home
+- Description: 새로운 스마트 주택
+- IMO
+  - 일론 머스크가 1000억이 넘는 호화주택을 팔았다고 한다.
+  - 새로운 주택의 기준?  재생 에너지 / AI등 모든 기술을 넣은 집 (스마트함 / 세련됨)
+  - premium minimalism
+

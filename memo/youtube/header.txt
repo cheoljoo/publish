@@ -1,0 +1,6 @@
+- description : youtube review : Youtube 동영상 시청한 내용 정리
+- tag : youtube , list
+- date : [today]
+
+- [ai news](../ai/index.md)
+
