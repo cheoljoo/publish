@@ -167,7 +167,7 @@ if __name__ == "__main__":
 - svg through tiger02.lge.com server
   - ![](http://tiger02.lge.com:18080/svg/{plantuml})
 - png through www.plantuml.com
-  - ![](https://www.plantuml.com/plantuml/png{plantuml})
+  - ![](https://www.plantuml.com/plantuml/png/{plantuml})
 
 """.format(plantuml=deflate_and_encode(plantuml_text)))
         # read total.md
