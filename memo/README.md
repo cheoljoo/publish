@@ -88,8 +88,6 @@
 - [AI-study.md](./AI-study.md) : ai에 대한 교육 내용을 적어둔 것이다. 일단 김진형 / 김인중 교수님의 내용에 대해서 들은 것을 정리해두었다.
 - [README.md](./README.md) : TOC (it includes all item of memo.)
 - [agile-dev-unit/index.md](./agile-dev-unit/index.md) : agile development unit works
-- [agile-dev-unit/개발환경-setup/index.md](./agile-dev-unit/개발환경-setup/index.md) : pvs  uvs  pvs-trender를 만들기 위한 개발 환경 setup 과정
-- [agile-dev-unit/개발환경-setup/password.md](./agile-dev-unit/개발환경-setup/password.md) : pvs  uvs  pvs-trender를 만들기 위한 개발 환경 setup 과정의 패스워드
 - [ai-Google-NotebookLM-vs-GPTs.md](./ai-Google-NotebookLM-vs-GPTs.md) : google notebooklm과 openai chatgpt를 비교해 놓은 페이지이다.
 - [ai-education.md](./ai-education.md) : AI 교육 list를 모아둔 것이다. 꼭 들어야 하는데 잘 안되어 아쉽다.
 - [ai-replit-analysis-for-runOnSave.md](./ai-replit-analysis-for-runOnSave.md) : runOnSave라는 vscode extension에 대한 분석을 replit에 맡긴 결과를 적어놓은 것이다.
@@ -98,7 +96,6 @@
 - [ai/convert_csv_to_md-for-ai.py](./ai/convert_csv_to_md-for-ai.py) : youtube 시청한 csv내용을 markdown으로 변환하는 프로그램
 - [ai/index.md](./ai/index.md) : AI URLs
 - [airflow.md](./airflow.md) : airflow 관련 내용을 정리해두는 페이지이다.
-- [aloga.md](./aloga.md) : ALOGA project에 대한 설명을 달아둔 것으로 , log (DLT)를 분석하여 matching되는 text , scenario가 제대로 나오는지를 판단해주는 project에 대한 설명이다.
 - [autohotkey_mini_keyboard.md](./autohotkey_mini_keyboard.md) : 구매한 autohotkey와 mini keyboard의 사용 조합에 대한 페이지이다.
 - [binary_data_int_console_system_popen.md](./binary_data_int_console_system_popen.md) : python에서 Popen (process run)을 사용할때의 주의점
 - [book/Designing-Data-Intensive-Applications/index.md](./book/Designing-Data-Intensive-Applications/index.md) : (book정리) Designing-Data-Intensive-Applications
@@ -117,9 +114,7 @@
 - [convert_csv_to_md.py](./convert_csv_to_md.py) : book 관련 csv내용을 markdown으로 변환하는 프로그램
 - [convert_csv_to_md.sh](./convert_csv_to_md.sh) : csv를 md로 변환시켜주는 convert bash로써 여기서는 실제로 각 directory에 맞는 convert_csv_to_md*.py 를 수행하는 script이다.
 - [data-science.md](./data-science.md) : data science에 대해서 추천 책 / 글들을 모아둔 페이지를 그대로 copy해둔 것이다. origin을 참조하기 바란다.
-- [diary-for-work-2025.md](./diary-for-work-2025.md) : 매일 쓰는 일에 대한 일기 - work diary (Routine , Completed , Work In Progress , Next Steps , Learning , Challenges)
 - [dreamhack.md](./dreamhack.md) : dreamhack (LGE 해킹대회 사전 교육) 관련 정리하던 것으로 , 제대로 끝내지 못한 교육이었음.
-- [duplication-check-result.md](./duplication-check-result.md) : TIGER 사용 프로젝트에서 sldd밑에 expected*.csv , auto_test*.csv가 존재하게 되는데, 이때 중복이 발생하면 안된다. 이에 대해서 조사를 하고 문제점이 무엇인지를 정리한 페이지이다.
 - [education/convert_csv_to_md-for-education.py](./education/convert_csv_to_md-for-education.py) : education 관련 csv내용을 markdown으로 변환하는 프로그램
 - [education/index.md](./education/index.md) : education review : 교육 받은 내용 정리
 - [education/react-완벽-가이드-2025-with-react-router--redux/index.md](./education/react-완벽-가이드-2025-with-react-router--redux/index.md) : (education정리) React 완벽 가이드 2025 with React Router & Redux
@@ -129,7 +124,6 @@
 - [education/업무-효율을-확-끌어올리는-LangChain과-함께하는-LLM-기반-애플리케이션-개발/index.md](./education/업무-효율을-확-끌어올리는-LangChain과-함께하는-LLM-기반-애플리케이션-개발/index.md) : (education정리) AI 업무-효율을-확-끌어올리는-LangChain과-함께하는-LLM-기반-애플리케이션-개발
 - [education/업무-효율을-확-끌어올리는-MS365-Copilot-프롬프트-마스터-클래스/index.md](./education/업무-효율을-확-끌어올리는-MS365-Copilot-프롬프트-마스터-클래스/index.md) : (education정리) AI 업무-효율을-확-끌어올리는-MS365-Copilot-프롬프트-마스터-클래스
 - [english.md](./english.md) : somedaytalk 영어를 준비하기 위한 페이지로써 영어 공부를 하기 위한 페이지이다. 주로 article을 읽고 나의 summary를 한 후에 이에 대한 수정을 chatGPT에 맡긴 내용을 담고 있다.
-- [future.md](./future.md) : 앞으로 어떤 방향성을 가지고 내가 살아가야 할지 의견을 적어두는 것이다. 가끔 좋은 책 / 글 / 동영상을 보고 생각나는 부분들을 적어두는 것이다.
 - [get-all-description-and-tag-to-network-graph.py](./get-all-description-and-tag-to-network-graph.py) : memo subdirectories가 다루는 내용들을 network graph map 으로 보여준다.
 - [get-all-description-and-tag.py](./get-all-description-and-tag.py) : get all description and tag from memo sub-directories (output:get-all-description-and-tag.json)
 - [getting_started_doxygen_2024Y.md](./getting_started_doxygen_2024Y.md) : doxygen 관련 내가 한 내용들을 정리한 것이다. 여기에 추가하여 doxygen의 internal document를 만들어 ebook으로 만들기를 원한다.
@@ -137,25 +131,12 @@
 - [getting_started_tidl_document_2024Y.md](./getting_started_tidl_document_2024Y.md) : TIDL (Tiger Interface Definition Language)을 수행시키는 starting part만 적어둔 것이다.
 - [git.md](./git.md) : git contribution 방법 / git repository 옮기기 / push commit 변경 등 git 관련 사항 들 정리
 - [git_console_analysis.md](./git_console_analysis.md) : git blame을 다루는 법
-- [github_recovery_code.md](./github_recovery_code.md) : github 관련 private 정보들
 - [google-translate.py](./google-translate.py) : google translate sample
-- [gv80-my-car.md](./gv80-my-car.md) : GV80 내 차에 대한 여러가지 사항들과 고려사항 / 준비 상황 / Q&A
 - [how_to_write_memo.md](./how_to_write_memo.md) : memo 작성법
 - [jira-atlassian-api.md](./jira-atlassian-api.md) : my private jira site in atlassian - how to use restapi / outlook mail to atlassian jira
 - [kill_waitpid.md](./kill_waitpid.md) : C / C++ 코드에서    fork 한  process 를  pid 으로  kill 할 때   자식 process 까지  다 죽도록 만들려면,어떻게 할 수 있을까요?
-- [label/img/label-box-in-my-room.md](./label/img/label-box-in-my-room.md) : label을 붙이고 각 상자의 안의 내용을 정리 / image들이 있어 이를 이용한 AI 사용법 연구
-- [lge-2021.md](./lge-2021.md) : 2021 year LGE work history
-- [lge-2022.md](./lge-2022.md) : 2022 year LGE work history
-- [lge-2023.md](./lge-2023.md) : 2023 year LGE work history
-- [lge-CDP.md](./lge-CDP.md) : 2023 year LGE CDP
-- [lge-works-2025.md](./lge-works-2025.md) : 2025 year LGE work history
 - [linux_shell_script.md](./linux_shell_script.md) : bash scripts 모음
 - [log.md](./log.md) : log을 어ㄸ허게 잘 작성할수 있을까? 및 log framework 조사
-- [meeting-minutes/agile-unit-gerrit-commit.md](./meeting-minutes/agile-unit-gerrit-commit.md) : [회의록] pvs-crawler에서의 gerrit 정보를 어떻게 확인하는지 및 gerrit 정보 drilling하는 방안 마련 회의
-- [meeting-minutes/agile-unit-meeting-minutes.md](./meeting-minutes/agile-unit-meeting-minutes.md) : [회의록] Agile Unit
-- [meeting-minutes/hero-project-실무-워크샵-추진-안/index.md](./meeting-minutes/hero-project-실무-워크샵-추진-안/index.md) : [회의록] Hero Project 실무 워크샵 추진 안 - SW 생산성 향상
-- [memo-2022-2023.md](./memo-2022-2023.md) : 2022~2023 year 메모 모음
-- [memo-2024.md](./memo-2024.md) : 2024 year 메모 모음
 - [memo-2025-misc.md](./memo-2025-misc.md) : 2025 year 메모 모음 - 관심되는 것들을 모아두는 곳 입니다. 어디선가 이런 것을 모아서 발표해도 될
 - [memory-release-RAII.md](./memory-release-RAII.md) : C++ automatic memory management (protect memroy leak) - made by chatgpt
 - [mouse.md](./mouse.md) : JIRA / CodeBeamer / Gerrit등의 개발 시스템을 사용하는 사용자들의 performance가 어떻게 되는지를 check하기 위한 project (MOUSE)
@@ -165,16 +146,10 @@
 - [remove_files.py](./remove_files.py) : book 관련 csv내용을 markdown으로 변환하는 프로그램
 - [revision.md](./revision.md) : revision information : what is changed per date
 - [revision_creation.py](./revision_creation.py) : book 관련 csv내용을 markdown으로 변환하는 프로그램
-- [secret_key.md](./secret_key.md) : secret key collection
 - [stock.md](./stock.md) : 주식 관련
-- [tax-include-family.md](./tax-include-family.md) : 세금 (tax) 관련 정리
 - [tax.md](./tax.md) : 세금 (tax) 관련 정리
 - [tcmd.md](./tcmd.md) : tcmd (tiger command)에 대한 실행 및 unittest 방법
-- [todo-2024.md](./todo-2024.md) : 2024 year TODO
-- [todo-2025.md](./todo-2025.md) : 2025 year TODO 모음
-- [vbee_for_tiger4.0.md](./vbee_for_tiger4.0.md) : vbee
 - [vscode.md](./vscode.md) : vscode 관련 나의 정리
-- [wife-works-2025.md](./wife-works-2025.md) : wife's homework
 - [xml-parse.md](./xml-parse.md) : xml parsing 하는 내용 정리
 - [youtube/Regression-Analysis-Full-Course-2025/readme.md](./youtube/Regression-Analysis-Full-Course-2025/readme.md) : Regression Analysis (simple / multiple / logistic regression)| Full Course 2025
 - [youtube/Understanding-How-Vector-Databases-Work/readme.md](./youtube/Understanding-How-Vector-Databases-Work/readme.md) : Understanding How Vector Databases Work!
@@ -932,9 +907,9 @@
 
 # 7\. process Map
 - svg through tiger02.lge.com server
-  - ![](http://tiger02.lge.com:18080/svg/lLRBRjim4BphAmZqaWIcSayC8oyZbxe1sbwAeZ3MubPcHN89ah8T5Fttwc75iI77akkK9udScPrT3YdT-00kv5gnG05KR4qQ5SDdqbXme5dkCG6Fx7SKiMBSGPAbZd8ZxacH6mxPU8L97YGPDXgnRwWKBHyTebd7anFe3iVkPTSWLHdzKQRpy0LXF_UUo3hsrZbQLg7iISa5Hj6VUg4U3fC09bN8hAC4lP-0vHerDNKtRJYRG8O_fS9p1lxrsqvrEwY4p09Tc2P-CGqqrIAsppL3-yhRR2a63afnWJvnqfP178pW0L8UY1iCIt8PJntO-KkYtg2ZDNH9sI631fS9MXfkRKstDT6AFIktx9nnFdgzDH-KD7YLbdQuBX_Z6Ibn7N0LwabsnQPh_5kAVtaoQ-xUlJoDX7RkIb5ysGit3rfrKZNyLEFOOubhshpfRPMytSCzQhwub4RWAYu8_fLo278m8ye6AF84oYuCdYaF-GmRyUtKLTP6XnR_8zV6L2V9TL78PjyB2p0Xo_kCd4J_ux1ZJsZGJNM73r8lUtG_VwVpIQSwlpxTTtLBKqq3gV1RTreFaYrSnVHvVFim6HydveNaM3ax5yAxtO_5H_i6ZIZ-LwA_)
+  - ![](http://tiger02.lge.com:18080/svg/nLTDRwCm4BtpAopjfQqAtDiewiTMrKhRhRIxbrLRHGvCmOtn8DiaZLRzxskW93G911EgvSJ7pBmtppFsSA4qbJfBED6eAVTI4JdcKZCcKYffGZ850LL0_ZeECTSL3MQHn4o4ryXHZaRavXM2J3CKP3mcVu1pNDnA0F5kZp84kT-sCNf26S-jlxCerh-0DiTki2njBwN4HM5AxZcRW-EybH_AIqAWgOWua5HY04hTqTHD8C4gxqg6epiwWsV6uPXGLN_Qo6x3Aq0n1wadWPfFD4wIq4kNPOJTNzgZHQ1TohaRWWeaItCZbuhGrJHoDRe2z0Bbp8qaJUCLaBLJRmvT8BiWC1rdKp_DffofsCzNmvSmPyfOJm89D7TROtMsRaTDg9o5k11kcfQ1FxpOuzjEiJyd33qUWHTWubj8qiEjdOSqZdEOv0MlLYXRBtV6A98_9guxhZVD5yu4d4LvevxdjzuKUNYkuLMNByaPcRpxhvsA6DRLR07LLhOl2iN_fR0xTi78ywtyOftmJgn6Fqe_SflxLIjwuYKXUJ1e96Jv_ecIWNfwfx9L5HR9R_cMSkzey9DkzAynNH8KV4bq3AI8InOncf8skX2cY00J7AJP_DcSQY3271EcSnv5WHQGuYGuWbUFQ0XYOOwHQ7ayRgNRsdo3yKPTSNuKtpHX8k2PMVkSl7buHfaKlTrfoLgsXIvaA-toCFMcRmYv3McuTKDwU8YrJjMPxvSrKMWSn83y1R4KUCfnwfk1GFYR4AHs__HK4MqehiR2Eq2cTKMrWRU8rcO-a8PLR5iPznNz_ixeBsnUyXzgpnwcEprBdOtCcs4hhJqEiC9mxHN_O5KxdGvJSzAhWKjucsEkhPJhH-sGBTW5tBRjh3FlLcNrzVoKhh6YqxjPhDNP6FPs_oDPn3lncGZDyMq271foHDdf575s2c4M56gSBZ7JsHIgbjmTka2jU7JTFGx3Mi-hWs2r3W_xVlK66h_NtRXtHhSgZ-wZ_N1rqYdFt_VNNQkbogPoAHkq_lTgio7K_Of8FsyklzxTVEAGjW8WgxlrELScjI8pN5gxjlL1KssOfLgptQRPkj7sujjx9cbc_kOu5o32BE7EFm==)
 - png through www.plantuml.com
-  - ![](https://www.plantuml.com/plantuml/png/lLRBRjim4BphAmZqaWIcSayC8oyZbxe1sbwAeZ3MubPcHN89ah8T5Fttwc75iI77akkK9udScPrT3YdT-00kv5gnG05KR4qQ5SDdqbXme5dkCG6Fx7SKiMBSGPAbZd8ZxacH6mxPU8L97YGPDXgnRwWKBHyTebd7anFe3iVkPTSWLHdzKQRpy0LXF_UUo3hsrZbQLg7iISa5Hj6VUg4U3fC09bN8hAC4lP-0vHerDNKtRJYRG8O_fS9p1lxrsqvrEwY4p09Tc2P-CGqqrIAsppL3-yhRR2a63afnWJvnqfP178pW0L8UY1iCIt8PJntO-KkYtg2ZDNH9sI631fS9MXfkRKstDT6AFIktx9nnFdgzDH-KD7YLbdQuBX_Z6Ibn7N0LwabsnQPh_5kAVtaoQ-xUlJoDX7RkIb5ysGit3rfrKZNyLEFOOubhshpfRPMytSCzQhwub4RWAYu8_fLo278m8ye6AF84oYuCdYaF-GmRyUtKLTP6XnR_8zV6L2V9TL78PjyB2p0Xo_kCd4J_ux1ZJsZGJNM73r8lUtG_VwVpIQSwlpxTTtLBKqq3gV1RTreFaYrSnVHvVFim6HydveNaM3ax5yAxtO_5H_i6ZIZ-LwA_)
+  - ![](https://www.plantuml.com/plantuml/png/nLTDRwCm4BtpAopjfQqAtDiewiTMrKhRhRIxbrLRHGvCmOtn8DiaZLRzxskW93G911EgvSJ7pBmtppFsSA4qbJfBED6eAVTI4JdcKZCcKYffGZ850LL0_ZeECTSL3MQHn4o4ryXHZaRavXM2J3CKP3mcVu1pNDnA0F5kZp84kT-sCNf26S-jlxCerh-0DiTki2njBwN4HM5AxZcRW-EybH_AIqAWgOWua5HY04hTqTHD8C4gxqg6epiwWsV6uPXGLN_Qo6x3Aq0n1wadWPfFD4wIq4kNPOJTNzgZHQ1TohaRWWeaItCZbuhGrJHoDRe2z0Bbp8qaJUCLaBLJRmvT8BiWC1rdKp_DffofsCzNmvSmPyfOJm89D7TROtMsRaTDg9o5k11kcfQ1FxpOuzjEiJyd33qUWHTWubj8qiEjdOSqZdEOv0MlLYXRBtV6A98_9guxhZVD5yu4d4LvevxdjzuKUNYkuLMNByaPcRpxhvsA6DRLR07LLhOl2iN_fR0xTi78ywtyOftmJgn6Fqe_SflxLIjwuYKXUJ1e96Jv_ecIWNfwfx9L5HR9R_cMSkzey9DkzAynNH8KV4bq3AI8InOncf8skX2cY00J7AJP_DcSQY3271EcSnv5WHQGuYGuWbUFQ0XYOOwHQ7ayRgNRsdo3yKPTSNuKtpHX8k2PMVkSl7buHfaKlTrfoLgsXIvaA-toCFMcRmYv3McuTKDwU8YrJjMPxvSrKMWSn83y1R4KUCfnwfk1GFYR4AHs__HK4MqehiR2Eq2cTKMrWRU8rcO-a8PLR5iPznNz_ixeBsnUyXzgpnwcEprBdOtCcs4hhJqEiC9mxHN_O5KxdGvJSzAhWKjucsEkhPJhH-sGBTW5tBRjh3FlLcNrzVoKhh6YqxjPhDNP6FPs_oDPn3lncGZDyMq271foHDdf575s2c4M56gSBZ7JsHIgbjmTka2jU7JTFGx3Mi-hWs2r3W_xVlK66h_NtRXtHhSgZ-wZ_N1rqYdFt_VNNQkbogPoAHkq_lTgio7K_Of8FsyklzxTVEAGjW8WgxlrELScjI8pN5gxjlL1KssOfLgptQRPkj7sujjx9cbc_kOu5o32BE7EFm==)
 
 
 <a name="plantumlserverinstall"></a>

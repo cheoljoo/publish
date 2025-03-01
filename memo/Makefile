@@ -19,11 +19,22 @@ all:
 	cp -r ../memo ../mod_publish
 	python3 remove_files.py --dir=../github_publish/memo --remove_tags=private,lge
 	python3 remove_files.py --dir=../mod_publish/memo --remove_tags=private
+	cd ../github_publish/memo; make simple
+	cd ../mod_publish/memo; make simple
+	git checkout -f revision.json
 	python3 revision_creation.py
 	cd ../github_publish/memo; git checkout -f revision.json
 	cd ../mod_publish/memo; git checkout -f revision.json
 	cd ../github_publish/memo; python3 revision_creation.py
 	cd ../mod_publish/memo; python3 revision_creation.py
+simple:
+	python3 convert_csv_to_md.py
+	echo "==> get get-all-description-and-tag.json from get-all-description-and-tag.py"
+	python3 get-all-description-and-tag.py
+	echo "==> make network-graph map from get-all-description-and-tag.json"
+	python3 get-all-description-and-tag-to-network-graph.py
+	markdown-pp TOC.mdpp -o README.md
+	rm -rf processMap-memo.md ./__debug data.py ./lib ./server-data
 t:
 	git checkout -f revision.json
 	python3 revision_creation.py

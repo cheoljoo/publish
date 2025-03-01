@@ -41,13 +41,15 @@ if __name__ == "__main__":
     for line in git_status_output.split('\n'):
         t = newfileRe.search(line)
         if t:
-            if t.group(1).strip() not in ['revision.json','revision.md']:
+            filename = t.group(1).strip()
+            if filename not in ['revision.json','revision.md'] and not filename.endswith('.html') and not filename.endswith('.json'):
                 if now not in revisionDict:
                     revisionDict[now] = []
                 revisionDict[now].append( {'type':'new file:','value':t.group(1).strip() } )
         t = modifiedRe.search(line)
         if t:
-            if t.group(1).strip() not in ['revision.json','revision.md']:
+            filename = t.group(1).strip()
+            if filename not in ['revision.json','revision.md'] and not filename.endswith('.html') and not filename.endswith('.json'):
                 if now not in revisionDict:
                     revisionDict[now] = []
                 revisionDict[now].append( {'type':'modified:','value':t.group(1).strip() } )

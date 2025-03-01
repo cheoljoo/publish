@@ -763,7 +763,7 @@
                             "ToType": "text",
                             "ToLastTime": "",
                             "ToResult": "",
-                            "ToDescription": "",
+                            "ToDescription": "[[https://github.com/cheoljoo/memo/blob/main/memo/README.md README.md]]",
                             "Periodic": "",
                             "Replace": "",
                             "Description": "",
@@ -822,7 +822,7 @@
                             "ToType": "text",
                             "ToLastTime": "",
                             "ToResult": "",
-                            "ToDescription": "",
+                            "ToDescription": "[[https://github.com/cheoljoo/memo/blob/main/memo/README.md README.md]]",
                             "Periodic": "",
                             "Replace": "",
                             "Description": "",
@@ -843,7 +843,7 @@
                             "Project": "processMap-memo",
                             "From": "TOC.mdpp",
                             "Execution": "markdown-pp",
-                            "To": "",
+                            "To": "github/publish/memo/README.md",
                             "FromLocation": "",
                             "FromSuccessCheckPoint": "",
                             "_FromSuccessCheckPoint": [],
@@ -883,7 +883,7 @@
                             "ToType": "text",
                             "ToLastTime": "",
                             "ToResult": "",
-                            "ToDescription": "",
+                            "ToDescription": "[[https://github.com/cheoljoo/publish/blob/main/memo/README.md README.md]]",
                             "Periodic": "",
                             "Replace": "",
                             "Description": "",
@@ -891,14 +891,18 @@
                         }
                     },
                     "To": {
-                        "": {
-                            "_group": [],
-                            "_name": [],
+                        "github/publish/memo/README.md": {
+                            "_group": [
+                                "None"
+                            ],
+                            "_name": [
+                                "github/publish/memo/README.md"
+                            ],
                             "_execution": "markdown-pp",
                             "Project": "processMap-memo",
                             "From": "TOC.mdpp",
                             "Execution": "markdown-pp",
-                            "To": "",
+                            "To": "github/publish/memo/README.md",
                             "FromLocation": "",
                             "FromSuccessCheckPoint": "",
                             "_FromSuccessCheckPoint": [],
@@ -938,7 +942,7 @@
                             "ToType": "text",
                             "ToLastTime": "",
                             "ToResult": "",
-                            "ToDescription": "",
+                            "ToDescription": "[[https://github.com/cheoljoo/publish/blob/main/memo/README.md README.md]]",
                             "Periodic": "",
                             "Replace": "",
                             "Description": "",
@@ -947,6 +951,122 @@
                     }
                 },
                 "9": {
+                    "From": {
+                        "": {
+                            "_group": [],
+                            "_name": [],
+                            "_execution": "markdown-pp",
+                            "Project": "processMap-memo",
+                            "From": "",
+                            "Execution": "markdown-pp",
+                            "To": "mod.lge.com/hub/publish/memo/README.md",
+                            "FromLocation": "",
+                            "FromSuccessCheckPoint": "",
+                            "_FromSuccessCheckPoint": [],
+                            "_Op_FromSuccessCheckPoint": [
+                                ""
+                            ],
+                            "FromFailCheckPoint": "",
+                            "_FromFailCheckPoint": [],
+                            "_Op_FromFailCheckPoint": [
+                                ""
+                            ],
+                            "FromShowCheckPoint": "",
+                            "_FromShowCheckPoint": [],
+                            "_Op_FromShowCheckPoint": [
+                                ""
+                            ],
+                            "FromType": "text",
+                            "FromLastTime": "",
+                            "FromResult": "",
+                            "FromDescription": "",
+                            "ToLocation": "",
+                            "ToSuccessCheckPoint": "",
+                            "_ToSuccessCheckPoint": [],
+                            "_Op_ToSuccessCheckPoint": [
+                                ""
+                            ],
+                            "ToFailCheckPoint": "",
+                            "_ToFailCheckPoint": [],
+                            "_Op_ToFailCheckPoint": [
+                                ""
+                            ],
+                            "ToShowCheckPoint": "",
+                            "_ToShowCheckPoint": [],
+                            "_Op_ToShowCheckPoint": [
+                                ""
+                            ],
+                            "ToType": "text",
+                            "ToLastTime": "",
+                            "ToResult": "",
+                            "ToDescription": "[[http://mod.lge.com/hub/cheoljoo.lee/publish/-/blob/main/memo/README.md README.md]]",
+                            "Periodic": "",
+                            "Replace": "",
+                            "Description": "",
+                            "Virtical": ""
+                        }
+                    },
+                    "To": {
+                        "mod.lge.com/hub/publish/memo/README.md": {
+                            "_group": [
+                                "None"
+                            ],
+                            "_name": [
+                                "mod.lge.com/hub/publish/memo/README.md"
+                            ],
+                            "_execution": "markdown-pp",
+                            "Project": "processMap-memo",
+                            "From": "",
+                            "Execution": "markdown-pp",
+                            "To": "mod.lge.com/hub/publish/memo/README.md",
+                            "FromLocation": "",
+                            "FromSuccessCheckPoint": "",
+                            "_FromSuccessCheckPoint": [],
+                            "_Op_FromSuccessCheckPoint": [
+                                ""
+                            ],
+                            "FromFailCheckPoint": "",
+                            "_FromFailCheckPoint": [],
+                            "_Op_FromFailCheckPoint": [
+                                ""
+                            ],
+                            "FromShowCheckPoint": "",
+                            "_FromShowCheckPoint": [],
+                            "_Op_FromShowCheckPoint": [
+                                ""
+                            ],
+                            "FromType": "text",
+                            "FromLastTime": "",
+                            "FromResult": "",
+                            "FromDescription": "",
+                            "ToLocation": "",
+                            "ToSuccessCheckPoint": "",
+                            "_ToSuccessCheckPoint": [],
+                            "_Op_ToSuccessCheckPoint": [
+                                ""
+                            ],
+                            "ToFailCheckPoint": "",
+                            "_ToFailCheckPoint": [],
+                            "_Op_ToFailCheckPoint": [
+                                ""
+                            ],
+                            "ToShowCheckPoint": "",
+                            "_ToShowCheckPoint": [],
+                            "_Op_ToShowCheckPoint": [
+                                ""
+                            ],
+                            "ToType": "text",
+                            "ToLastTime": "",
+                            "ToResult": "",
+                            "ToDescription": "[[http://mod.lge.com/hub/cheoljoo.lee/publish/-/blob/main/memo/README.md README.md]]",
+                            "Periodic": "",
+                            "Replace": "",
+                            "Description": "",
+                            "Virtical": ""
+                        }
+                    }
+                },
+                "10": {
                     "From": {
                         "Makefile": {
                             "_group": [
@@ -1062,7 +1182,7 @@
                         }
                     }
                 },
-                "10": {
+                "11": {
                     "From": {
                         "get-all-description-and-tag.json": {
                             "_group": [
@@ -1181,6 +1301,962 @@
                             "Virtical": ""
                         }
                     }
+                },
+                "12": {
+                    "From": {
+                        "*.md [all directories]": {
+                            "_group": [
+                                "None"
+                            ],
+                            "_name": [
+                                "*.md [all directories]"
+                            ],
+                            "_execution": "remove_files.py",
+                            "Project": "processMap-memo",
+                            "From": "*.md [all directories]",
+                            "Execution": "remove_files.py",
+                            "To": "github/publish/memo/*",
+                            "FromLocation": "",
+                            "FromSuccessCheckPoint": "",
+                            "_FromSuccessCheckPoint": [],
+                            "_Op_FromSuccessCheckPoint": [
+                                ""
+                            ],
+                            "FromFailCheckPoint": "",
+                            "_FromFailCheckPoint": [],
+                            "_Op_FromFailCheckPoint": [
+                                ""
+                            ],
+                            "FromShowCheckPoint": "",
+                            "_FromShowCheckPoint": [],
+                            "_Op_FromShowCheckPoint": [
+                                ""
+                            ],
+                            "FromType": "text",
+                            "FromLastTime": "",
+                            "FromResult": "",
+                            "FromDescription": "",
+                            "ToLocation": "",
+                            "ToSuccessCheckPoint": "",
+                            "_ToSuccessCheckPoint": [],
+                            "_Op_ToSuccessCheckPoint": [
+                                ""
+                            ],
+                            "ToFailCheckPoint": "",
+                            "_ToFailCheckPoint": [],
+                            "_Op_ToFailCheckPoint": [
+                                ""
+                            ],
+                            "ToShowCheckPoint": "",
+                            "_ToShowCheckPoint": [],
+                            "_Op_ToShowCheckPoint": [
+                                ""
+                            ],
+                            "ToType": "text",
+                            "ToLastTime": "",
+                            "ToResult": "",
+                            "ToDescription": "Copy only the files whose tag is neither private nor lge\\npublic memo (ex. technology)",
+                            "Periodic": "",
+                            "Replace": "",
+                            "Description": "",
+                            "Virtical": ""
+                        }
+                    },
+                    "To": {
+                        "github/publish/memo/*": {
+                            "_group": [
+                                "None"
+                            ],
+                            "_name": [
+                                "github/publish/memo/*"
+                            ],
+                            "_execution": "remove_files.py",
+                            "Project": "processMap-memo",
+                            "From": "*.md [all directories]",
+                            "Execution": "remove_files.py",
+                            "To": "github/publish/memo/*",
+                            "FromLocation": "",
+                            "FromSuccessCheckPoint": "",
+                            "_FromSuccessCheckPoint": [],
+                            "_Op_FromSuccessCheckPoint": [
+                                ""
+                            ],
+                            "FromFailCheckPoint": "",
+                            "_FromFailCheckPoint": [],
+                            "_Op_FromFailCheckPoint": [
+                                ""
+                            ],
+                            "FromShowCheckPoint": "",
+                            "_FromShowCheckPoint": [],
+                            "_Op_FromShowCheckPoint": [
+                                ""
+                            ],
+                            "FromType": "text",
+                            "FromLastTime": "",
+                            "FromResult": "",
+                            "FromDescription": "",
+                            "ToLocation": "",
+                            "ToSuccessCheckPoint": "",
+                            "_ToSuccessCheckPoint": [],
+                            "_Op_ToSuccessCheckPoint": [
+                                ""
+                            ],
+                            "ToFailCheckPoint": "",
+                            "_ToFailCheckPoint": [],
+                            "_Op_ToFailCheckPoint": [
+                                ""
+                            ],
+                            "ToShowCheckPoint": "",
+                            "_ToShowCheckPoint": [],
+                            "_Op_ToShowCheckPoint": [
+                                ""
+                            ],
+                            "ToType": "text",
+                            "ToLastTime": "",
+                            "ToResult": "",
+                            "ToDescription": "Copy only the files whose tag is neither private nor lge\\npublic memo (ex. technology)",
+                            "Periodic": "",
+                            "Replace": "",
+                            "Description": "",
+                            "Virtical": ""
+                        }
+                    }
+                },
+                "13": {
+                    "From": {
+                        "": {
+                            "_group": [],
+                            "_name": [],
+                            "_execution": "remove_files.py",
+                            "Project": "processMap-memo",
+                            "From": "",
+                            "Execution": "remove_files.py",
+                            "To": "mod.lge.com/hub/publish/memo/*",
+                            "FromLocation": "",
+                            "FromSuccessCheckPoint": "",
+                            "_FromSuccessCheckPoint": [],
+                            "_Op_FromSuccessCheckPoint": [
+                                ""
+                            ],
+                            "FromFailCheckPoint": "",
+                            "_FromFailCheckPoint": [],
+                            "_Op_FromFailCheckPoint": [
+                                ""
+                            ],
+                            "FromShowCheckPoint": "",
+                            "_FromShowCheckPoint": [],
+                            "_Op_FromShowCheckPoint": [
+                                ""
+                            ],
+                            "FromType": "text",
+                            "FromLastTime": "",
+                            "FromResult": "",
+                            "FromDescription": "",
+                            "ToLocation": "",
+                            "ToSuccessCheckPoint": "",
+                            "_ToSuccessCheckPoint": [],
+                            "_Op_ToSuccessCheckPoint": [
+                                ""
+                            ],
+                            "ToFailCheckPoint": "",
+                            "_ToFailCheckPoint": [],
+                            "_Op_ToFailCheckPoint": [
+                                ""
+                            ],
+                            "ToShowCheckPoint": "",
+                            "_ToShowCheckPoint": [],
+                            "_Op_ToShowCheckPoint": [
+                                ""
+                            ],
+                            "ToType": "text",
+                            "ToLastTime": "",
+                            "ToResult": "",
+                            "ToDescription": "Copy only the files whose tag is not private\\nIt includes lge information",
+                            "Periodic": "",
+                            "Replace": "",
+                            "Description": "",
+                            "Virtical": ""
+                        }
+                    },
+                    "To": {
+                        "mod.lge.com/hub/publish/memo/*": {
+                            "_group": [
+                                "None"
+                            ],
+                            "_name": [
+                                "mod.lge.com/hub/publish/memo/*"
+                            ],
+                            "_execution": "remove_files.py",
+                            "Project": "processMap-memo",
+                            "From": "",
+                            "Execution": "remove_files.py",
+                            "To": "mod.lge.com/hub/publish/memo/*",
+                            "FromLocation": "",
+                            "FromSuccessCheckPoint": "",
+                            "_FromSuccessCheckPoint": [],
+                            "_Op_FromSuccessCheckPoint": [
+                                ""
+                            ],
+                            "FromFailCheckPoint": "",
+                            "_FromFailCheckPoint": [],
+                            "_Op_FromFailCheckPoint": [
+                                ""
+                            ],
+                            "FromShowCheckPoint": "",
+                            "_FromShowCheckPoint": [],
+                            "_Op_FromShowCheckPoint": [
+                                ""
+                            ],
+                            "FromType": "text",
+                            "FromLastTime": "",
+                            "FromResult": "",
+                            "FromDescription": "",
+                            "ToLocation": "",
+                            "ToSuccessCheckPoint": "",
+                            "_ToSuccessCheckPoint": [],
+                            "_Op_ToSuccessCheckPoint": [
+                                ""
+                            ],
+                            "ToFailCheckPoint": "",
+                            "_ToFailCheckPoint": [],
+                            "_Op_ToFailCheckPoint": [
+                                ""
+                            ],
+                            "ToShowCheckPoint": "",
+                            "_ToShowCheckPoint": [],
+                            "_Op_ToShowCheckPoint": [
+                                ""
+                            ],
+                            "ToType": "text",
+                            "ToLastTime": "",
+                            "ToResult": "",
+                            "ToDescription": "Copy only the files whose tag is not private\\nIt includes lge information",
+                            "Periodic": "",
+                            "Replace": "",
+                            "Description": "",
+                            "Virtical": ""
+                        }
+                    }
+                },
+                "14": {
+                    "From": {
+                        "*.md [all directories]": {
+                            "_group": [
+                                "None"
+                            ],
+                            "_name": [
+                                "*.md [all directories]"
+                            ],
+                            "_execution": "memo/revision_creation.py",
+                            "Project": "processMap-memo",
+                            "From": "*.md [all directories]",
+                            "Execution": "memo/revision_creation.py",
+                            "To": "memo/revision.md",
+                            "FromLocation": "",
+                            "FromSuccessCheckPoint": "",
+                            "_FromSuccessCheckPoint": [],
+                            "_Op_FromSuccessCheckPoint": [
+                                ""
+                            ],
+                            "FromFailCheckPoint": "",
+                            "_FromFailCheckPoint": [],
+                            "_Op_FromFailCheckPoint": [
+                                ""
+                            ],
+                            "FromShowCheckPoint": "",
+                            "_FromShowCheckPoint": [],
+                            "_Op_FromShowCheckPoint": [
+                                ""
+                            ],
+                            "FromType": "text",
+                            "FromLastTime": "",
+                            "FromResult": "",
+                            "FromDescription": "private memo",
+                            "ToLocation": "",
+                            "ToSuccessCheckPoint": "",
+                            "_ToSuccessCheckPoint": [],
+                            "_Op_ToSuccessCheckPoint": [
+                                ""
+                            ],
+                            "ToFailCheckPoint": "",
+                            "_ToFailCheckPoint": [],
+                            "_Op_ToFailCheckPoint": [
+                                ""
+                            ],
+                            "ToShowCheckPoint": "",
+                            "_ToShowCheckPoint": [],
+                            "_Op_ToShowCheckPoint": [
+                                ""
+                            ],
+                            "ToType": "text",
+                            "ToLastTime": "",
+                            "ToResult": "",
+                            "ToDescription": "[[https://github.com/cheoljoo/memo/blob/main/memo/revision.md revision.md]]",
+                            "Periodic": "",
+                            "Replace": "",
+                            "Description": "",
+                            "Virtical": ""
+                        }
+                    },
+                    "To": {
+                        "memo/revision.md": {
+                            "_group": [
+                                "None"
+                            ],
+                            "_name": [
+                                "memo/revision.md"
+                            ],
+                            "_execution": "memo/revision_creation.py",
+                            "Project": "processMap-memo",
+                            "From": "*.md [all directories]",
+                            "Execution": "memo/revision_creation.py",
+                            "To": "memo/revision.md",
+                            "FromLocation": "",
+                            "FromSuccessCheckPoint": "",
+                            "_FromSuccessCheckPoint": [],
+                            "_Op_FromSuccessCheckPoint": [
+                                ""
+                            ],
+                            "FromFailCheckPoint": "",
+                            "_FromFailCheckPoint": [],
+                            "_Op_FromFailCheckPoint": [
+                                ""
+                            ],
+                            "FromShowCheckPoint": "",
+                            "_FromShowCheckPoint": [],
+                            "_Op_FromShowCheckPoint": [
+                                ""
+                            ],
+                            "FromType": "text",
+                            "FromLastTime": "",
+                            "FromResult": "",
+                            "FromDescription": "private memo",
+                            "ToLocation": "",
+                            "ToSuccessCheckPoint": "",
+                            "_ToSuccessCheckPoint": [],
+                            "_Op_ToSuccessCheckPoint": [
+                                ""
+                            ],
+                            "ToFailCheckPoint": "",
+                            "_ToFailCheckPoint": [],
+                            "_Op_ToFailCheckPoint": [
+                                ""
+                            ],
+                            "ToShowCheckPoint": "",
+                            "_ToShowCheckPoint": [],
+                            "_Op_ToShowCheckPoint": [
+                                ""
+                            ],
+                            "ToType": "text",
+                            "ToLastTime": "",
+                            "ToResult": "",
+                            "ToDescription": "[[https://github.com/cheoljoo/memo/blob/main/memo/revision.md revision.md]]",
+                            "Periodic": "",
+                            "Replace": "",
+                            "Description": "",
+                            "Virtical": ""
+                        }
+                    }
+                },
+                "15": {
+                    "From": {
+                        "github/publish/memo/*": {
+                            "_group": [
+                                "None"
+                            ],
+                            "_name": [
+                                "github/publish/memo/*"
+                            ],
+                            "_execution": "github/publish/memo/revision_creation.py",
+                            "Project": "processMap-memo",
+                            "From": "github/publish/memo/*",
+                            "Execution": "github/publish/memo/revision_creation.py",
+                            "To": "github/publish/memo/revision.md",
+                            "FromLocation": "",
+                            "FromSuccessCheckPoint": "",
+                            "_FromSuccessCheckPoint": [],
+                            "_Op_FromSuccessCheckPoint": [
+                                ""
+                            ],
+                            "FromFailCheckPoint": "",
+                            "_FromFailCheckPoint": [],
+                            "_Op_FromFailCheckPoint": [
+                                ""
+                            ],
+                            "FromShowCheckPoint": "",
+                            "_FromShowCheckPoint": [],
+                            "_Op_FromShowCheckPoint": [
+                                ""
+                            ],
+                            "FromType": "text",
+                            "FromLastTime": "",
+                            "FromResult": "",
+                            "FromDescription": "public memo",
+                            "ToLocation": "",
+                            "ToSuccessCheckPoint": "",
+                            "_ToSuccessCheckPoint": [],
+                            "_Op_ToSuccessCheckPoint": [
+                                ""
+                            ],
+                            "ToFailCheckPoint": "",
+                            "_ToFailCheckPoint": [],
+                            "_Op_ToFailCheckPoint": [
+                                ""
+                            ],
+                            "ToShowCheckPoint": "",
+                            "_ToShowCheckPoint": [],
+                            "_Op_ToShowCheckPoint": [
+                                ""
+                            ],
+                            "ToType": "text",
+                            "ToLastTime": "",
+                            "ToResult": "",
+                            "ToDescription": "[[https://github.com/cheoljoo/publish/blob/main/memo/revision.md revision.md]]",
+                            "Periodic": "",
+                            "Replace": "",
+                            "Description": "",
+                            "Virtical": ""
+                        }
+                    },
+                    "To": {
+                        "github/publish/memo/revision.md": {
+                            "_group": [
+                                "None"
+                            ],
+                            "_name": [
+                                "github/publish/memo/revision.md"
+                            ],
+                            "_execution": "github/publish/memo/revision_creation.py",
+                            "Project": "processMap-memo",
+                            "From": "github/publish/memo/*",
+                            "Execution": "github/publish/memo/revision_creation.py",
+                            "To": "github/publish/memo/revision.md",
+                            "FromLocation": "",
+                            "FromSuccessCheckPoint": "",
+                            "_FromSuccessCheckPoint": [],
+                            "_Op_FromSuccessCheckPoint": [
+                                ""
+                            ],
+                            "FromFailCheckPoint": "",
+                            "_FromFailCheckPoint": [],
+                            "_Op_FromFailCheckPoint": [
+                                ""
+                            ],
+                            "FromShowCheckPoint": "",
+                            "_FromShowCheckPoint": [],
+                            "_Op_FromShowCheckPoint": [
+                                ""
+                            ],
+                            "FromType": "text",
+                            "FromLastTime": "",
+                            "FromResult": "",
+                            "FromDescription": "public memo",
+                            "ToLocation": "",
+                            "ToSuccessCheckPoint": "",
+                            "_ToSuccessCheckPoint": [],
+                            "_Op_ToSuccessCheckPoint": [
+                                ""
+                            ],
+                            "ToFailCheckPoint": "",
+                            "_ToFailCheckPoint": [],
+                            "_Op_ToFailCheckPoint": [
+                                ""
+                            ],
+                            "ToShowCheckPoint": "",
+                            "_ToShowCheckPoint": [],
+                            "_Op_ToShowCheckPoint": [
+                                ""
+                            ],
+                            "ToType": "text",
+                            "ToLastTime": "",
+                            "ToResult": "",
+                            "ToDescription": "[[https://github.com/cheoljoo/publish/blob/main/memo/revision.md revision.md]]",
+                            "Periodic": "",
+                            "Replace": "",
+                            "Description": "",
+                            "Virtical": ""
+                        }
+                    }
+                },
+                "16": {
+                    "From": {
+                        "mod.lge.com/hub/publish/memo/*": {
+                            "_group": [
+                                "None"
+                            ],
+                            "_name": [
+                                "mod.lge.com/hub/publish/memo/*"
+                            ],
+                            "_execution": "mod.lge.com/hub/publish/memo/revision_creation.py",
+                            "Project": "processMap-memo",
+                            "From": "mod.lge.com/hub/publish/memo/*",
+                            "Execution": "mod.lge.com/hub/publish/memo/revision_creation.py",
+                            "To": "mod.lge.com/hub/publish/memo/revision.md",
+                            "FromLocation": "",
+                            "FromSuccessCheckPoint": "",
+                            "_FromSuccessCheckPoint": [],
+                            "_Op_FromSuccessCheckPoint": [
+                                ""
+                            ],
+                            "FromFailCheckPoint": "",
+                            "_FromFailCheckPoint": [],
+                            "_Op_FromFailCheckPoint": [
+                                ""
+                            ],
+                            "FromShowCheckPoint": "",
+                            "_FromShowCheckPoint": [],
+                            "_Op_FromShowCheckPoint": [
+                                ""
+                            ],
+                            "FromType": "text",
+                            "FromLastTime": "",
+                            "FromResult": "",
+                            "FromDescription": "lge memo",
+                            "ToLocation": "",
+                            "ToSuccessCheckPoint": "",
+                            "_ToSuccessCheckPoint": [],
+                            "_Op_ToSuccessCheckPoint": [
+                                ""
+                            ],
+                            "ToFailCheckPoint": "",
+                            "_ToFailCheckPoint": [],
+                            "_Op_ToFailCheckPoint": [
+                                ""
+                            ],
+                            "ToShowCheckPoint": "",
+                            "_ToShowCheckPoint": [],
+                            "_Op_ToShowCheckPoint": [
+                                ""
+                            ],
+                            "ToType": "text",
+                            "ToLastTime": "",
+                            "ToResult": "",
+                            "ToDescription": "[[http://mod.lge.com/hub/cheoljoo.lee/publish/-/blob/main/memo/revision.md revision.md]]",
+                            "Periodic": "",
+                            "Replace": "",
+                            "Description": "",
+                            "Virtical": ""
+                        }
+                    },
+                    "To": {
+                        "mod.lge.com/hub/publish/memo/revision.md": {
+                            "_group": [
+                                "None"
+                            ],
+                            "_name": [
+                                "mod.lge.com/hub/publish/memo/revision.md"
+                            ],
+                            "_execution": "mod.lge.com/hub/publish/memo/revision_creation.py",
+                            "Project": "processMap-memo",
+                            "From": "mod.lge.com/hub/publish/memo/*",
+                            "Execution": "mod.lge.com/hub/publish/memo/revision_creation.py",
+                            "To": "mod.lge.com/hub/publish/memo/revision.md",
+                            "FromLocation": "",
+                            "FromSuccessCheckPoint": "",
+                            "_FromSuccessCheckPoint": [],
+                            "_Op_FromSuccessCheckPoint": [
+                                ""
+                            ],
+                            "FromFailCheckPoint": "",
+                            "_FromFailCheckPoint": [],
+                            "_Op_FromFailCheckPoint": [
+                                ""
+                            ],
+                            "FromShowCheckPoint": "",
+                            "_FromShowCheckPoint": [],
+                            "_Op_FromShowCheckPoint": [
+                                ""
+                            ],
+                            "FromType": "text",
+                            "FromLastTime": "",
+                            "FromResult": "",
+                            "FromDescription": "lge memo",
+                            "ToLocation": "",
+                            "ToSuccessCheckPoint": "",
+                            "_ToSuccessCheckPoint": [],
+                            "_Op_ToSuccessCheckPoint": [
+                                ""
+                            ],
+                            "ToFailCheckPoint": "",
+                            "_ToFailCheckPoint": [],
+                            "_Op_ToFailCheckPoint": [
+                                ""
+                            ],
+                            "ToShowCheckPoint": "",
+                            "_ToShowCheckPoint": [],
+                            "_Op_ToShowCheckPoint": [
+                                ""
+                            ],
+                            "ToType": "text",
+                            "ToLastTime": "",
+                            "ToResult": "",
+                            "ToDescription": "[[http://mod.lge.com/hub/cheoljoo.lee/publish/-/blob/main/memo/revision.md revision.md]]",
+                            "Periodic": "",
+                            "Replace": "",
+                            "Description": "",
+                            "Virtical": ""
+                        }
+                    }
+                },
+                "17": {
+                    "From": {
+                        "memo/revision.json": {
+                            "_group": [
+                                "None"
+                            ],
+                            "_name": [
+                                "memo/revision.json"
+                            ],
+                            "_execution": "memo/revision_creation.py",
+                            "Project": "processMap-memo",
+                            "From": "memo/revision.json",
+                            "Execution": "memo/revision_creation.py",
+                            "To": "memo/revision.json",
+                            "FromLocation": "",
+                            "FromSuccessCheckPoint": "",
+                            "_FromSuccessCheckPoint": [],
+                            "_Op_FromSuccessCheckPoint": [
+                                ""
+                            ],
+                            "FromFailCheckPoint": "",
+                            "_FromFailCheckPoint": [],
+                            "_Op_FromFailCheckPoint": [
+                                ""
+                            ],
+                            "FromShowCheckPoint": "",
+                            "_FromShowCheckPoint": [],
+                            "_Op_FromShowCheckPoint": [
+                                ""
+                            ],
+                            "FromType": "text",
+                            "FromLastTime": "",
+                            "FromResult": "",
+                            "FromDescription": "",
+                            "ToLocation": "",
+                            "ToSuccessCheckPoint": "",
+                            "_ToSuccessCheckPoint": [],
+                            "_Op_ToSuccessCheckPoint": [
+                                ""
+                            ],
+                            "ToFailCheckPoint": "",
+                            "_ToFailCheckPoint": [],
+                            "_Op_ToFailCheckPoint": [
+                                ""
+                            ],
+                            "ToShowCheckPoint": "",
+                            "_ToShowCheckPoint": [],
+                            "_Op_ToShowCheckPoint": [
+                                ""
+                            ],
+                            "ToType": "text",
+                            "ToLastTime": "",
+                            "ToResult": "",
+                            "ToDescription": "",
+                            "Periodic": "",
+                            "Replace": "",
+                            "Description": "",
+                            "Virtical": ""
+                        }
+                    },
+                    "To": {
+                        "memo/revision.json": {
+                            "_group": [
+                                "None"
+                            ],
+                            "_name": [
+                                "memo/revision.json"
+                            ],
+                            "_execution": "memo/revision_creation.py",
+                            "Project": "processMap-memo",
+                            "From": "memo/revision.json",
+                            "Execution": "memo/revision_creation.py",
+                            "To": "memo/revision.json",
+                            "FromLocation": "",
+                            "FromSuccessCheckPoint": "",
+                            "_FromSuccessCheckPoint": [],
+                            "_Op_FromSuccessCheckPoint": [
+                                ""
+                            ],
+                            "FromFailCheckPoint": "",
+                            "_FromFailCheckPoint": [],
+                            "_Op_FromFailCheckPoint": [
+                                ""
+                            ],
+                            "FromShowCheckPoint": "",
+                            "_FromShowCheckPoint": [],
+                            "_Op_FromShowCheckPoint": [
+                                ""
+                            ],
+                            "FromType": "text",
+                            "FromLastTime": "",
+                            "FromResult": "",
+                            "FromDescription": "",
+                            "ToLocation": "",
+                            "ToSuccessCheckPoint": "",
+                            "_ToSuccessCheckPoint": [],
+                            "_Op_ToSuccessCheckPoint": [
+                                ""
+                            ],
+                            "ToFailCheckPoint": "",
+                            "_ToFailCheckPoint": [],
+                            "_Op_ToFailCheckPoint": [
+                                ""
+                            ],
+                            "ToShowCheckPoint": "",
+                            "_ToShowCheckPoint": [],
+                            "_Op_ToShowCheckPoint": [
+                                ""
+                            ],
+                            "ToType": "text",
+                            "ToLastTime": "",
+                            "ToResult": "",
+                            "ToDescription": "",
+                            "Periodic": "",
+                            "Replace": "",
+                            "Description": "",
+                            "Virtical": ""
+                        }
+                    }
+                },
+                "18": {
+                    "From": {
+                        "github/publish/memo/revision.json": {
+                            "_group": [
+                                "None"
+                            ],
+                            "_name": [
+                                "github/publish/memo/revision.json"
+                            ],
+                            "_execution": "github/publish/memo/revision_creation.py",
+                            "Project": "processMap-memo",
+                            "From": "github/publish/memo/revision.json",
+                            "Execution": "github/publish/memo/revision_creation.py",
+                            "To": "github/publish/memo/revision.json",
+                            "FromLocation": "",
+                            "FromSuccessCheckPoint": "",
+                            "_FromSuccessCheckPoint": [],
+                            "_Op_FromSuccessCheckPoint": [
+                                ""
+                            ],
+                            "FromFailCheckPoint": "",
+                            "_FromFailCheckPoint": [],
+                            "_Op_FromFailCheckPoint": [
+                                ""
+                            ],
+                            "FromShowCheckPoint": "",
+                            "_FromShowCheckPoint": [],
+                            "_Op_FromShowCheckPoint": [
+                                ""
+                            ],
+                            "FromType": "text",
+                            "FromLastTime": "",
+                            "FromResult": "",
+                            "FromDescription": "",
+                            "ToLocation": "",
+                            "ToSuccessCheckPoint": "",
+                            "_ToSuccessCheckPoint": [],
+                            "_Op_ToSuccessCheckPoint": [
+                                ""
+                            ],
+                            "ToFailCheckPoint": "",
+                            "_ToFailCheckPoint": [],
+                            "_Op_ToFailCheckPoint": [
+                                ""
+                            ],
+                            "ToShowCheckPoint": "",
+                            "_ToShowCheckPoint": [],
+                            "_Op_ToShowCheckPoint": [
+                                ""
+                            ],
+                            "ToType": "text",
+                            "ToLastTime": "",
+                            "ToResult": "",
+                            "ToDescription": "",
+                            "Periodic": "",
+                            "Replace": "",
+                            "Description": "",
+                            "Virtical": ""
+                        }
+                    },
+                    "To": {
+                        "github/publish/memo/revision.json": {
+                            "_group": [
+                                "None"
+                            ],
+                            "_name": [
+                                "github/publish/memo/revision.json"
+                            ],
+                            "_execution": "github/publish/memo/revision_creation.py",
+                            "Project": "processMap-memo",
+                            "From": "github/publish/memo/revision.json",
+                            "Execution": "github/publish/memo/revision_creation.py",
+                            "To": "github/publish/memo/revision.json",
+                            "FromLocation": "",
+                            "FromSuccessCheckPoint": "",
+                            "_FromSuccessCheckPoint": [],
+                            "_Op_FromSuccessCheckPoint": [
+                                ""
+                            ],
+                            "FromFailCheckPoint": "",
+                            "_FromFailCheckPoint": [],
+                            "_Op_FromFailCheckPoint": [
+                                ""
+                            ],
+                            "FromShowCheckPoint": "",
+                            "_FromShowCheckPoint": [],
+                            "_Op_FromShowCheckPoint": [
+                                ""
+                            ],
+                            "FromType": "text",
+                            "FromLastTime": "",
+                            "FromResult": "",
+                            "FromDescription": "",
+                            "ToLocation": "",
+                            "ToSuccessCheckPoint": "",
+                            "_ToSuccessCheckPoint": [],
+                            "_Op_ToSuccessCheckPoint": [
+                                ""
+                            ],
+                            "ToFailCheckPoint": "",
+                            "_ToFailCheckPoint": [],
+                            "_Op_ToFailCheckPoint": [
+                                ""
+                            ],
+                            "ToShowCheckPoint": "",
+                            "_ToShowCheckPoint": [],
+                            "_Op_ToShowCheckPoint": [
+                                ""
+                            ],
+                            "ToType": "text",
+                            "ToLastTime": "",
+                            "ToResult": "",
+                            "ToDescription": "",
+                            "Periodic": "",
+                            "Replace": "",
+                            "Description": "",
+                            "Virtical": ""
+                        }
+                    }
+                },
+                "19": {
+                    "From": {
+                        "mod.lge.com/hub/publish/memo/revision.json": {
+                            "_group": [
+                                "None"
+                            ],
+                            "_name": [
+                                "mod.lge.com/hub/publish/memo/revision.json"
+                            ],
+                            "_execution": "mod.lge.com/hub/publish/memo/revision_creation.py",
+                            "Project": "processMap-memo",
+                            "From": "mod.lge.com/hub/publish/memo/revision.json",
+                            "Execution": "mod.lge.com/hub/publish/memo/revision_creation.py",
+                            "To": "mod.lge.com/hub/publish/memo/revision.json",
+                            "FromLocation": "",
+                            "FromSuccessCheckPoint": "",
+                            "_FromSuccessCheckPoint": [],
+                            "_Op_FromSuccessCheckPoint": [
+                                ""
+                            ],
+                            "FromFailCheckPoint": "",
+                            "_FromFailCheckPoint": [],
+                            "_Op_FromFailCheckPoint": [
+                                ""
+                            ],
+                            "FromShowCheckPoint": "",
+                            "_FromShowCheckPoint": [],
+                            "_Op_FromShowCheckPoint": [
+                                ""
+                            ],
+                            "FromType": "text",
+                            "FromLastTime": "",
+                            "FromResult": "",
+                            "FromDescription": "",
+                            "ToLocation": "",
+                            "ToSuccessCheckPoint": "",
+                            "_ToSuccessCheckPoint": [],
+                            "_Op_ToSuccessCheckPoint": [
+                                ""
+                            ],
+                            "ToFailCheckPoint": "",
+                            "_ToFailCheckPoint": [],
+                            "_Op_ToFailCheckPoint": [
+                                ""
+                            ],
+                            "ToShowCheckPoint": "",
+                            "_ToShowCheckPoint": [],
+                            "_Op_ToShowCheckPoint": [
+                                ""
+                            ],
+                            "ToType": "text",
+                            "ToLastTime": "",
+                            "ToResult": "",
+                            "ToDescription": "",
+                            "Periodic": "",
+                            "Replace": "",
+                            "Description": "",
+                            "Virtical": ""
+                        }
+                    },
+                    "To": {
+                        "mod.lge.com/hub/publish/memo/revision.json": {
+                            "_group": [
+                                "None"
+                            ],
+                            "_name": [
+                                "mod.lge.com/hub/publish/memo/revision.json"
+                            ],
+                            "_execution": "mod.lge.com/hub/publish/memo/revision_creation.py",
+                            "Project": "processMap-memo",
+                            "From": "mod.lge.com/hub/publish/memo/revision.json",
+                            "Execution": "mod.lge.com/hub/publish/memo/revision_creation.py",
+                            "To": "mod.lge.com/hub/publish/memo/revision.json",
+                            "FromLocation": "",
+                            "FromSuccessCheckPoint": "",
+                            "_FromSuccessCheckPoint": [],
+                            "_Op_FromSuccessCheckPoint": [
+                                ""
+                            ],
+                            "FromFailCheckPoint": "",
+                            "_FromFailCheckPoint": [],
+                            "_Op_FromFailCheckPoint": [
+                                ""
+                            ],
+                            "FromShowCheckPoint": "",
+                            "_FromShowCheckPoint": [],
+                            "_Op_FromShowCheckPoint": [
+                                ""
+                            ],
+                            "FromType": "text",
+                            "FromLastTime": "",
+                            "FromResult": "",
+                            "FromDescription": "",
+                            "ToLocation": "",
+                            "ToSuccessCheckPoint": "",
+                            "_ToSuccessCheckPoint": [],
+                            "_Op_ToSuccessCheckPoint": [
+                                ""
+                            ],
+                            "ToFailCheckPoint": "",
+                            "_ToFailCheckPoint": [],
+                            "_Op_ToFailCheckPoint": [
+                                ""
+                            ],
+                            "ToShowCheckPoint": "",
+                            "_ToShowCheckPoint": [],
+                            "_Op_ToShowCheckPoint": [
+                                ""
+                            ],
+                            "ToType": "text",
+                            "ToLastTime": "",
+                            "ToResult": "",
+                            "ToDescription": "",
+                            "Periodic": "",
+                            "Replace": "",
+                            "Description": "",
+                            "Virtical": ""
+                        }
+                    }
                 }
             }
         }
@@ -1196,7 +2272,7 @@
                 "Makefile": {
                     "Key": [
                         "2",
-                        "9"
+                        "10"
                     ]
                 },
                 "*/index.csv": {
@@ -1206,7 +2282,9 @@
                 },
                 "*.md [all directories]": {
                     "Key": [
-                        "5"
+                        "5",
+                        "12",
+                        "14"
                     ]
                 },
                 "*/tag.json": {
@@ -1226,7 +2304,32 @@
                 },
                 "get-all-description-and-tag.json": {
                     "Key": [
-                        "10"
+                        "11"
+                    ]
+                },
+                "github/publish/memo/*": {
+                    "Key": [
+                        "15"
+                    ]
+                },
+                "mod.lge.com/hub/publish/memo/*": {
+                    "Key": [
+                        "16"
+                    ]
+                },
+                "memo/revision.json": {
+                    "Key": [
+                        "17"
+                    ]
+                },
+                "github/publish/memo/revision.json": {
+                    "Key": [
+                        "18"
+                    ]
+                },
+                "mod.lge.com/hub/publish/memo/revision.json": {
+                    "Key": [
+                        "19"
                     ]
                 }
             },
@@ -1256,9 +2359,59 @@
                         "7"
                     ]
                 },
+                "github/publish/memo/README.md": {
+                    "Key": [
+                        "8"
+                    ]
+                },
+                "mod.lge.com/hub/publish/memo/README.md": {
+                    "Key": [
+                        "9"
+                    ]
+                },
                 "./get-all-description-and-tag-to-network-graph.html": {
                     "Key": [
-                        "10"
+                        "11"
+                    ]
+                },
+                "github/publish/memo/*": {
+                    "Key": [
+                        "12"
+                    ]
+                },
+                "mod.lge.com/hub/publish/memo/*": {
+                    "Key": [
+                        "13"
+                    ]
+                },
+                "memo/revision.md": {
+                    "Key": [
+                        "14"
+                    ]
+                },
+                "github/publish/memo/revision.md": {
+                    "Key": [
+                        "15"
+                    ]
+                },
+                "mod.lge.com/hub/publish/memo/revision.md": {
+                    "Key": [
+                        "16"
+                    ]
+                },
+                "memo/revision.json": {
+                    "Key": [
+                        "17"
+                    ]
+                },
+                "github/publish/memo/revision.json": {
+                    "Key": [
+                        "18"
+                    ]
+                },
+                "mod.lge.com/hub/publish/memo/revision.json": {
+                    "Key": [
+                        "19"
                     ]
                 }
             }
@@ -1272,9 +2425,18 @@
         "*.md [all directories]~~~get-all-description-and-tag.py~~~get-all-description-and-tag.json": "5",
         "*/tag.json~~~get-all-description-and-tag.py~~~TOC.md": "6",
         "TOC.md~~~markdown-pp~~~README.md": "7",
-        "TOC.mdpp~~~markdown-pp~~~": "8",
-        "Makefile~~~get-all-description-and-tag-to-network-graph.py~~~": "9",
-        "get-all-description-and-tag.json~~~get-all-description-and-tag-to-network-graph.py~~~./get-all-description-and-tag-to-network-graph.html": "10"
+        "TOC.mdpp~~~markdown-pp~~~github/publish/memo/README.md": "8",
+        "~~~markdown-pp~~~mod.lge.com/hub/publish/memo/README.md": "9",
+        "Makefile~~~get-all-description-and-tag-to-network-graph.py~~~": "10",
+        "get-all-description-and-tag.json~~~get-all-description-and-tag-to-network-graph.py~~~./get-all-description-and-tag-to-network-graph.html": "11",
+        "*.md [all directories]~~~remove_files.py~~~github/publish/memo/*": "12",
+        "~~~remove_files.py~~~mod.lge.com/hub/publish/memo/*": "13",
+        "*.md [all directories]~~~memo/revision_creation.py~~~memo/revision.md": "14",
+        "github/publish/memo/*~~~github/publish/memo/revision_creation.py~~~github/publish/memo/revision.md": "15",
+        "mod.lge.com/hub/publish/memo/*~~~mod.lge.com/hub/publish/memo/revision_creation.py~~~mod.lge.com/hub/publish/memo/revision.md": "16",
+        "memo/revision.json~~~memo/revision_creation.py~~~memo/revision.json": "17",
+        "github/publish/memo/revision.json~~~github/publish/memo/revision_creation.py~~~github/publish/memo/revision.json": "18",
+        "mod.lge.com/hub/publish/memo/revision.json~~~mod.lge.com/hub/publish/memo/revision_creation.py~~~mod.lge.com/hub/publish/memo/revision.json": "19"
     },
     "Replace": {}
 }
