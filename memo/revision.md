@@ -2,6 +2,12 @@
 - tag : revision , changes
 - date : [today]
 
+# 2025-03-01 18:24:53.332552
+- modified: README.md : desc - TOC (it includes all item of memo.)
+- modified: TOC.md
+- modified: remove_files.py : desc - copy first then remove unproper files when this file tag has --remove_tag
+- modified: revision_creation.py : desc - create revision.md
+
 # 2025-03-01 18:17:30.931309
 - modified: Makefile
 - modified: README.md : desc - TOC (it includes all item of memo.)

@@ -1,5 +1,5 @@
-# - description : book 관련 csv내용을 markdown으로 변환하는 프로그램
-# - tag : book , python , run , csv , markdown , convert
+# - description : create revision.md
+# - tag : python , classification
 
 import os
 import re

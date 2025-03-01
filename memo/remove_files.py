@@ -1,5 +1,5 @@
-# - description : book 관련 csv내용을 markdown으로 변환하는 프로그램
-# - tag : book , python , run , csv , markdown , convert
+# - description : copy first then remove unproper files when this file tag has --remove_tag
+# - tag : python , classification
 
 import os
 import re

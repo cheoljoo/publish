@@ -57,9 +57,9 @@
 - [openai_chatgpt.md](./openai_chatgpt.md) : openai chatGPT에 대한 글 (out-of-date)
 - [pilates-2025.md](./pilates-2025.md) : 2025 year 필라테스 내용들을 적어두는 것이다. 가능하면 집에서 할 수 있는 것 위주로.
 - [recruit.md](./recruit.md) : recruit 관련 글 모음 - 이력서 작성도 연관됨.
-- [remove_files.py](./remove_files.py) : book 관련 csv내용을 markdown으로 변환하는 프로그램
+- [remove_files.py](./remove_files.py) : copy first then remove unproper files when this file tag has --remove_tag
 - [revision.md](./revision.md) : revision information : what is changed per date
-- [revision_creation.py](./revision_creation.py) : book 관련 csv내용을 markdown으로 변환하는 프로그램
+- [revision_creation.py](./revision_creation.py) : create revision.md
 - [stock.md](./stock.md) : 주식 관련
 - [tax.md](./tax.md) : 세금 (tax) 관련 정리
 - [tcmd.md](./tcmd.md) : tcmd (tiger command)에 대한 실행 및 unittest 방법
