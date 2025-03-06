@@ -50,7 +50,9 @@ TOC
     - [1.19.1. Revised Sentences:](#1191-revised-sentences)
     - [1.19.2. Changes and Explanations:](#1192-changes-and-explanations)
   - [1.20. 2025-02-20 22:36:09 Topic 6: 'Daechi mom' parody hits home, sparks luxury coat sell-off in wealthy district](#120-2025-02-20-223609-topic-6-daechi-mom-parody-hits-home-sparks-luxury-coat-sell-off-in-wealthy-district)
-  - [Topic 4: Why Naver, Kakao Could Benefit From Deepseek Ai Disruption](#topic-4-why-naver-kakao-could-benefit-from-deepseek-ai-disruption)
+  - [1.21. Topic 4: Why Naver, Kakao Could Benefit From Deepseek Ai Disruption](#121-topic-4-why-naver-kakao-could-benefit-from-deepseek-ai-disruption)
+  - [1.22. Topic 5: The Importance of Critical Thinking Skills](#122-topic-5-the-importance-of-critical-thinking-skills)
+    - [1.22.1. Revised Sentences:](#1221-revised-sentences)
 
 ------------------
 
@@ -545,6 +547,15 @@ The Doomsday Clock is a symbol of the threats to humanity. It moves closer to mi
 - Suji is a famous comedian in korea. She do the parady of gangnam mon. Mom concentrates on educating her children. We can guess that she use a luxury car and cloth and hand-bag. For example , porche and monchare and channel. However she eats the kimbab in her car to ride her children among after-scheool academy. Many people review that synchronization is perfect. Suji has the real action like gangnam's mom. View count is more than 2 millions in a short time. This is a youtube trend.
 - she got sick.  her acting is one point (perfect).
 
-## [Topic 4: Why Naver, Kakao Could Benefit From Deepseek Ai Disruption](https://band.us/band/57062236/post/2579)
-- [source](https://www.koreatimes.co.kr/www/biz/2025/02/602_391443.html)
+## 1.21. [Topic 4: Why Naver, Kakao Could Benefit From Deepseek Ai Disruption](https://band.us/band/57062236/post/2579)
+- 2025-03-04 [source](https://www.koreatimes.co.kr/www/biz/2025/02/602_391443.html)
 - Deepseek is catalyst of expansion of AI. Until now USA can have most of AI infrastructure and USA's big companies keep the closed source. So most of small countries can not improve AI skills. However deepseek open source opens new era of AI. It is cheap and open source. Some people said deep seek will be tunning point to be more positive improvement since linux is the best example. Linux has been improved becasue it is open source. Many engineers can develp it with open source code.  They can go faster thans closed source.
+## 1.22. [Topic 5: The Importance of Critical Thinking Skills](https://band.us/band/57062236/post/2586)
+- [source](https://engoo.com/app/daily-news/article/how-to-spot-fake-reviews-on-the-internet/qpOBxukrEe-Pp0ct6y6Tig)
+- Transparency Company find the fake reviews which is 14% of reviews. I am curious how to find fake review. if anyone writes long sentences and fluent sentences , is is fake review? I think it is impossible to find fake review when AI generates the short review. Sometimes we can talk with AI without any interrupts.
+### 1.22.1. Revised Sentences:
+- Transparency Company found that 14% of the reviews are fake. I am curious about how they detect fake reviews. If someone writes long and fluent sentences, is it considered a fake review? I think it is impossible to detect fake reviews when AI generates short reviews. Sometimes, we can talk with AI without any interruptions.
+- rewrite after seeing : Transparecy Company found that 14% of reviews are fake. I am curious about how to detect what is fake review. If someone writes log and fluent sentences , is it fake review? I think it is impossible to detect fake reviews when AI generates short reviews. Sometimes we can talk AI without any interruptions.
+- my sudden opinion
+  - Suddenly i think i look like trump. Trump believes he is right.  Sometimes me too.  So i need retrospection from trump.   I hate him because we are the same.
+  - correction : Suddenly, I think I look like Trump. Trump believes he is always right. Sometimes, I do too. So, I need to reflect on myself like Trump. I hate him because we are the same.

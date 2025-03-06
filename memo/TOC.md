@@ -46,6 +46,7 @@
 - [git.md](./git.md) : git contribution 방법 / git repository 옮기기 / push commit 변경 등 git 관련 사항 들 정리
 - [git_console_analysis.md](./git_console_analysis.md) : git blame을 다루는 법
 - [google-translate.py](./google-translate.py) : google translate sample
+- [hangul-korean-lang-path.md](./hangul-korean-lang-path.md) : 한글이 들어간 path가 unicode로보일때 이를 decode하는 코드이다. git status를 하면 한글이 보이지 않게 된다.
 - [how_to_write_memo.md](./how_to_write_memo.md) : memo 작성법
 - [jira-atlassian-api.md](./jira-atlassian-api.md) : my private jira site in atlassian - how to use restapi / outlook mail to atlassian jira
 - [kill_waitpid.md](./kill_waitpid.md) : C / C++ 코드에서    fork 한  process 를  pid 으로  kill 할 때   자식 process 까지  다 죽도록 만들려면,어떻게 할 수 있을까요?

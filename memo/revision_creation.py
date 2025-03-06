@@ -23,7 +23,7 @@ if __name__ == "__main__":
 
     # Git 명령어 실행
     result = subprocess.run(
-        ["git", "status", "--untracked-files=no"],
+        ["git", "status"],    # "--untracked-files=no"],
         capture_output=True,  # 출력을 변수에 저장
         text=True,            # 문자열로 변환
         check=True            # 오류 발생 시 예외 발생
@@ -33,26 +33,60 @@ if __name__ == "__main__":
     git_status_output = result.stdout
 
     now = str(datetime.now())  # 현재 날짜 및 시간 가져오기
-    newfileRe = re.compile('^\s*new file:\s*(?P<s>.*$)')
-    modifiedRe = re.compile('^\s*modified:\s*(?P<s>.*$)')
+    newfileRe = re.compile('^\s*new file:\s*"?(?P<s>.*$)')
+    modifiedRe = re.compile('^\s*modified:\s*"?(?P<s>.*$)')
     descRe = re.compile('^\s*#?\s*-\s*description\s*:\s*(?P<s>.*$)')
     tagRe = re.compile('^\s*#?\s*-\s*tag\s*:\s*(?P<s>.*$)')
     dateRe = re.compile('^\s*#?\s*-\s*date\s*:\s*(?P<s>.*$)')
+    newFileStartRe = re.compile('\s*(use "git add <file>..." to include in what will be committed)')
+    newFileStartFlag = False
     for line in git_status_output.split('\n'):
-        t = newfileRe.search(line)
-        if t:
-            filename = t.group(1).strip()
-            if filename not in ['revision.json','revision.md'] and not filename.endswith('.html') and not filename.endswith('.json'):
+        print(newFileStartFlag,line)
+        if newFileStartRe.search(line):
+            newFileStartFlag = True
+            continue
+        if newFileStartFlag == False:
+            t = newfileRe.search(line)
+            if t:
+                filename = t.group(1)
+                filename = filename.encode('latin1').decode('unicode_escape')
+                filename = filename.encode('latin1').decode('utf-8')
+                if filename.endswith('"'):
+                    filename = filename[:-1]
+                 #filename = re.sub(r'\\\\', r'\\', filename)
+                print('added filename',filename)
+                if filename not in ['revision.json','revision.md','TOC.md','README.md'] and (filename.endswith('.md') or filename.endswith('.py')):
+                    if now not in revisionDict:
+                        revisionDict[now] = []
+                    revisionDict[now].append( {'type':'new file:','value':filename } )
+            t = modifiedRe.search(line)
+            if t:
+                filename = t.group(1)
+                filename = filename.encode('latin1').decode('unicode_escape')
+                filename = filename.encode('latin1').decode('utf-8')
+                 #print('filename',filename)
+                if filename.endswith('"'):
+                    filename = filename[:-1]
+                 #print('filename',filename)
+                 #filename = re.sub(r'\\\\', r'\\', filename)
+                print('modified filename',filename)
+                if filename not in ['revision.json','revision.md','TOC.md','README.md'] and (filename.endswith('.md') or filename.endswith('.py')):
+                    if now not in revisionDict:
+                        revisionDict[now] = []
+                    revisionDict[now].append( {'type':'modified:','value':filename } )
+        else:
+            filename = line.strip()
+            filename = filename.encode('latin1').decode('unicode_escape')
+            filename = filename.encode('latin1').decode('utf-8')
+            if filename.endswith('"'):
+                filename = filename[:-1]
+            if filename.startswith('"'):
+                filename = filename[1:]
+            print('new_file filename',filename)
+            if filename not in ['revision.json','revision.md','TOC.md','README.md'] and (filename.endswith('.md') or filename.endswith('.py')):
                 if now not in revisionDict:
                     revisionDict[now] = []
-                revisionDict[now].append( {'type':'new file:','value':t.group(1).strip() } )
-        t = modifiedRe.search(line)
-        if t:
-            filename = t.group(1).strip()
-            if filename not in ['revision.json','revision.md'] and not filename.endswith('.html') and not filename.endswith('.json'):
-                if now not in revisionDict:
-                    revisionDict[now] = []
-                revisionDict[now].append( {'type':'modified:','value':t.group(1).strip() } )
+                revisionDict[now].append( {'type':'new_file:','value':filename } )
     print('revisionDict:',revisionDict)
      #sortedRevisionList = sorted(revisionDict, key=lambda x: (x['date'], x['type']), reverse=True)
     sortedRevisionDict = dict(sorted(revisionDict.items(),reverse=True))
@@ -62,12 +96,14 @@ if __name__ == "__main__":
         for v in sortedRevisionDict.get(now,[]):
             print('sort v',v)
             descValue = ''
-            if v['value'].endswith('.md') or v['value'].endswith('.py'):
+            filename = v['value']
+            if filename.endswith('.md') or filename.endswith('.py'):
                 descFlag = False
                 tagFlag = False
                 dateFlag = False
-                print(os.getcwd())
-                with open(v['value'],'r',encoding="utf-8" ) as fr:
+                 #print(os.getcwd())
+                print('open filename',filename)
+                with open(filename,'r',encoding="utf-8" ) as fr:
                     lines = fr.readlines()
                     MaxLineNumber = 10
                     lineNumber = 0
@@ -76,7 +112,7 @@ if __name__ == "__main__":
                         if t:
                             descFlag = True
                             descValue = t.group(1)
-                            print('selected',date,descValue,v)
+                             #print('selected',date,descValue,v)
                         t = tagRe.search(line)
                         if t:
                             tagFlag = True
@@ -104,10 +140,11 @@ if __name__ == "__main__":
             print('revision.md',date,vv)
             f.write('# {date}\n'.format(date=date))
             for v in vv:
+                filename = v['value']
                 if v.get('desc',''):
-                    f.write('- {type} {file} : desc - {desc}\n'.format(type=v['type'] , file=v['value'], desc=v['desc']))
+                    f.write('- {type} [{file}]({file}) : desc - {desc}\n'.format(type=v['type'] , file=filename, desc=v['desc']))
                 else:
-                    f.write('- {t} {v}\n'.format(t=v['type'] , v=v['value']))
+                    f.write('- {t} [{file}]({file})\n'.format(t=v['type'] , file=filename))
             f.write('\n')
 
 

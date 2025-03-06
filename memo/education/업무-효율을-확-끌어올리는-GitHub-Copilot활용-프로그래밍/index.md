@@ -5,6 +5,7 @@
 TOC
 - [1. 홍드로이드의 AI 도구를 활용한 학습부터 웹 \& 앱 서비스 개발까지 한번에](#1-홍드로이드의-ai-도구를-활용한-학습부터-웹--앱-서비스-개발까지-한번에)
   - [1.1. project IDX (google IDX)](#11-project-idx-google-idx)
+- [2. GitHub Copilot Beginner to Pro - AI for Coding \& Development](#2-github-copilot-beginner-to-pro---ai-for-coding--development)
 
 
 -------
@@ -33,3 +34,14 @@ TOC
 - statelessWidget vs statefulWidget
   - 변화하는 것은 statefulWidget를 사용하면 된다.
 
+# 2. GitHub Copilot Beginner to Pro - AI for Coding & Development
+- source : show zip file in this directory
+  - code.zip - this contains all the code we generate in this course.
+  - code-refactor.zip - this code is the refactored code for script.js that we generate in lecture 22 titled "Use GitHub Copilot Chat to refactor Javascript code".
+  - code-with-server.zip - this code contains the addition of the express js code covered in lectures 23 titled "Use GitHub Copilot to generate server code with express (+ prompt tips)" and 24 titled "Use GitHub Copilot chat to setup sending emails using Resend".
+- You will need VSCode and the **Live Server extension** installed to follow along in this course. 
+- **Open In Default Browser** extension : browser에서 HTML을 쉽게 열수 있습니다.
+- create workspace
+  - copilot chat prompt : @workspace /new  create an html project called bucks2bar with the latest version of bootstrap
+- ![open in default browser](image.png)
+- 

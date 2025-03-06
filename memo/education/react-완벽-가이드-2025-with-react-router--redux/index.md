@@ -182,8 +182,12 @@ TOC
   - [22.3. route 정의하기](#223-route-정의하기)
   - [22.4. 두번째 route 추가하기](#224-두번째-route-추가하기)
   - [22.5. 라우트를 정의하는 다른 방법들](#225-라우트를-정의하는-다른-방법들)
-  - [Link로 페이지들간 이동하기](#link로-페이지들간-이동하기)
-  - [레이아웃 및 중첩된 라이트](#레이아웃-및-중첩된-라이트)
+  - [22.6. Link로 페이지들간 이동하기](#226-link로-페이지들간-이동하기)
+  - [22.7. 레이아웃 및 중첩된 라우트](#227-레이아웃-및-중첩된-라우트)
+  - [22.8. NavLink 사용하기 : 네비게이션 링크 : NavLink로 Link 대신 사용](#228-navlink-사용하기--네비게이션-링크--navlink로-link-대신-사용)
+  - [22.9. 동적 라우트 정의하고 사용하기](#229-동적-라우트-정의하고-사용하기)
+  - [index route 사용하기](#index-route-사용하기)
+  - [연습 문제](#연습-문제)
 - [23. 리액트 앱 인증 추가하기](#23-리액트-앱-인증-추가하기)
 - [24. 리액트 앱 배포하기](#24-리액트-앱-배포하기)
 - [25. 리액트 쿼리 / Tanstack 쿼리 : 간단하게 HTTP 요청 처리](#25-리액트-쿼리--tanstack-쿼리--간단하게-http-요청-처리)
@@ -3856,7 +3860,7 @@ export function log(message, level = 0, type = 'component') {
     const router = createBrowserRouter(routeDefinitions);
     ```
 
-## Link로 페이지들간 이동하기
+## 22.6. Link로 페이지들간 이동하기
 - pages/Home.js
   - ```js
     export default function HomeAPage() {
@@ -3895,8 +3899,191 @@ export function log(message, level = 0, type = 'component') {
       ```
   - 이렇게 하면 **link를 눌러도 새로 접속을 시작하는게 아닌 바로 가게 된다. (빠르다)**
 
-## 레이아웃 및 중첩된 라이트
-- 
+## 22.7. 레이아웃 및 중첩된 라우트
+- layout 구성
+  - App.js : layout을 위해서 children prop 이용
+    - ```js
+      const router = createBrowserRouter([
+        { path: '/' , 
+          element:<RootLayout />,
+          children : [
+            { path: "/", element: <HomePage /> },
+            { path: "/products", element: <ProductsPage /> },
+          ],
+        }
+      ]);
+      ```
+  - Root.js : Outlet을 이용하여 children을 처리
+    - ```js
+      import { Outlet } from 'react-router-dom';
+      import MainNavigation from '../components/MainNavigation';
+      function RootLayout() {
+        return (
+          <>
+            <MainNavigation />
+            <main>
+              <Outlet />
+            </main>
+          </>
+        );
+      }
+      export default RootLayout;
+      ```
+- error page 표시하기 : errorElement 이용
+  - App.js : layout을 위해서 children prop 이용
+    - ```js
+      const router = createBrowserRouter([
+        {
+          path: '/',
+          element: <RootLayout />,
+          errorElement: <ErrorPage />,
+          children: [
+            { path: '/', element: <HomePage /> },
+            { path: '/products', element: <ProductsPage /> },
+          ],
+        }
+      ]);
+      ```
+
+## 22.8. NavLink 사용하기 : 네비게이션 링크 : NavLink로 Link 대신 사용
+- NavLink 이용
+  - components/MainNavigation.js : NavLink 이용시 끝에 end를 넣어주어야 active가 풀려서 제대로 동작한다. end를 넣어주어야 page를 빠져나가는 것에 대한 값들의 변경이 자동으로 되는 듯 함. 그리고, 아래의 comments처리된 style을 써서 , inline으로 style을 정의할수도 있다.
+    - ```js
+      import { NavLink } from 'react-router-dom';
+
+      import classes from './MainNavigation.module.css';
+
+      function MainNavigation() {
+        return (
+          <header className={classes.header}>
+            <nav>
+              <ul className={classes.list}>
+                <li>
+                  <NavLink
+                    to="/"
+                    className={({ isActive }) =>
+                      isActive ? classes.active : undefined
+                    }
+                    // style={({ isActive }) => ({
+                    //   textAlign: isActive ? 'center' : 'left',
+                    // })}
+                    end
+                  >
+                    Home
+                  </NavLink>
+                </li>
+      ```
+- **useNavigate**를 이용한 navigation 가능 : function안에서 page이동하게 하는 함수 제공 : 프로그램 적으로 네비게이션
+  - pages/Home.js
+    - ```js
+      import { Link, useNavigate } from 'react-router-dom';
+
+      function HomePage() {
+        const navigate = useNavigate();
+
+        function navigateHandler() {
+          navigate('/products');
+        }
+
+        return (
+          <>
+            <h1>My Home Page</h1>
+            <p>
+              Go to <Link to="/products">the list of products</Link>.
+            </p>
+            <p>
+              <button onClick={navigateHandler}>Navigate</button>
+            </p>
+          </>
+        );
+      }
+
+      export default HomePage;
+      ```
+
+## 22.9. 동적 라우트 정의하고 사용하기
+- :productId와 같이 :으로 시작하게 하여 이 값을 인수로 Page에서 받게 하는 방식을 사용한다.
+  - App.js
+    - ```js
+      const router = createBrowserRouter([
+        {
+          path: '/',
+          element: <RootLayout />,
+          errorElement: <ErrorPage />,
+          children: [
+            { path: '/', element: <HomePage /> },
+            { path: '/products', element: <ProductsPage /> },
+            { path: '/products/:productId', element: <ProductDetailPage /> }
+          ],
+        }
+      ]);
+      ```
+  - components/ProductDetail.js : **useParams**를 이용하여 :으로 정의한 productId 값을 받는다.
+    - ```js
+      import { useParams } from 'react-router-dom';
+      function ProductDetailPage() {
+        const params = useParams();
+
+        return (
+          <>
+            <h1>Product Details!</h1>
+            <p>{params.productId}</p>
+          </>
+        );
+      }
+      export default ProductDetailPage;
+      ```
+
+## index route 사용하기
+- path='' 일때 문제를 해결하기 위해서 , index를 이용한다.
+  - App.js
+    - ```js
+      const router = createBrowserRouter([
+        {
+          path: '/',
+          element: <RootLayout />,
+          errorElement: <ErrorPage />,
+          children: [
+            { index: true, element: <HomePage /> },
+      ```
+
+## 연습 문제
+- 문제
+  - ```txt
+    // Challenge / Exercise
+
+    // 1. Add five new (dummy) page components (content can be simple <h1> elements)
+    //    - HomePage
+    //    - EventsPage
+    //    - EventDetailPage
+    //    - NewEventPage
+    //    - EditEventPage
+    // DONE
+    // 2. Add routing & route definitions for these five pages
+    //    - / => HomePage
+    //    - /events => EventsPage
+    //    - /events/<some-id> => EventDetailPage
+    //    - /events/new => NewEventPage
+    //    - /events/<some-id>/edit => EditEventPage
+    // DONE
+    // 3. Add a root layout that adds the <MainNavigation> component above all page components
+    // DONE
+    // 4. Add properly working links to the MainNavigation
+    // DONE
+    // 5. Ensure that the links in MainNavigation receive an "active" class when active
+    // DONE
+    // 6. Output a list of dummy events to the EventsPage
+    //    Every list item should include a link to the respective EventDetailPage
+    // DONE
+    // 7. Output the ID of the selected event on the EventDetailPage
+    // DONE
+    // BONUS: Add another (nested) layout route that adds the <EventNavigation> component above all /events... page components
+    // DONE
+    ```
+  - [강의 link](https://www.udemy.com/course/best-react/learn/lecture/36126302#overview)
+  - createBrowserRouter() 로 구성을 한다.  첫번째 child는 index = true
+  - pages 밑에 각 page들을 만든다.
+- [result](https://github.com/academind/react-complete-guide-course-resources/tree/main/code/21%20Routing/14-challenge-solution)
 
 # 23. 리액트 앱 인증 추가하기
 
