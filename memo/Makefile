@@ -25,7 +25,9 @@ all:
 	python3 revision_creation.py
 	cd ../github_publish/memo; git checkout -f revision.json
 	cd ../mod_publish/memo; git checkout -f revision.json
+	cd ../github_publish; git add memo
 	cd ../github_publish/memo; python3 revision_creation.py
+	cd ../mod_publish; git add memo
 	cd ../mod_publish/memo; python3 revision_creation.py
 simple:
 	python3 convert_csv_to_md.py

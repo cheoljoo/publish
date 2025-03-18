@@ -53,6 +53,9 @@ TOC
   - [1.21. Topic 4: Why Naver, Kakao Could Benefit From Deepseek Ai Disruption](#121-topic-4-why-naver-kakao-could-benefit-from-deepseek-ai-disruption)
   - [1.22. Topic 5: The Importance of Critical Thinking Skills](#122-topic-5-the-importance-of-critical-thinking-skills)
     - [1.22.1. Revised Sentences:](#1221-revised-sentences)
+  - [1.23. Topic 2: Working Well: Practicing humility and finding support can help when political tensions rise at work](#123-topic-2-working-well-practicing-humility-and-finding-support-can-help-when-political-tensions-rise-at-work)
+    - [1.23.1. correction](#1231-correction)
+    - [learnt](#learnt)
 
 ------------------
 
@@ -559,3 +562,18 @@ The Doomsday Clock is a symbol of the threats to humanity. It moves closer to mi
 - my sudden opinion
   - Suddenly i think i look like trump. Trump believes he is right.  Sometimes me too.  So i need retrospection from trump.   I hate him because we are the same.
   - correction : Suddenly, I think I look like Trump. Trump believes he is always right. Sometimes, I do too. So, I need to reflect on myself like Trump. I hate him because we are the same.
+
+## 1.23. [Topic 2: Working Well: Practicing humility and finding support can help when political tensions rise at work](https://band.us/band/57062236/post/2583)
+- [source](https://apnews.com/article/workplace-politics-beliefs-conflicts-e6f189a5435fff3c6da9b1c4d9a7454b)
+- rifts : 분열
+- humility : 겸손
+- Rifts is the feed for politician. Politicians want to find chances from rifts in communities. We need to humility and help each other to work together. Why do politicians emphaize on selfish than live together? Can they bridge from division. Respect each other!!
+### 1.23.1. correction
+- Rifts are fuel for politicians. They seek opportunities in divisions within communities. We need humility and mutual support to work together. Why do politicians emphasize selfishness over unity? Can they bridge the divisions? Let's respect each other!
+### learnt
+- Practice humility : To cultivate a more peaceful working environment, executives, managers and employees can practice humility. That means seeing ourselves as equal and not superior to our colleagues and subordinates, and recognizing that no one has all the right answers.
+- Find your supporters and know your rights : In some situations, a more guarded approach is warranted. If political talk feels like a personal attack, you may need to find allies who can help you process what you’re hearing and feeling. (weakness)
+- Foster fun conversations : One way managers can try to bridge divides is to create rituals for employees to share what’s important to them, Gutman said. This can help build a baseline of **trust** within an organization.
+
+
+

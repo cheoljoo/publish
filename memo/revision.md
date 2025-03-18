@@ -2,6 +2,9 @@
 - tag : revision , changes
 - date : [today]
 
+# 2025-03-18 14:09:54.601006
+- modified: [english.md](english.md) : desc - somedaytalk 영어를 준비하기 위한 페이지로써 영어 공부를 하기 위한 페이지이다. 주로 article을 읽고 나의 summary를 한 후에 이에 대한 수정을 chatGPT에 맡긴 내용을 담고 있다.
+
 # 2025-03-06 11:34:50.588392
 - modified: [education/react-완벽-가이드-2025-with-react-router--redux/index.md](education/react-완벽-가이드-2025-with-react-router--redux/index.md) : desc - (education정리) React 완벽 가이드 2025 with React Router & Redux
 - modified: [education/업무-효율을-확-끌어올리는-GitHub-Copilot활용-프로그래밍/index.md](education/업무-효율을-확-끌어올리는-GitHub-Copilot활용-프로그래밍/index.md) : desc - (education정리) AI 업무-효율을-확-끌어올리는-GitHub-Copilot활용-프로그래밍
