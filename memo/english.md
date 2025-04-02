@@ -55,7 +55,8 @@ TOC
     - [1.22.1. Revised Sentences:](#1221-revised-sentences)
   - [1.23. Topic 2: Working Well: Practicing humility and finding support can help when political tensions rise at work](#123-topic-2-working-well-practicing-humility-and-finding-support-can-help-when-political-tensions-rise-at-work)
     - [1.23.1. correction](#1231-correction)
-    - [learnt](#learnt)
+    - [1.23.2. learnt](#1232-learnt)
+  - [1.24. Topic 1: Should Students Take Notes on a Tablet Instead of Paper in Class?](#124-topic-1-should-students-take-notes-on-a-tablet-instead-of-paper-in-class)
 
 ------------------
 
@@ -570,10 +571,11 @@ The Doomsday Clock is a symbol of the threats to humanity. It moves closer to mi
 - Rifts is the feed for politician. Politicians want to find chances from rifts in communities. We need to humility and help each other to work together. Why do politicians emphaize on selfish than live together? Can they bridge from division. Respect each other!!
 ### 1.23.1. correction
 - Rifts are fuel for politicians. They seek opportunities in divisions within communities. We need humility and mutual support to work together. Why do politicians emphasize selfishness over unity? Can they bridge the divisions? Let's respect each other!
-### learnt
+### 1.23.2. learnt
 - Practice humility : To cultivate a more peaceful working environment, executives, managers and employees can practice humility. That means seeing ourselves as equal and not superior to our colleagues and subordinates, and recognizing that no one has all the right answers.
 - Find your supporters and know your rights : In some situations, a more guarded approach is warranted. If political talk feels like a personal attack, you may need to find allies who can help you process what you’re hearing and feeling. (weakness)
 - Foster fun conversations : One way managers can try to bridge divides is to create rituals for employees to share what’s important to them, Gutman said. This can help build a baseline of **trust** within an organization.
 
-
-
+## 1.24. [Topic 1: Should Students Take Notes on a Tablet Instead of Paper in Class?](https://band.us/band/57062236/post/2587)
+- [source](https://www.scmp.com/yp/discover/your-voice/opinion/article/3300519/face-should-students-take-notes-tablet-instead-paper-class%3E)
+- That's a great idea which students can use tablet instead of paper.  In my case I load a lot of paper book to study everyday. So my shoulder are leaned (different levle of my shoulder). Tablet can reduce the bag weights and they can find easier and faster when they want to find any solution and prepare to study. However it has some disadvnatages. They will open their circumstance into social media. Most of students open and show contents of social media and they lose their time. Young people is digital generation. It means they are familiar with electric devices. They use fluently without any explanation. And they need the pen to write easily on the tablet. Pencil is mendatory item. 

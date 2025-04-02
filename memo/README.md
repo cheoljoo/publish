@@ -115,6 +115,8 @@
 - [convert_csv_to_md.sh](./convert_csv_to_md.sh) : csv를 md로 변환시켜주는 convert bash로써 여기서는 실제로 각 directory에 맞는 convert_csv_to_md*.py 를 수행하는 script이다.
 - [data-science.md](./data-science.md) : data science에 대해서 추천 책 / 글들을 모아둔 페이지를 그대로 copy해둔 것이다. origin을 참조하기 바란다.
 - [dreamhack.md](./dreamhack.md) : dreamhack (LGE 해킹대회 사전 교육) 관련 정리하던 것으로 , 제대로 끝내지 못한 교육이었음.
+- [education/Gen-AI-RAG-실전-가이드_Langchain을-활용한-AI-챗봇-완전정복/index.md](./education/Gen-AI-RAG-실전-가이드_Langchain을-활용한-AI-챗봇-완전정복/index.md) : (education정리) Gen AI RAG 실전 가이드, Langchain을 활용한 AI 챗봇 완전정복 : 실습을 통한 설명과 zip파일로 소스 pdf등 제공
+- [education/Qlik-Sense_Data-Science_and_BI/index.md](./education/Qlik-Sense_Data-Science_and_BI/index.md) : (education정리) Data Science 와 BI 를 위한 Qlik Sense 클릭센스 : 차원이 존재하는 엑셀
 - [education/convert_csv_to_md-for-education.py](./education/convert_csv_to_md-for-education.py) : education 관련 csv내용을 markdown으로 변환하는 프로그램
 - [education/index.md](./education/index.md) : education review : 교육 받은 내용 정리
 - [education/react-완벽-가이드-2025-with-react-router--redux/index.md](./education/react-완벽-가이드-2025-with-react-router--redux/index.md) : (education정리) React 완벽 가이드 2025 with React Router & Redux
@@ -122,7 +124,6 @@
 - [education/손에-잡히는-소프트웨어-아키텍처-설계_Python/index.md](./education/손에-잡히는-소프트웨어-아키텍처-설계_Python/index.md) : (education정리) 손에-잡히는-소프트웨어-아키텍처-설계_Python
 - [education/업무-효율을-확-끌어올리는-GitHub-Copilot활용-프로그래밍/index.md](./education/업무-효율을-확-끌어올리는-GitHub-Copilot활용-프로그래밍/index.md) : (education정리) AI 업무-효율을-확-끌어올리는-GitHub-Copilot활용-프로그래밍
 - [education/업무-효율을-확-끌어올리는-LangChain과-함께하는-LLM-기반-애플리케이션-개발/index.md](./education/업무-효율을-확-끌어올리는-LangChain과-함께하는-LLM-기반-애플리케이션-개발/index.md) : (education정리) AI 업무-효율을-확-끌어올리는-LangChain과-함께하는-LLM-기반-애플리케이션-개발
-- [education/업무-효율을-확-끌어올리는-MS365-Copilot-프롬프트-마스터-클래스/index.md](./education/업무-효율을-확-끌어올리는-MS365-Copilot-프롬프트-마스터-클래스/index.md) : (education정리) AI 업무-효율을-확-끌어올리는-MS365-Copilot-프롬프트-마스터-클래스
 - [english.md](./english.md) : somedaytalk 영어를 준비하기 위한 페이지로써 영어 공부를 하기 위한 페이지이다. 주로 article을 읽고 나의 summary를 한 후에 이에 대한 수정을 chatGPT에 맡긴 내용을 담고 있다.
 - [get-all-description-and-tag-to-network-graph.py](./get-all-description-and-tag-to-network-graph.py) : memo subdirectories가 다루는 내용들을 network graph map 으로 보여준다.
 - [get-all-description-and-tag.py](./get-all-description-and-tag.py) : get all description and tag from memo sub-directories (output:get-all-description-and-tag.json)

@@ -9,12 +9,12 @@ all:
 	echo "==> make network-graph map from get-all-description-and-tag.json"
 	python3 get-all-description-and-tag-to-network-graph.py
 	echo "! $(CURDIR) : make p"
-	if [ ! -d  ../processMap ]; then cd ..; git clone https://github.com/cheoljoo/processMap.git ; else cd ../processMap; git pull ; fi
+	if [ ! -d  ../processMap ]; then cd ..; git clone --depth 1 https://github.com/cheoljoo/processMap.git ; else cd ../processMap; git pull ; fi
 	python3 ../processMap/draw_pm.py --authname cheoljoo.lee --authpasswd your_host_passwd --input processmap.csv
 	markdown-pp TOC.mdpp -o README.md
 	rm -rf processMap-memo.md ./__debug data.py ./lib ./server-data
-	if [ ! -d  ../mod_publish ]; then cd ..; git clone http://mod.lge.com/hub/cheoljoo.lee/publish.git mod_publish ; else cd ../mod_publish ; git pull ; fi
-	if [ ! -d  ../github_publish ]; then cd ..; git clone https://github.com/cheoljoo/publish.git github_publish ; else cd ../github_publish ; git pull ; fi
+	if [ ! -d  ../mod_publish ]; then cd ..; git clone --depth 1 http://mod.lge.com/hub/cheoljoo.lee/publish.git mod_publish ; else cd ../mod_publish ; git pull ; fi
+	if [ ! -d  ../github_publish ]; then cd ..; git clone --depth 1 https://github.com/cheoljoo/publish.git github_publish ; else cd ../github_publish ; git pull ; fi
 	cp -r ../memo ../github_publish
 	cp -r ../memo ../mod_publish
 	python3 remove_files.py --dir=../github_publish/memo --remove_tags=private,lge
