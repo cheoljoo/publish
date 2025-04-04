@@ -1,0 +1,37 @@
+- description : 가지각색
+- tag : misc , study
+- date : [today]
+
+
+<H1>MISC Lists</H1>
+
+- [index.csv](./index.csv)
+
+# study
+## HTMX 가 무엇인가? (2025-04-03)
+- Date: 2025-04-03
+- CreateDate: 2025-04-03
+- Title: [HTMX 가 무엇인가?](https://velog.io/@betalabs/%EB%82%98-%ED%98%BC%EC%9E%90-%EB%8B%A4%ED%95%B4%EB%A8%B9%EC%9D%84-htmx)
+- Categories: study
+- Tags: htmx
+- Description: SPA를 쉽게 구현할수 있게 하는 framework으로 frontend와 backend간의 communication(AJAX)을 자동으로 해주게 만든 간략한 framework이다.
+  - [링크2](https://velog.io/@eunbinn/htmx-the-newest-old-way-to-make-web-apps)
+
+
+# news
+## 프로그램? AI 시킬께. 미국 일자리 27% 감소 (2025-04-03)
+- Date: 2025-04-03
+- CreateDate: 2025-04-03
+- Title: [프로그램? AI 시킬께. 미국 일자리 27% 감소](https://mail2.scrapmaster.co.kr/mail/include/iitp_display.php?news_id=69599&scrapBookNo=2176&scrapinfo=202504030&article_serial=20250403ja00b03001&q=aWl0cHwyMDI1MDQwMzB8MjAyNbPiIDA0v%2FkgMDPAzyAgKNnKKSDBtrCj)
+- Categories: news
+- Tags: ai
+
+
+# education
+## Khan 무료 교육 사이트 (빌게이트 donation) (2025-04-03)
+- Date: 2025-04-03
+- CreateDate: 2025-04-03
+- Title: [Khan 무료 교육 사이트 (빌게이트 donation)](https://www.khanacademy.org/)
+- Categories: education
+- Tags: khan,education,url
+

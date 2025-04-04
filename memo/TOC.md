@@ -55,6 +55,7 @@
 - [log.md](./log.md) : log을 어ㄸ허게 잘 작성할수 있을까? 및 log framework 조사
 - [memo-2025-misc.md](./memo-2025-misc.md) : 2025 year 메모 모음 - 관심되는 것들을 모아두는 곳 입니다. 어디선가 이런 것을 모아서 발표해도 될
 - [memory-release-RAII.md](./memory-release-RAII.md) : C++ automatic memory management (protect memroy leak) - made by chatgpt
+- [misc/index.md](./misc/index.md) : 가지각색
 - [mouse.md](./mouse.md) : JIRA / CodeBeamer / Gerrit등의 개발 시스템을 사용하는 사용자들의 performance가 어떻게 되는지를 check하기 위한 project (MOUSE)
 - [openai_chatgpt.md](./openai_chatgpt.md) : openai chatGPT에 대한 글 (out-of-date)
 - [pilates-2025.md](./pilates-2025.md) : 2025 year 필라테스 내용들을 적어두는 것이다. 가능하면 집에서 할 수 있는 것 위주로.
@@ -75,6 +76,37 @@
 - [youtube/youtube-creating.md](./youtube/youtube-creating.md) : Youtube Contents를 어떻게 만드는가?
 - [youtube/챗GPT로-미국-주식-포트폴리오-자동으로-관리하는-방법-feat-구글-스프레드-시트-Apps-Script-코드-작성/readme.md](./youtube/챗GPT로-미국-주식-포트폴리오-자동으로-관리하는-방법-feat-구글-스프레드-시트-Apps-Script-코드-작성/readme.md) : (youtube정리) 챗GPT로 미국 주식 포트폴리오 자동으로 관리하는 방법 feat 구글 스프레드 시트, Apps Script 코드 작성
 - [쿠버네티스_입문(책_요약).md](./쿠버네티스_입문(책_요약).md) : 쿠버네티스 () 정리 : 미진 (보다가 중단함)
+
+# [./misc](./misc/index.md)
+
+## category : study
+### What is htmx? (2025-04-03)
+- Date: 2025-04-03
+- CreateDate: 2025-04-03
+- Title: [HTMX 가 무엇인가?](https://velog.io/@betalabs/%EB%82%98-%ED%98%BC%EC%9E%90-%EB%8B%A4%ED%95%B4%EB%A8%B9%EC%9D%84-htmx)
+- Categories: study
+- Tags: htmx
+- Description: SPA를 쉽게 구현할수 있게 하는 framework으로 frontend와 backend간의 communication(AJAX)을 자동으로 해주게 만든 간략한 framework이다.
+  - [링크2](https://velog.io/@eunbinn/htmx-the-newest-old-way-to-make-web-apps)
+
+
+## category : news
+### program?I'll AI.27% decrease in US jobs (2025-04-03)
+- Date: 2025-04-03
+- CreateDate: 2025-04-03
+- Title: [프로그램? AI 시킬께. 미국 일자리 27% 감소](https://mail2.scrapmaster.co.kr/mail/include/iitp_display.php?news_id=69599&scrapBookNo=2176&scrapinfo=202504030&article_serial=20250403ja00b03001&q=aWl0cHwyMDI1MDQwMzB8MjAyNbPiIDA0v%2FkgMDPAzyAgKNnKKSDBtrCj)
+- Categories: news
+- Tags: ai
+
+
+## category : education
+### Khan Free Training Site (Billgate Donation) (2025-04-03)
+- Date: 2025-04-03
+- CreateDate: 2025-04-03
+- Title: [Khan 무료 교육 사이트 (빌게이트 donation)](https://www.khanacademy.org/)
+- Categories: education
+- Tags: khan,education,url
+
 
 # [./ai](./ai/index.md)
 
@@ -657,6 +689,24 @@
   - 일론 머스크가 1000억이 넘는 호화주택을 팔았다고 한다.
   - 새로운 주택의 기준?  재생 에너지 / AI등 모든 기술을 넣은 집 (스마트함 / 세련됨)
   - premium minimalism
+
+### The 23 -year -old representative who earns 30 million won a month and earns 30 million won a month (2025-04-02)
+- Date: 2025-04-02
+- CreateDate: 2025-04-02
+- Title: [노트북이 자동으로 달러 채굴해주고 한달에 3000만원 버는 23살 대표님](https://www.youtube.com/watch?v=Ql7LcqatDzc&list=WL&index=4&t=615s)
+- Categories: life
+- Tags: money,earn
+- Description: 쇼피파이 매장 - 찐 인듯!  뭔가 분석 또는 프로그래밍하여 전문가된다면 살아남을 수 있다. 로봇과의 경쟁은 힘들지만 , 사람들이 고객이면 뭔가 niche market이 있을 것으로 보인다.
+
+
+## category : tool
+### Youtube to MP3 downloader (2025-04-02)
+- Date: 2025-04-02
+- CreateDate: 2025-04-02
+- Title: [Youtube to MP3 downloader](https://github.com/fajicbenjamin/youtube-to-mp3-downloader/releases/tag/v0.4.9)
+- Categories: tool
+- Tags: youtube,download,tool
+- Description: Youtube-to-MP3-Downloader-Setup-0.4.9.exe  설치 : parameter는 watch까지만 넣으면 잘 download됨
 
 
 # [./agile-dev-unit](./agile-dev-unit/index.md)

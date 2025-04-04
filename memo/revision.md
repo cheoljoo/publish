@@ -2,6 +2,10 @@
 - tag : revision , changes
 - date : [today]
 
+# 2025-04-05 08:51:19.907091
+- new file: [misc/index.md](misc/index.md) : desc - 가지각색
+- modified: [youtube/index.md](youtube/index.md) : desc - youtube review : Youtube 동영상 시청한 내용 정리
+
 # 2025-04-02 10:27:29.265591
 - new file: [education/Gen-AI-RAG-실전-가이드_Langchain을-활용한-AI-챗봇-완전정복/index.md](education/Gen-AI-RAG-실전-가이드_Langchain을-활용한-AI-챗봇-완전정복/index.md) : desc - (education정리) Gen AI RAG 실전 가이드, Langchain을 활용한 AI 챗봇 완전정복 : 실습을 통한 설명과 zip파일로 소스 pdf등 제공
 - new file: [education/Qlik-Sense_Data-Science_and_BI/index.md](education/Qlik-Sense_Data-Science_and_BI/index.md) : desc - (education정리) Data Science 와 BI 를 위한 Qlik Sense 클릭센스 : 차원이 존재하는 엑셀

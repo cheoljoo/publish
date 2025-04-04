@@ -5,82 +5,92 @@
 
 
 1\.  [memo TOC](#memotoc)  
-2\.  [./ai](#./ai)  
-2.1\.  [category : ai](#category:ai)  
-2.1.1\.  [fliki (2025-01-23)](#fliki2025-01-23)  
-2.1.2\.  [Browser Use (2025-01-26)](#browseruse2025-01-26)  
-2.1.3\.  [All basic descriptions of DeepSeek-R1 (2025-02-03)](#allbasicdescriptionsofdeepseek-r12025-02-03)  
-2.1.4\.  [Creating a news stock analysis GPTS (2025-02-03)](#creatinganewsstockanalysisgpts2025-02-03)  
-2.2\.  [category : url](#category:url)  
-2.2.1\.  [NGROK -Features and Usage (Local server as a public server) (2025-01-29)](#ngrok-featuresandusagelocalserverasapublicserver2025-01-29)  
-3\.  [./book](#./book)  
-3.1\.  [category : data-science](#category:data-science)  
-3.1.1\.  [Fundamentals of data engineering (2025-03-30)](#fundamentalsofdataengineering2025-03-30)  
-3.1.2\.  [Designing Data-Intensive Applications The Big Ideas Behind Reliable, Scalable, and Maintainable Systems ( PDFDrive ) (2025-04-30)](#designingdata-intensiveapplicationsthebigideasbehindreliablescalableandmaintainablesystemspdfdrive2025-04-30)  
-3.1.3\.  [Designing Machine Learning Systems with Python (2025-06-30)](#designingmachinelearningsystemswithpython2025-06-30)  
-3.2\.  [category : coding](#category:coding)  
-3.2.1\.  [Python Pandas for financial data analysis (2025-01-22)](#pythonpandasforfinancialdataanalysis2025-01-22)  
-3.2.2\.  [Algorithm-Problem solving strategy (2025-06-30)](#algorithm-problemsolvingstrategy2025-06-30)  
-3.3\.  [category : data](#category:data)  
-3.3.1\.  [Large-Data! -Set-Algorithm and-Data-Structure (2025-01-21)](#large-data!-set-algorithmand-data-structure2025-01-21)  
-3.4\.  [category :](#category:)  
-3.4.1\.  [Illon Musk Plan 3 (2025-04-15)](#illonmuskplan32025-04-15)  
-4\.  [./education](#./education)  
-4.1\.  [category : ai](#category:ai-1)  
-4.1.1\.  [In the hand -Software-Architecture-Design_python (2025-02-13)](#inthehand-software-architecture-design_python2025-02-13)  
-4.1.2\.  [Business-Efficiency-Use-GitHub-Copilot Use-Programming (2025-02-13)](#business-efficiency-use-github-copilotuse-programming2025-02-13)  
-4.1.3\.  [Work-Efficiency-Longchain-llm-based-application-development (2025-02-13)](#work-efficiency-longchain-llm-based-application-development2025-02-13)  
-4.1.4\.  [Work-MS365-Copilot-Prompilot-Master-Class (2025-02-13)](#work-ms365-copilot-prompilot-master-class2025-02-13)  
-5\.  [./youtube](#./youtube)  
-5.1\.  [category : ai](#category:ai-2)  
-5.1.1\.  [How to automatically manage US stock portfolio with a chat GPT Feat Google Seat Sheet, Apps Script Code (2025-01-14)](#howtoautomaticallymanageusstockportfoliowithachatgptfeatgoogleseatsheetappsscriptcode2025-01-14)  
-5.1.2\.  [Double the efficiency of study and work!Notebooklm (2025-01-19)](#doubletheefficiencyofstudyandwork!notebooklm2025-01-19)  
-5.1.3\.  [Free Google AI Studio, offering functions that are not even in paid chat GPT!What is the quality of the answer? (2025-01-19)](#freegoogleaistudioofferingfunctionsthatarenoteveninpaidchatgpt!whatisthequalityoftheanswer?2025-01-19)  
-5.1.4\.  [Google AI Gemini 2.0 How to use it (real -time screen sharing, voice conversation, search function, etc.) (2025-01-19)](#googleaigemini2.0howtouseitreal-timescreensharingvoiceconversationsearchfunctionetc.2025-01-19)  
-5.1.5\.  [Bitcoin Investment Automation with AI with Bithumb, GPT, Gemini (2025-01-20)](#bitcoininvestmentautomationwithaiwithbithumbgptgemini2025-01-20)  
-5.1.6\.  [There was a lot more visualized than CHATGPT, Perplexity, and Claude!Now the age of Felo!Wings on I AI |Nogada Hunter |Jeong Jin -il (2025-01-20)](#therewasalotmorevisualizedthanchatgptperplexityandclaude!nowtheageoffelo!wingsoniai|nogadahunter|jeongjin-il2025-01-20)  
-5.1.7\.  [All basic descriptions of agents (2025-01-20)](#allbasicdescriptionsofagents2025-01-20)  
-5.1.8\.  [Github Copilot vs Cursor, Windsurf |I compared it instead (2025-01-26)](#githubcopilotvscursorwindsurf|icompareditinstead2025-01-26)  
-5.1.9\.  [NO code #rag #agent #workflow build! (2025-01-26)](#nocode#rag#agent#workflowbuild!2025-01-26)  
-5.1.10\.  [[Paper Review] Can AI Agent do research?: The AI Scientist (2025-01-27)](#[paperreview]canaiagentdoresearch?:theaiscientist2025-01-27)  
-5.1.11\.  [[Hongjangwon's Bull & Bear] NVIDIA chip is still selling well.Wall Street initiative change scenari can be oil.Reason for decline in long -term interest rates due to Trump tariff threat (DeepSeek, Kimi) (2025-01-28)](#[hongjangwon'sbull&bear]nvidiachipisstillsellingwell.wallstreetinitiativechangescenaricanbeoil.reasonfordeclineinlong-terminterestratesduetotrumptariffthreatdeepseekkimi2025-01-28)  
-5.1.12\.  [China's Deepseek-R1, Openai O1 Design will be released :) (2025-01-28)](#china'sdeepseek-r1openaio1designwillbereleased:2025-01-28)  
-5.1.13\.  [You know it wrong ... AI big tech collapsed?China AI Deep Sik Controversy |Thesis Analysis |NVIDIA, OpenAi is over? (2025-01-29)](#youknowitwrong...aibigtechcollapsed?chinaaideepsikcontroversy|thesisanalysis|nvidiaopenaiisover?2025-01-29)  
-5.1.14\.  [Understanding How Vector Databases Work! (2025-01-29)](#understandinghowvectordatabaseswork!2025-01-29)  
-5.1.15\.  [A Beginner's Guide to Vector Embeddings (2025-01-29)](#abeginner'sguidetovectorembeddings2025-01-29)  
-5.2\.  [category : automation](#category:automation)  
-5.2.1\.  [CC) Automate stock investment easily - Complete automatic trading system in 20 minutes (2025-01-20)](#ccautomatestockinvestmenteasily-completeautomatictradingsystemin20minutes2025-01-20)  
-5.2.2\.  ["AI is in charge of the management of business progress, the creation of data to be sent to the customer, and the performance measurement" (2025-01-28)](#"aiisinchargeofthemanagementofbusinessprogressthecreationofdatatobesenttothecustomerandtheperformancemeasurement"2025-01-28)  
-5.2.3\.  [Registration of N8N Meeting (2025-01-29)](#registrationofn8nmeeting2025-01-29)  
-5.2.4\.  [Meeting summary automation from the beginning (2025-01-29)](#meetingsummaryautomationfromthebeginning2025-01-29)  
-5.3\.  [category : IT](#category:it)  
-5.3.1\.  [[Breaking News] Tesla FSD13 (Scam !!) (2025-01-24)](#[breakingnews]teslafsd13scam!!2025-01-24)  
-5.4\.  [category : economy](#category:economy)  
-5.4.1\.  [River dollar end?Wonhwa quickly rebounds |Deep Coomy with Park So -yeon Shin Young Securities Researcher (2025-01-26)](#riverdollarend?wonhwaquicklyrebounds|deepcoomywithparkso-yeonshinyoungsecuritiesresearcher2025-01-26)  
-5.5\.  [category : stock](#category:stock)  
-5.5.1\.  [100 million is ISA (2025-01-28)](#100millionisisa2025-01-28)  
-5.6\.  [category : tax](#category:tax)  
-5.6.1\.  [2025 Tax Law Amendment-IRP, ISA, Pension Savings, US Stocks, Gold Tax, Bitcoin, Health Insurance Premium (2025-01-28)](#2025taxlawamendment-irpisapensionsavingsusstocksgoldtaxbitcoinhealthinsurancepremium2025-01-28)  
-5.6.2\.  ["If you use the money like this, you will be rich in the whole family. (2025-01-30)](#"ifyouusethemoneylikethisyouwillberichinthewholefamily.2025-01-30)  
-5.7\.  [category : crawling](#category:crawling)  
-5.7.1\.  [Crawle all website without coding with make and chat GPT! (2025-01-28)](#crawleallwebsitewithoutcodingwithmakeandchatgpt!2025-01-28)  
-5.8\.  [category : education](#category:education)  
-5.8.1\.  [Regression Analysis | Full Course 2025 (2025-01-29)](#regressionanalysis|fullcourse20252025-01-29)  
-5.8.2\.  [Harvard CS50 s Artificial Intelligence with Python - Full University Course (2025-01-29)](#harvardcs50sartificialintelligencewithpython-fulluniversitycourse2025-01-29)  
-5.8.3\.  [Python for Data Science - Course for Beginners (Learn Python, Pandas, NumPy, Matplotlib) (2025-01-29)](#pythonfordatascience-courseforbeginnerslearnpythonpandasnumpymatplotlib2025-01-29)  
-5.8.4\.  [Data Analyst Bootcamp for Beginners (SQL, Tableau, Power BI, Python, Excel, Pandas, Projects, more) (2025-01-29)](#dataanalystbootcampforbeginnerssqltableaupowerbipythonexcelpandasprojectsmore2025-01-29)  
-5.8.5\.  [Statistics - A Full Lecture to learn Data Science (2025 Version) (2025-01-29)](#statistics-afulllecturetolearndatascience2025version2025-01-29)  
-5.8.6\.  [Pandas Full Python Course - Data Science Fundamentals (2025-01-29)](#pandasfullpythoncourse-datasciencefundamentals2025-01-29)  
-5.9\.  [category : life](#category:life)  
-5.9.1\.  [The Complete Data Science Roadmap (2025-01-29)](#thecompletedatascienceroadmap2025-01-29)  
-5.9.2\.  [Nuclear individuals alone call each other's names |Song Gil -young Mind Minor, Writer, 'Era Forecast: Homyeong Society' Author |Future Motivation Self -Development Employees |Sebashi Episode 1908 (2025-01-30)](#nuclearindividualsalonecalleachother'snames|songgil-youngmindminorwriter'eraforecast:homyeongsociety'author|futuremotivationself-developmentemployees|sebashiepisode19082025-01-30)  
-5.9.3\.  [Illon Musk's 13.5 million won House Tech Innovation: Find the answer to the residential crisis |Upper class (2025-01-30)](#illonmusk's13.5millionwonhousetechinnovation:findtheanswertotheresidentialcrisis|upperclass2025-01-30)  
-6\.  [./agile-dev-unit](#./agile-dev-unit)  
-6.1\.  [category : devop](#category:devop)  
-6.1.1\.  [Agile-dev-unit development environment Setup (2025-02-14)](#agile-dev-unitdevelopmentenvironmentsetup2025-02-14)  
-7\.  [process Map](#processmap)  
-7.1\.  [plantuml server install](#plantumlserverinstall)  
-8\.  [REVISION](#revision)  
+2\.  [./misc](#./misc)  
+2.1\.  [category : study](#category:study)  
+2.1.1\.  [What is htmx? (2025-04-03)](#whatishtmx?2025-04-03)  
+2.2\.  [category : news](#category:news)  
+2.2.1\.  [program?I'll AI.27% decrease in US jobs (2025-04-03)](#program?i'llai.27%decreaseinusjobs2025-04-03)  
+2.3\.  [category : education](#category:education)  
+2.3.1\.  [Khan Free Training Site (Billgate Donation) (2025-04-03)](#khanfreetrainingsitebillgatedonation2025-04-03)  
+3\.  [./ai](#./ai)  
+3.1\.  [category : ai](#category:ai)  
+3.1.1\.  [fliki (2025-01-23)](#fliki2025-01-23)  
+3.1.2\.  [Browser Use (2025-01-26)](#browseruse2025-01-26)  
+3.1.3\.  [All basic descriptions of DeepSeek-R1 (2025-02-03)](#allbasicdescriptionsofdeepseek-r12025-02-03)  
+3.1.4\.  [Creating a news stock analysis GPTS (2025-02-03)](#creatinganewsstockanalysisgpts2025-02-03)  
+3.2\.  [category : url](#category:url)  
+3.2.1\.  [NGROK -Features and Usage (Local server as a public server) (2025-01-29)](#ngrok-featuresandusagelocalserverasapublicserver2025-01-29)  
+4\.  [./book](#./book)  
+4.1\.  [category : data-science](#category:data-science)  
+4.1.1\.  [Fundamentals of data engineering (2025-03-30)](#fundamentalsofdataengineering2025-03-30)  
+4.1.2\.  [Designing Data-Intensive Applications The Big Ideas Behind Reliable, Scalable, and Maintainable Systems ( PDFDrive ) (2025-04-30)](#designingdata-intensiveapplicationsthebigideasbehindreliablescalableandmaintainablesystemspdfdrive2025-04-30)  
+4.1.3\.  [Designing Machine Learning Systems with Python (2025-06-30)](#designingmachinelearningsystemswithpython2025-06-30)  
+4.2\.  [category : coding](#category:coding)  
+4.2.1\.  [Python Pandas for financial data analysis (2025-01-22)](#pythonpandasforfinancialdataanalysis2025-01-22)  
+4.2.2\.  [Algorithm-Problem solving strategy (2025-06-30)](#algorithm-problemsolvingstrategy2025-06-30)  
+4.3\.  [category : data](#category:data)  
+4.3.1\.  [Large-Data! -Set-Algorithm and-Data-Structure (2025-01-21)](#large-data!-set-algorithmand-data-structure2025-01-21)  
+4.4\.  [category :](#category:)  
+4.4.1\.  [Illon Musk Plan 3 (2025-04-15)](#illonmuskplan32025-04-15)  
+5\.  [./education](#./education)  
+5.1\.  [category : ai](#category:ai-1)  
+5.1.1\.  [In the hand -Software-Architecture-Design_python (2025-02-13)](#inthehand-software-architecture-design_python2025-02-13)  
+5.1.2\.  [Business-Efficiency-Use-GitHub-Copilot Use-Programming (2025-02-13)](#business-efficiency-use-github-copilotuse-programming2025-02-13)  
+5.1.3\.  [Work-Efficiency-Longchain-llm-based-application-development (2025-02-13)](#work-efficiency-longchain-llm-based-application-development2025-02-13)  
+5.1.4\.  [Work-MS365-Copilot-Prompilot-Master-Class (2025-02-13)](#work-ms365-copilot-prompilot-master-class2025-02-13)  
+6\.  [./youtube](#./youtube)  
+6.1\.  [category : ai](#category:ai-2)  
+6.1.1\.  [How to automatically manage US stock portfolio with a chat GPT Feat Google Seat Sheet, Apps Script Code (2025-01-14)](#howtoautomaticallymanageusstockportfoliowithachatgptfeatgoogleseatsheetappsscriptcode2025-01-14)  
+6.1.2\.  [Double the efficiency of study and work!Notebooklm (2025-01-19)](#doubletheefficiencyofstudyandwork!notebooklm2025-01-19)  
+6.1.3\.  [Free Google AI Studio, offering functions that are not even in paid chat GPT!What is the quality of the answer? (2025-01-19)](#freegoogleaistudioofferingfunctionsthatarenoteveninpaidchatgpt!whatisthequalityoftheanswer?2025-01-19)  
+6.1.4\.  [Google AI Gemini 2.0 How to use it (real -time screen sharing, voice conversation, search function, etc.) (2025-01-19)](#googleaigemini2.0howtouseitreal-timescreensharingvoiceconversationsearchfunctionetc.2025-01-19)  
+6.1.5\.  [Bitcoin Investment Automation with AI with Bithumb, GPT, Gemini (2025-01-20)](#bitcoininvestmentautomationwithaiwithbithumbgptgemini2025-01-20)  
+6.1.6\.  [There was a lot more visualized than CHATGPT, Perplexity, and Claude!Now the age of Felo!Wings on I AI |Nogada Hunter |Jeong Jin -il (2025-01-20)](#therewasalotmorevisualizedthanchatgptperplexityandclaude!nowtheageoffelo!wingsoniai|nogadahunter|jeongjin-il2025-01-20)  
+6.1.7\.  [All basic descriptions of agents (2025-01-20)](#allbasicdescriptionsofagents2025-01-20)  
+6.1.8\.  [Github Copilot vs Cursor, Windsurf |I compared it instead (2025-01-26)](#githubcopilotvscursorwindsurf|icompareditinstead2025-01-26)  
+6.1.9\.  [NO code #rag #agent #workflow build! (2025-01-26)](#nocode#rag#agent#workflowbuild!2025-01-26)  
+6.1.10\.  [[Paper Review] Can AI Agent do research?: The AI Scientist (2025-01-27)](#[paperreview]canaiagentdoresearch?:theaiscientist2025-01-27)  
+6.1.11\.  [[Hongjangwon's Bull & Bear] NVIDIA chip is still selling well.Wall Street initiative change scenari can be oil.Reason for decline in long -term interest rates due to Trump tariff threat (DeepSeek, Kimi) (2025-01-28)](#[hongjangwon'sbull&bear]nvidiachipisstillsellingwell.wallstreetinitiativechangescenaricanbeoil.reasonfordeclineinlong-terminterestratesduetotrumptariffthreatdeepseekkimi2025-01-28)  
+6.1.12\.  [China's Deepseek-R1, Openai O1 Design will be released :) (2025-01-28)](#china'sdeepseek-r1openaio1designwillbereleased:2025-01-28)  
+6.1.13\.  [You know it wrong ... AI big tech collapsed?China AI Deep Sik Controversy |Thesis Analysis |NVIDIA, OpenAi is over? (2025-01-29)](#youknowitwrong...aibigtechcollapsed?chinaaideepsikcontroversy|thesisanalysis|nvidiaopenaiisover?2025-01-29)  
+6.1.14\.  [Understanding How Vector Databases Work! (2025-01-29)](#understandinghowvectordatabaseswork!2025-01-29)  
+6.1.15\.  [A Beginner's Guide to Vector Embeddings (2025-01-29)](#abeginner'sguidetovectorembeddings2025-01-29)  
+6.2\.  [category : automation](#category:automation)  
+6.2.1\.  [CC) Automate stock investment easily - Complete automatic trading system in 20 minutes (2025-01-20)](#ccautomatestockinvestmenteasily-completeautomatictradingsystemin20minutes2025-01-20)  
+6.2.2\.  ["AI is in charge of the management of business progress, the creation of data to be sent to the customer, and the performance measurement" (2025-01-28)](#"aiisinchargeofthemanagementofbusinessprogressthecreationofdatatobesenttothecustomerandtheperformancemeasurement"2025-01-28)  
+6.2.3\.  [Registration of N8N Meeting (2025-01-29)](#registrationofn8nmeeting2025-01-29)  
+6.2.4\.  [Meeting summary automation from the beginning (2025-01-29)](#meetingsummaryautomationfromthebeginning2025-01-29)  
+6.3\.  [category : IT](#category:it)  
+6.3.1\.  [[Breaking News] Tesla FSD13 (Scam !!) (2025-01-24)](#[breakingnews]teslafsd13scam!!2025-01-24)  
+6.4\.  [category : economy](#category:economy)  
+6.4.1\.  [River dollar end?Wonhwa quickly rebounds |Deep Coomy with Park So -yeon Shin Young Securities Researcher (2025-01-26)](#riverdollarend?wonhwaquicklyrebounds|deepcoomywithparkso-yeonshinyoungsecuritiesresearcher2025-01-26)  
+6.5\.  [category : stock](#category:stock)  
+6.5.1\.  [100 million is ISA (2025-01-28)](#100millionisisa2025-01-28)  
+6.6\.  [category : tax](#category:tax)  
+6.6.1\.  [2025 Tax Law Amendment-IRP, ISA, Pension Savings, US Stocks, Gold Tax, Bitcoin, Health Insurance Premium (2025-01-28)](#2025taxlawamendment-irpisapensionsavingsusstocksgoldtaxbitcoinhealthinsurancepremium2025-01-28)  
+6.6.2\.  ["If you use the money like this, you will be rich in the whole family. (2025-01-30)](#"ifyouusethemoneylikethisyouwillberichinthewholefamily.2025-01-30)  
+6.7\.  [category : crawling](#category:crawling)  
+6.7.1\.  [Crawle all website without coding with make and chat GPT! (2025-01-28)](#crawleallwebsitewithoutcodingwithmakeandchatgpt!2025-01-28)  
+6.8\.  [category : education](#category:education-1)  
+6.8.1\.  [Regression Analysis | Full Course 2025 (2025-01-29)](#regressionanalysis|fullcourse20252025-01-29)  
+6.8.2\.  [Harvard CS50 s Artificial Intelligence with Python - Full University Course (2025-01-29)](#harvardcs50sartificialintelligencewithpython-fulluniversitycourse2025-01-29)  
+6.8.3\.  [Python for Data Science - Course for Beginners (Learn Python, Pandas, NumPy, Matplotlib) (2025-01-29)](#pythonfordatascience-courseforbeginnerslearnpythonpandasnumpymatplotlib2025-01-29)  
+6.8.4\.  [Data Analyst Bootcamp for Beginners (SQL, Tableau, Power BI, Python, Excel, Pandas, Projects, more) (2025-01-29)](#dataanalystbootcampforbeginnerssqltableaupowerbipythonexcelpandasprojectsmore2025-01-29)  
+6.8.5\.  [Statistics - A Full Lecture to learn Data Science (2025 Version) (2025-01-29)](#statistics-afulllecturetolearndatascience2025version2025-01-29)  
+6.8.6\.  [Pandas Full Python Course - Data Science Fundamentals (2025-01-29)](#pandasfullpythoncourse-datasciencefundamentals2025-01-29)  
+6.9\.  [category : life](#category:life)  
+6.9.1\.  [The Complete Data Science Roadmap (2025-01-29)](#thecompletedatascienceroadmap2025-01-29)  
+6.9.2\.  [Nuclear individuals alone call each other's names |Song Gil -young Mind Minor, Writer, 'Era Forecast: Homyeong Society' Author |Future Motivation Self -Development Employees |Sebashi Episode 1908 (2025-01-30)](#nuclearindividualsalonecalleachother'snames|songgil-youngmindminorwriter'eraforecast:homyeongsociety'author|futuremotivationself-developmentemployees|sebashiepisode19082025-01-30)  
+6.9.3\.  [Illon Musk's 13.5 million won House Tech Innovation: Find the answer to the residential crisis |Upper class (2025-01-30)](#illonmusk's13.5millionwonhousetechinnovation:findtheanswertotheresidentialcrisis|upperclass2025-01-30)  
+6.9.4\.  [The 23 -year -old representative who earns 30 million won a month and earns 30 million won a month (2025-04-02)](#the23-year-oldrepresentativewhoearns30millionwonamonthandearns30millionwonamonth2025-04-02)  
+6.10\.  [category : tool](#category:tool)  
+6.10.1\.  [Youtube to MP3 downloader (2025-04-02)](#youtubetomp3downloader2025-04-02)  
+7\.  [./agile-dev-unit](#./agile-dev-unit)  
+7.1\.  [category : devop](#category:devop)  
+7.1.1\.  [Agile-dev-unit development environment Setup (2025-02-14)](#agile-dev-unitdevelopmentenvironmentsetup2025-02-14)  
+8\.  [process Map](#processmap)  
+8.1\.  [plantuml server install](#plantumlserverinstall)  
+9\.  [REVISION](#revision)  
 
 <a name="memotoc"></a>
 
@@ -141,6 +151,7 @@
 - [log.md](./log.md) : log을 어ㄸ허게 잘 작성할수 있을까? 및 log framework 조사
 - [memo-2025-misc.md](./memo-2025-misc.md) : 2025 year 메모 모음 - 관심되는 것들을 모아두는 곳 입니다. 어디선가 이런 것을 모아서 발표해도 될
 - [memory-release-RAII.md](./memory-release-RAII.md) : C++ automatic memory management (protect memroy leak) - made by chatgpt
+- [misc/index.md](./misc/index.md) : 가지각색
 - [mouse.md](./mouse.md) : JIRA / CodeBeamer / Gerrit등의 개발 시스템을 사용하는 사용자들의 performance가 어떻게 되는지를 check하기 위한 project (MOUSE)
 - [openai_chatgpt.md](./openai_chatgpt.md) : openai chatGPT에 대한 글 (out-of-date)
 - [pilates-2025.md](./pilates-2025.md) : 2025 year 필라테스 내용들을 적어두는 것이다. 가능하면 집에서 할 수 있는 것 위주로.
@@ -162,16 +173,61 @@
 - [youtube/챗GPT로-미국-주식-포트폴리오-자동으로-관리하는-방법-feat-구글-스프레드-시트-Apps-Script-코드-작성/readme.md](./youtube/챗GPT로-미국-주식-포트폴리오-자동으로-관리하는-방법-feat-구글-스프레드-시트-Apps-Script-코드-작성/readme.md) : (youtube정리) 챗GPT로 미국 주식 포트폴리오 자동으로 관리하는 방법 feat 구글 스프레드 시트, Apps Script 코드 작성
 - [쿠버네티스_입문(책_요약).md](./쿠버네티스_입문(책_요약).md) : 쿠버네티스 () 정리 : 미진 (보다가 중단함)
 
+<a name="./misc"></a>
+
+# 2\. [./misc](./misc/index.md)
+
+<a name="category:study"></a>
+
+## 2.1\. category : study
+<a name="whatishtmx?2025-04-03"></a>
+
+### 2.1.1\. What is htmx? (2025-04-03)
+- Date: 2025-04-03
+- CreateDate: 2025-04-03
+- Title: [HTMX 가 무엇인가?](https://velog.io/@betalabs/%EB%82%98-%ED%98%BC%EC%9E%90-%EB%8B%A4%ED%95%B4%EB%A8%B9%EC%9D%84-htmx)
+- Categories: study
+- Tags: htmx
+- Description: SPA를 쉽게 구현할수 있게 하는 framework으로 frontend와 backend간의 communication(AJAX)을 자동으로 해주게 만든 간략한 framework이다.
+  - [링크2](https://velog.io/@eunbinn/htmx-the-newest-old-way-to-make-web-apps)
+
+
+<a name="category:news"></a>
+
+## 2.2\. category : news
+<a name="program?i'llai.27%decreaseinusjobs2025-04-03"></a>
+
+### 2.2.1\. program?I'll AI.27% decrease in US jobs (2025-04-03)
+- Date: 2025-04-03
+- CreateDate: 2025-04-03
+- Title: [프로그램? AI 시킬께. 미국 일자리 27% 감소](https://mail2.scrapmaster.co.kr/mail/include/iitp_display.php?news_id=69599&scrapBookNo=2176&scrapinfo=202504030&article_serial=20250403ja00b03001&q=aWl0cHwyMDI1MDQwMzB8MjAyNbPiIDA0v%2FkgMDPAzyAgKNnKKSDBtrCj)
+- Categories: news
+- Tags: ai
+
+
+<a name="category:education"></a>
+
+## 2.3\. category : education
+<a name="khanfreetrainingsitebillgatedonation2025-04-03"></a>
+
+### 2.3.1\. Khan Free Training Site (Billgate Donation) (2025-04-03)
+- Date: 2025-04-03
+- CreateDate: 2025-04-03
+- Title: [Khan 무료 교육 사이트 (빌게이트 donation)](https://www.khanacademy.org/)
+- Categories: education
+- Tags: khan,education,url
+
+
 <a name="./ai"></a>
 
-# 2\. [./ai](./ai/index.md)
+# 3\. [./ai](./ai/index.md)
 
 <a name="category:ai"></a>
 
-## 2.1\. category : ai
+## 3.1\. category : ai
 <a name="fliki2025-01-23"></a>
 
-### 2.1.1\. fliki (2025-01-23)
+### 3.1.1\. fliki (2025-01-23)
 - Date: 2025-01-23
 - Title: [fliki](https://app.fliki.ai/)
 - Categories: ai
@@ -181,7 +237,7 @@
 
 <a name="browseruse2025-01-26"></a>
 
-### 2.1.2\. Browser Use (2025-01-26)
+### 3.1.2\. Browser Use (2025-01-26)
 - Date: 2025-01-26
 - Title: [Browser Use](https://github.com/browser-use/browser-use)
 - Categories: ai
@@ -191,7 +247,7 @@
 
 <a name="allbasicdescriptionsofdeepseek-r12025-02-03"></a>
 
-### 2.1.3\. All basic descriptions of DeepSeek-R1 (2025-02-03)
+### 3.1.3\. All basic descriptions of DeepSeek-R1 (2025-02-03)
 - Date: 2025-02-03
 - CreateDate: 2025-02-02
 - Title: [DeepSeek-R1에 대한 모든 기초 설명](https://www.youtube.com/watch?v=0WWeq97FD70)
@@ -202,7 +258,7 @@
 
 <a name="creatinganewsstockanalysisgpts2025-02-03"></a>
 
-### 2.1.4\. Creating a news stock analysis GPTS (2025-02-03)
+### 3.1.4\. Creating a news stock analysis GPTS (2025-02-03)
 - Date: 2025-02-03
 - CreateDate: 2024-07-23
 - Title: [뉴스 주식 분석 GPTs 만들기](https://www.youtube.com/watch?v=HD6yhTCWzgQ)
@@ -216,10 +272,10 @@
 
 <a name="category:url"></a>
 
-## 2.2\. category : url
+## 3.2\. category : url
 <a name="ngrok-featuresandusagelocalserverasapublicserver2025-01-29"></a>
 
-### 2.2.1\. NGROK -Features and Usage (Local server as a public server) (2025-01-29)
+### 3.2.1\. NGROK -Features and Usage (Local server as a public server) (2025-01-29)
 - Date: 2025-01-29
 - Title: [Ngrok - 특징 및 사용법 (로컬 서버를 공개 서버로)](https://cordcat.tistory.com/105)
 - Categories: url
@@ -231,14 +287,14 @@
 
 <a name="./book"></a>
 
-# 3\. [./book](./book/index.md)
+# 4\. [./book](./book/index.md)
 
 <a name="category:data-science"></a>
 
-## 3.1\. category : data-science
+## 4.1\. category : data-science
 <a name="fundamentalsofdataengineering2025-03-30"></a>
 
-### 3.1.1\. Fundamentals of data engineering (2025-03-30)
+### 4.1.1\. Fundamentals of data engineering (2025-03-30)
 - Date: 2025-03-30
 - Category: done
 - Title: [Fundamentals of data engineering](https://www.redpanda.com/guides/fundamentals-of-data-engineering)
@@ -248,7 +304,7 @@
 
 <a name="designingdata-intensiveapplicationsthebigideasbehindreliablescalableandmaintainablesystemspdfdrive2025-04-30"></a>
 
-### 3.1.2\. Designing Data-Intensive Applications The Big Ideas Behind Reliable, Scalable, and Maintainable Systems ( PDFDrive ) (2025-04-30)
+### 4.1.2\. Designing Data-Intensive Applications The Big Ideas Behind Reliable, Scalable, and Maintainable Systems ( PDFDrive ) (2025-04-30)
 - Date: 2025-04-30
 - CreateDate: 2025-02-04
 - Category: going
@@ -259,7 +315,7 @@
 
 <a name="designingmachinelearningsystemswithpython2025-06-30"></a>
 
-### 3.1.3\. Designing Machine Learning Systems with Python (2025-06-30)
+### 4.1.3\. Designing Machine Learning Systems with Python (2025-06-30)
 - Date: 2025-06-30
 - Category: going
 - Title: [Designing Machine Learning Systems with Python](https://github.com/shahumar/Free-Machine-Learning-Books.git)
@@ -270,10 +326,10 @@
 
 <a name="category:coding"></a>
 
-## 3.2\. category : coding
+## 4.2\. category : coding
 <a name="pythonpandasforfinancialdataanalysis2025-01-22"></a>
 
-### 3.2.1\. Python Pandas for financial data analysis (2025-01-22)
+### 4.2.1\. Python Pandas for financial data analysis (2025-01-22)
 - Date: 2025-01-22
 - CreateDate: 2022-03-02
 - Category: going
@@ -284,7 +340,7 @@
 
 <a name="algorithm-problemsolvingstrategy2025-06-30"></a>
 
-### 3.2.2\. Algorithm-Problem solving strategy (2025-06-30)
+### 4.2.2\. Algorithm-Problem solving strategy (2025-06-30)
 - Date: 2025-06-30
 - CreateDate: 2025-02-13
 - Category: going
@@ -297,10 +353,10 @@
 
 <a name="category:data"></a>
 
-## 3.3\. category : data
+## 4.3\. category : data
 <a name="large-data!-set-algorithmand-data-structure2025-01-21"></a>
 
-### 3.3.1\. Large-Data! -Set-Algorithm and-Data-Structure (2025-01-21)
+### 4.3.1\. Large-Data! -Set-Algorithm and-Data-Structure (2025-01-21)
 - Date: 2025-01-21
 - CreateDate: 2025-02-13
 - Category: done
@@ -314,10 +370,10 @@
 
 <a name="category:"></a>
 
-## 3.4\. category : 
+## 4.4\. category : 
 <a name="illonmuskplan32025-04-15"></a>
 
-### 3.4.1\. Illon Musk Plan 3 (2025-04-15)
+### 4.4.1\. Illon Musk Plan 3 (2025-04-15)
 - Date: 2025-04-15
 - Category: going
 - Title: [일론머스크 플랜3]()
@@ -325,14 +381,14 @@
 
 <a name="./education"></a>
 
-# 4\. [./education](./education/index.md)
+# 5\. [./education](./education/index.md)
 
 <a name="category:ai-1"></a>
 
-## 4.1\. category : ai
+## 5.1\. category : ai
 <a name="inthehand-software-architecture-design_python2025-02-13"></a>
 
-### 4.1.1\. In the hand -Software-Architecture-Design_python (2025-02-13)
+### 5.1.1\. In the hand -Software-Architecture-Design_python (2025-02-13)
 - Date: 2025-02-13
 - CreateDate: 2025-02-13
 - Title: [손에-잡히는-소프트웨어-아키텍처-설계_Python](https://www.youtube.com/watch?v=NN9pFgIHc50&list=WL&index=3&ab_channel=%EB%A9%94%ED%83%80%EC%BD%94%EB%93%9CM)
@@ -342,7 +398,7 @@
 
 <a name="business-efficiency-use-github-copilotuse-programming2025-02-13"></a>
 
-### 4.1.2\. Business-Efficiency-Use-GitHub-Copilot Use-Programming (2025-02-13)
+### 5.1.2\. Business-Efficiency-Use-GitHub-Copilot Use-Programming (2025-02-13)
 - Date: 2025-02-13
 - CreateDate: 2025-02-13
 - Title: [업무-효율을-확-끌어올리는-GitHub-Copilot활용-프로그래밍](https://www.youtube.com/watch?v=Vse0oFS4BBw&list=PLo6G6c3Za_Rw4HNuVmKNCr9zA2S9D8sDX&index=1&pp=iAQB)
@@ -352,7 +408,7 @@
 
 <a name="work-efficiency-longchain-llm-based-application-development2025-02-13"></a>
 
-### 4.1.3\. Work-Efficiency-Longchain-llm-based-application-development (2025-02-13)
+### 5.1.3\. Work-Efficiency-Longchain-llm-based-application-development (2025-02-13)
 - Date: 2025-02-13
 - CreateDate: 2025-02-13
 - Title: [업무-효율을-확-끌어올리는-LangChain과-함께하는-LLM-기반-애플리케이션-개발](https://www.youtube.com/watch?v=h9l-d61GjI8)
@@ -362,7 +418,7 @@
 
 <a name="work-ms365-copilot-prompilot-master-class2025-02-13"></a>
 
-### 4.1.4\. Work-MS365-Copilot-Prompilot-Master-Class (2025-02-13)
+### 5.1.4\. Work-MS365-Copilot-Prompilot-Master-Class (2025-02-13)
 - Date: 2025-02-13
 - CreateDate: 2025-02-13
 - Title: [업무-효율을-확-끌어올리는-MS365-Copilot-프롬프트-마스터-클래스](https://www.youtube.com/watch?v=sUBU2lH73Rw)
@@ -373,14 +429,14 @@
 
 <a name="./youtube"></a>
 
-# 5\. [./youtube](./youtube/index.md)
+# 6\. [./youtube](./youtube/index.md)
 
 <a name="category:ai-2"></a>
 
-## 5.1\. category : ai
+## 6.1\. category : ai
 <a name="howtoautomaticallymanageusstockportfoliowithachatgptfeatgoogleseatsheetappsscriptcode2025-01-14"></a>
 
-### 5.1.1\. How to automatically manage US stock portfolio with a chat GPT Feat Google Seat Sheet, Apps Script Code (2025-01-14)
+### 6.1.1\. How to automatically manage US stock portfolio with a chat GPT Feat Google Seat Sheet, Apps Script Code (2025-01-14)
 - Date: 2025-01-14
 - CreateDate: 2025-01-11
 - Title: [챗GPT로 미국 주식 포트폴리오 자동으로 관리하는 방법 feat 구글 스프레드 시트, Apps Script 코드 작성](https://www.youtube.com/watch?v=NN9pFgIHc50&list=WL&index=3&ab_channel=%EB%A9%94%ED%83%80%EC%BD%94%EB%93%9CM)
@@ -391,7 +447,7 @@
 
 <a name="doubletheefficiencyofstudyandwork!notebooklm2025-01-19"></a>
 
-### 5.1.2\. Double the efficiency of study and work!Notebooklm (2025-01-19)
+### 6.1.2\. Double the efficiency of study and work!Notebooklm (2025-01-19)
 - Date: 2025-01-19
 - CreateDate: 2025-01-09
 - Title: [공부와 일의 효율을 2배로! NotebookLM](https://www.youtube.com/watch?v=Vse0oFS4BBw&list=PLo6G6c3Za_Rw4HNuVmKNCr9zA2S9D8sDX&index=1&pp=iAQB)
@@ -402,7 +458,7 @@
 
 <a name="freegoogleaistudioofferingfunctionsthatarenoteveninpaidchatgpt!whatisthequalityoftheanswer?2025-01-19"></a>
 
-### 5.1.3\. Free Google AI Studio, offering functions that are not even in paid chat GPT!What is the quality of the answer? (2025-01-19)
+### 6.1.3\. Free Google AI Studio, offering functions that are not even in paid chat GPT!What is the quality of the answer? (2025-01-19)
 - Date: 2025-01-19
 - CreateDate: 2025-01-18
 - Title: [무료 Google AI Studio, 유료 챗GPT에도 없는 기능 제공! 과연 답변 퀄리티는?](https://www.youtube.com/watch?v=h9l-d61GjI8)
@@ -414,7 +470,7 @@
 
 <a name="googleaigemini2.0howtouseitreal-timescreensharingvoiceconversationsearchfunctionetc.2025-01-19"></a>
 
-### 5.1.4\. Google AI Gemini 2.0 How to use it (real -time screen sharing, voice conversation, search function, etc.) (2025-01-19)
+### 6.1.4\. Google AI Gemini 2.0 How to use it (real -time screen sharing, voice conversation, search function, etc.) (2025-01-19)
 - Date: 2025-01-19
 - CreateDate: 2024-12-30
 - Title: [구글 AI 제미나이(gemini) 2.0 사용법 총정리(실시간 화면 공유, 음성 대화, 검색 기능 등)](https://www.youtube.com/watch?v=sUBU2lH73Rw)
@@ -431,7 +487,7 @@
 
 <a name="bitcoininvestmentautomationwithaiwithbithumbgptgemini2025-01-20"></a>
 
-### 5.1.5\. Bitcoin Investment Automation with AI with Bithumb, GPT, Gemini (2025-01-20)
+### 6.1.5\. Bitcoin Investment Automation with AI with Bithumb, GPT, Gemini (2025-01-20)
 - Date: 2025-01-20
 - CreateDate: 2025-01-10
 - Title: [AI에게 맡기는 비트코인 투자 자동화 with 빗썸, GPT, Gemini](https://www.youtube.com/watch?v=g71g8GKlmjE&t=26s)
@@ -444,7 +500,7 @@
 
 <a name="therewasalotmorevisualizedthanchatgptperplexityandclaude!nowtheageoffelo!wingsoniai|nogadahunter|jeongjin-il2025-01-20"></a>
 
-### 5.1.6\. There was a lot more visualized than CHATGPT, Perplexity, and Claude!Now the age of Felo!Wings on I AI |Nogada Hunter |Jeong Jin -il (2025-01-20)
+### 6.1.6\. There was a lot more visualized than CHATGPT, Perplexity, and Claude!Now the age of Felo!Wings on I AI |Nogada Hunter |Jeong Jin -il (2025-01-20)
 - Date: 2025-01-20
 - CreateDate: 2025-01-13
 - Title: [ChatGPT, Perplexity, Claude 보다 시각화에 엄청 더 쎈놈이 나타났다! 이제는 Felo의 시대! I AI에 날개를 달다 | 노가다헌터 | 정진일](https://www.youtube.com/watch?v=_n4nmIwLcJk)
@@ -459,7 +515,7 @@
 
 <a name="allbasicdescriptionsofagents2025-01-20"></a>
 
-### 5.1.7\. All basic descriptions of agents (2025-01-20)
+### 6.1.7\. All basic descriptions of agents (2025-01-20)
 - Date: 2025-01-20
 - CreateDate: 2025-01-11
 - Title: [Agents에 대한 모든 기초 설명](https://www.youtube.com/watch?v=HujQhD8J2LQ)
@@ -472,7 +528,7 @@
 
 <a name="githubcopilotvscursorwindsurf|icompareditinstead2025-01-26"></a>
 
-### 5.1.8\. Github Copilot vs Cursor, Windsurf |I compared it instead (2025-01-26)
+### 6.1.8\. Github Copilot vs Cursor, Windsurf |I compared it instead (2025-01-26)
 - Date: 2025-01-26
 - CreateDate: 2024-12-29
 - Title: [Github Copilot vs Cursor, Windsurf | 제가 대신 비교 해봤습니다](https://www.youtube.com/watch?v=82UUYNEu2iM&list=WL&index=33&pp=gAQBiAQB)
@@ -485,7 +541,7 @@
 
 <a name="nocode#rag#agent#workflowbuild!2025-01-26"></a>
 
-### 5.1.9\. NO code #rag #agent #workflow build! (2025-01-26)
+### 6.1.9\. NO code #rag #agent #workflow build! (2025-01-26)
 - Date: 2025-01-26
 - CreateDate: 2025-01-11
 - Title: [NO코드 #RAG #Agent #Workflow 구축해보기!](https://www.youtube.com/watch?v=OTsf94r_BkQ&list=WL&index=17&pp=gAQBiAQB)
@@ -502,7 +558,7 @@
 
 <a name="[paperreview]canaiagentdoresearch?:theaiscientist2025-01-27"></a>
 
-### 5.1.10\. [Paper Review] Can AI Agent do research?: The AI Scientist (2025-01-27)
+### 6.1.10\. [Paper Review] Can AI Agent do research?: The AI Scientist (2025-01-27)
 - Date: 2025-01-27
 - CreateDate: 2024-12-29
 - Title: [[Paper Review] AI agent가 연구도 할 수 있을까?: The AI Scientist](https://www.youtube.com/watch?v=OuvE7t3pmZ0&list=WL&index=22)
@@ -520,7 +576,7 @@
 
 <a name="[hongjangwon'sbull&bear]nvidiachipisstillsellingwell.wallstreetinitiativechangescenaricanbeoil.reasonfordeclineinlong-terminterestratesduetotrumptariffthreatdeepseekkimi2025-01-28"></a>
 
-### 5.1.11\. [Hongjangwon's Bull & Bear] NVIDIA chip is still selling well.Wall Street initiative change scenari can be oil.Reason for decline in long -term interest rates due to Trump tariff threat (DeepSeek, Kimi) (2025-01-28)
+### 6.1.11\. [Hongjangwon's Bull & Bear] NVIDIA chip is still selling well.Wall Street initiative change scenari can be oil.Reason for decline in long -term interest rates due to Trump tariff threat (DeepSeek, Kimi) (2025-01-28)
 - Date: 2025-01-28
 - CreateDate: 2025-01-28
 - Title: [[홍장원의 불앤베어] 엔비디아 칩은 여전히 잘 팔릴 것 같다. 월가 주도주 변경 시나리오일 수 있다. 트럼프 관세 협박에 장기물 금리 하락 이유 (deepseek, kimi)](https://www.youtube.com/watch?v=KH2LW1xCF9U&ab_channel=%EB%A7%A4%EA%B2%BD%EC%9B%94%EA%B0%80%EC%9B%94%EB%B6%80)
@@ -532,7 +588,7 @@
 
 <a name="china'sdeepseek-r1openaio1designwillbereleased:2025-01-28"></a>
 
-### 5.1.12\. China's Deepseek-R1, Openai O1 Design will be released :) (2025-01-28)
+### 6.1.12\. China's Deepseek-R1, Openai O1 Design will be released :) (2025-01-28)
 - Date: 2025-01-28
 - CreateDate: 2025-01-25
 - Title: [중국의 DeepSeek-R1, OpenAI o1 설계도를 공개해줌 :)](https://www.youtube.com/watch?v=K7cPOaiOJj0)
@@ -548,7 +604,7 @@
 
 <a name="youknowitwrong...aibigtechcollapsed?chinaaideepsikcontroversy|thesisanalysis|nvidiaopenaiisover?2025-01-29"></a>
 
-### 5.1.13\. You know it wrong ... AI big tech collapsed?China AI Deep Sik Controversy |Thesis Analysis |NVIDIA, OpenAi is over? (2025-01-29)
+### 6.1.13\. You know it wrong ... AI big tech collapsed?China AI Deep Sik Controversy |Thesis Analysis |NVIDIA, OpenAi is over? (2025-01-29)
 - Date: 2025-01-29
 - CreateDate: 2025-01-27
 - Title: [잘못 알고 계십니다... AI 빅테크 무너진다? 중국AI 딥씨크 논란 | 논문 분석 | NVIDIA, OpenAI는 끝?](https://youtu.be/0W_I7OW-RxY?si=BpivdJJIWwBElZk4)
@@ -558,7 +614,7 @@
 
 <a name="understandinghowvectordatabaseswork!2025-01-29"></a>
 
-### 5.1.14\. Understanding How Vector Databases Work! (2025-01-29)
+### 6.1.14\. Understanding How Vector Databases Work! (2025-01-29)
 - Date: 2025-01-29
 - CreateDate: 2024-05-02
 - Title: [Understanding How Vector Databases Work!](https://youtu.be/035I2WKj5F0?si=vuqwzIYd_vVmdVIY)
@@ -569,7 +625,7 @@
 
 <a name="abeginner'sguidetovectorembeddings2025-01-29"></a>
 
-### 5.1.15\. A Beginner's Guide to Vector Embeddings (2025-01-29)
+### 6.1.15\. A Beginner's Guide to Vector Embeddings (2025-01-29)
 - Date: 2025-01-29
 - CreateDate: 2023-06-09
 - Title: [A Beginner's Guide to Vector Embeddings](https://youtu.be/NEreO2zlXDk?si=dXvcl0Hx__TDFCzY)
@@ -583,10 +639,10 @@
 
 <a name="category:automation"></a>
 
-## 5.2\. category : automation
+## 6.2\. category : automation
 <a name="ccautomatestockinvestmenteasily-completeautomatictradingsystemin20minutes2025-01-20"></a>
 
-### 5.2.1\. CC) Automate stock investment easily - Complete automatic trading system in 20 minutes (2025-01-20)
+### 6.2.1\. CC) Automate stock investment easily - Complete automatic trading system in 20 minutes (2025-01-20)
 - Date: 2025-01-20
 - CreateDate: 2022-07-04
 - Title: [CC) Automate stock investment easily - Complete automatic trading system in 20 minutes](https://www.youtube.com/watch?v=2Hxfb5HT4kE)
@@ -597,7 +653,7 @@
 
 <a name=""aiisinchargeofthemanagementofbusinessprogressthecreationofdatatobesenttothecustomerandtheperformancemeasurement"2025-01-28"></a>
 
-### 5.2.2\. "AI is in charge of the management of business progress, the creation of data to be sent to the customer, and the performance measurement" (2025-01-28)
+### 6.2.2\. "AI is in charge of the management of business progress, the creation of data to be sent to the customer, and the performance measurement" (2025-01-28)
 - Date: 2025-01-28
 - CreateDate: 2025-01-28
 - Title: ["업무 진척도 관리, 고객사에 보낼 데이터 생성, 성과 측정까지 AI가 담당" (송치훈 한국마이크로소프트 영업 부문 리드)](https://www.youtube.com/watch?v=gh8IBdO51Fg&ab_channel=%ED%8B%B0%ED%83%80%EC%9E%84%EC%A6%88TV)
@@ -615,7 +671,7 @@
 
 <a name="registrationofn8nmeeting2025-01-29"></a>
 
-### 5.2.3\. Registration of N8N Meeting (2025-01-29)
+### 6.2.3\. Registration of N8N Meeting (2025-01-29)
 - Date: 2025-01-29
 - CreateDate: 2024-11-07
 - Title: [n8n 회의 할 일 등록](https://www.youtube.com/watch?v=Vp1mR7xLc28)
@@ -626,7 +682,7 @@
 
 <a name="meetingsummaryautomationfromthebeginning2025-01-29"></a>
 
-### 5.2.4\. Meeting summary automation from the beginning (2025-01-29)
+### 6.2.4\. Meeting summary automation from the beginning (2025-01-29)
 - Date: 2025-01-29
 - CreateDate: 2024-10-03
 - Title: [회의 요약 자동화 처음부터 따라하기](https://www.youtube.com/watch?v=SU6q4wMYUJw)
@@ -639,10 +695,10 @@
 
 <a name="category:it"></a>
 
-## 5.3\. category : IT
+## 6.3\. category : IT
 <a name="[breakingnews]teslafsd13scam!!2025-01-24"></a>
 
-### 5.3.1\. [Breaking News] Tesla FSD13 (Scam !!) (2025-01-24)
+### 6.3.1\. [Breaking News] Tesla FSD13 (Scam !!) (2025-01-24)
 - Date: 2025-01-24
 - CreateDate: 2024-12-03
 - Title: [[속보] 테슬라 FSD13 (사기다!!)](https://www.youtube.com/watch?v=LpMHYI4yIbs&ab_channel=%EC%9E%90%EB%8F%99%EC%B0%A8%EB%AF%B8%EC%83%9DAutoEngineerAmericanLife)
@@ -654,10 +710,10 @@
 
 <a name="category:economy"></a>
 
-## 5.4\. category : economy
+## 6.4\. category : economy
 <a name="riverdollarend?wonhwaquicklyrebounds|deepcoomywithparkso-yeonshinyoungsecuritiesresearcher2025-01-26"></a>
 
-### 5.4.1\. River dollar end?Wonhwa quickly rebounds |Deep Coomy with Park So -yeon Shin Young Securities Researcher (2025-01-26)
+### 6.4.1\. River dollar end?Wonhwa quickly rebounds |Deep Coomy with Park So -yeon Shin Young Securities Researcher (2025-01-26)
 - Date: 2025-01-26
 - CreateDate: 2025-01-23
 - Title: [강달러 끝? 원화 빠르게 반등하나 | 딥코노미 With 박소연 신영증권 연구원](https://www.youtube.com/watch?v=BfjOTI_2YVA&list=WL&index=5&ab_channel=%ED%95%9C%EA%B2%BD%EC%BD%94%EB%A6%AC%EC%95%84%EB%A7%88%EC%BC%93)
@@ -669,10 +725,10 @@
 
 <a name="category:stock"></a>
 
-## 5.5\. category : stock
+## 6.5\. category : stock
 <a name="100millionisisa2025-01-28"></a>
 
-### 5.5.1\. 100 million is ISA (2025-01-28)
+### 6.5.1\. 100 million is ISA (2025-01-28)
 - Date: 2025-01-28
 - CreateDate: 2025-01-28
 - Title: [1억 있으면 ISA (김범곤 대표, 달물결 작가)](https://www.youtube.com/watch?v=H0hDNLlhVAc&ab_channel=%EB%B6%80%ED%8B%B0%ED%94%8C-%EB%B6%80%EC%9D%98%EB%B0%B0%EC%88%98%EB%A5%BC%EB%86%92%EC%97%AC%EB%9D%BC)
@@ -687,10 +743,10 @@
 
 <a name="category:tax"></a>
 
-## 5.6\. category : tax
+## 6.6\. category : tax
 <a name="2025taxlawamendment-irpisapensionsavingsusstocksgoldtaxbitcoinhealthinsurancepremium2025-01-28"></a>
 
-### 5.6.1\. 2025 Tax Law Amendment-IRP, ISA, Pension Savings, US Stocks, Gold Tax, Bitcoin, Health Insurance Premium (2025-01-28)
+### 6.6.1\. 2025 Tax Law Amendment-IRP, ISA, Pension Savings, US Stocks, Gold Tax, Bitcoin, Health Insurance Premium (2025-01-28)
 - Date: 2025-01-28
 - CreateDate: 2025-01-26
 - Title: [2025년 세법 개정안- IRP , ISA, 연금 저축 , 미국 주식 , 금투세 , 비트코인 ,건강보험료](https://www.youtube.com/watch?v=wAakZl3RPQM&ab_channel=%EB%98%91%EC%9E%ACTV)
@@ -707,7 +763,7 @@
 
 <a name=""ifyouusethemoneylikethisyouwillberichinthewholefamily.2025-01-30"></a>
 
-### 5.6.2\. "If you use the money like this, you will be rich in the whole family. (2025-01-30)
+### 6.6.2\. "If you use the money like this, you will be rich in the whole family. (2025-01-30)
 - Date: 2025-01-30
 - Title: ["법인 돈 이렇게 사용하면 온가족 부자됩니다" 가족법인 노후걱정 없이 설계하는 방법을 국세청 출신 세무사가 정확하게 알려드립니다.](https://www.youtube.com/watch?v=UxSfuHcj6GU&ab_channel=%EA%B5%AD%EC%84%B8%EC%B2%AD%EC%95%84%EB%8A%94%ED%98%95)
 - Categories: tax
@@ -727,10 +783,10 @@
 
 <a name="category:crawling"></a>
 
-## 5.7\. category : crawling
+## 6.7\. category : crawling
 <a name="crawleallwebsitewithoutcodingwithmakeandchatgpt!2025-01-28"></a>
 
-### 5.7.1\. Crawle all website without coding with make and chat GPT! (2025-01-28)
+### 6.7.1\. Crawle all website without coding with make and chat GPT! (2025-01-28)
 - Date: 2025-01-28
 - CreateDate: 2024-12-14
 - Title: [MAKE와 챗GPT로 코딩 없이 모든 웹사이트 크롤링하세요!](https://www.youtube.com/watch?v=OcvvLAgUUaM&ab_channel=%EC%8B%9C%EB%AF%BC%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B5%AC%EC%94%A8)
@@ -744,12 +800,12 @@
   - https://regex101.com/ 에서 우리가 만든 regex 시험 가능
 
 
-<a name="category:education"></a>
+<a name="category:education-1"></a>
 
-## 5.8\. category : education
+## 6.8\. category : education
 <a name="regressionanalysis|fullcourse20252025-01-29"></a>
 
-### 5.8.1\. Regression Analysis | Full Course 2025 (2025-01-29)
+### 6.8.1\. Regression Analysis | Full Course 2025 (2025-01-29)
 - Date: 2025-01-29
 - CreateDate: 2025-01-21
 - Title: [Regression Analysis | Full Course 2025](https://youtu.be/T5AoqxQFkzY?si=EaUq-p9X_WgBs4fg)
@@ -762,7 +818,7 @@
 
 <a name="harvardcs50sartificialintelligencewithpython-fulluniversitycourse2025-01-29"></a>
 
-### 5.8.2\. Harvard CS50 s Artificial Intelligence with Python - Full University Course (2025-01-29)
+### 6.8.2\. Harvard CS50 s Artificial Intelligence with Python - Full University Course (2025-01-29)
 - Date: 2025-01-29
 - CreateDate: 2023-08-10
 - Title: [Harvard CS50’s Artificial Intelligence with Python – Full University Course](https://youtu.be/5NgNicANyqM?si=fO7W5ogrs2jfFpkn)
@@ -774,7 +830,7 @@
 
 <a name="pythonfordatascience-courseforbeginnerslearnpythonpandasnumpymatplotlib2025-01-29"></a>
 
-### 5.8.3\. Python for Data Science - Course for Beginners (Learn Python, Pandas, NumPy, Matplotlib) (2025-01-29)
+### 6.8.3\. Python for Data Science - Course for Beginners (Learn Python, Pandas, NumPy, Matplotlib) (2025-01-29)
 - Date: 2025-01-29
 - CreateDate: 2020-06-02
 - Title: [Python for Data Science - Course for Beginners (Learn Python, Pandas, NumPy, Matplotlib)](https://youtu.be/LHBE6Q9XlzI?si=0LOYhxA8SjhZdlus)
@@ -786,7 +842,7 @@
 
 <a name="dataanalystbootcampforbeginnerssqltableaupowerbipythonexcelpandasprojectsmore2025-01-29"></a>
 
-### 5.8.4\. Data Analyst Bootcamp for Beginners (SQL, Tableau, Power BI, Python, Excel, Pandas, Projects, more) (2025-01-29)
+### 6.8.4\. Data Analyst Bootcamp for Beginners (SQL, Tableau, Power BI, Python, Excel, Pandas, Projects, more) (2025-01-29)
 - Date: 2025-01-29
 - CreateDate: 2024-01-09
 - Title: [Data Analyst Bootcamp for Beginners (SQL, Tableau, Power BI, Python, Excel, Pandas, Projects, more)](https://youtu.be/PSNXoAs2FtQ?si=AqyiTyGvTm_Revdt)
@@ -800,7 +856,7 @@
 
 <a name="statistics-afulllecturetolearndatascience2025version2025-01-29"></a>
 
-### 5.8.5\. Statistics - A Full Lecture to learn Data Science (2025 Version) (2025-01-29)
+### 6.8.5\. Statistics - A Full Lecture to learn Data Science (2025 Version) (2025-01-29)
 - Date: 2025-01-29
 - CreateDate: 2025-01-29
 - Title: [Statistics - A Full Lecture to learn Data Science (2025 Version)](https://youtu.be/K9teElePNkk?si=AEAgF8yEthFp6fi5)
@@ -815,7 +871,7 @@
 
 <a name="pandasfullpythoncourse-datasciencefundamentals2025-01-29"></a>
 
-### 5.8.6\. Pandas Full Python Course - Data Science Fundamentals (2025-01-29)
+### 6.8.6\. Pandas Full Python Course - Data Science Fundamentals (2025-01-29)
 - Date: 2025-01-29
 - CreateDate: 2025-01-25
 - Title: [Pandas Full Python Course - Data Science Fundamentals](https://youtu.be/EhYC02PD_gc?si=3IfJcQ1HlyR6XV0g)
@@ -846,10 +902,10 @@
 
 <a name="category:life"></a>
 
-## 5.9\. category : life
+## 6.9\. category : life
 <a name="thecompletedatascienceroadmap2025-01-29"></a>
 
-### 5.9.1\. The Complete Data Science Roadmap (2025-01-29)
+### 6.9.1\. The Complete Data Science Roadmap (2025-01-29)
 - Date: 2025-01-29
 - CreateDate: 2024-08-01
 - Title: [The Complete Data Science Roadmap](https://youtu.be/9R3X0JoCLyU?si=fo13nb8DKDwnxhrP)
@@ -860,7 +916,7 @@
 
 <a name="nuclearindividualsalonecalleachother'snames|songgil-youngmindminorwriter'eraforecast:homyeongsociety'author|futuremotivationself-developmentemployees|sebashiepisode19082025-01-30"></a>
 
-### 5.9.2\. Nuclear individuals alone call each other's names |Song Gil -young Mind Minor, Writer, 'Era Forecast: Homyeong Society' Author |Future Motivation Self -Development Employees |Sebashi Episode 1908 (2025-01-30)
+### 6.9.2\. Nuclear individuals alone call each other's names |Song Gil -young Mind Minor, Writer, 'Era Forecast: Homyeong Society' Author |Future Motivation Self -Development Employees |Sebashi Episode 1908 (2025-01-30)
 - Date: 2025-01-30
 - Title: [홀로 선 핵개인, 서로의 이름을 부르다 | 송길영 마인드 마이너, 작가, '시대예보:호명사회' 저자 | 미래 동기부여 자기계발 직장인 | 세바시 1908회](https://www.youtube.com/watch?v=8jDPkoXNZ-g&ab_channel=%EC%84%B8%EB%B0%94%EC%8B%9C%EA%B0%95%EC%97%B0SebasiTalk,life,sebasi)
 - Categories: life
@@ -873,7 +929,7 @@
 
 <a name="illonmusk's13.5millionwonhousetechinnovation:findtheanswertotheresidentialcrisis|upperclass2025-01-30"></a>
 
-### 5.9.3\. Illon Musk's 13.5 million won House Tech Innovation: Find the answer to the residential crisis |Upper class (2025-01-30)
+### 6.9.3\. Illon Musk's 13.5 million won House Tech Innovation: Find the answer to the residential crisis |Upper class (2025-01-30)
 - Date: 2025-01-30
 - Title: [일론 머스크의 1,350만원 하우스테크 혁신: 주거 위기의 해답을 찾다 | 상류층](ttps://www.youtube.com/watch?v=tK6P3BXKvgU&ab_channel=%EC%83%81%EB%A5%98%EC%B8%B5)
 - Categories: life
@@ -884,17 +940,41 @@
   - 새로운 주택의 기준?  재생 에너지 / AI등 모든 기술을 넣은 집 (스마트함 / 세련됨)
   - premium minimalism
 
+<a name="the23-year-oldrepresentativewhoearns30millionwonamonthandearns30millionwonamonth2025-04-02"></a>
+
+### 6.9.4\. The 23 -year -old representative who earns 30 million won a month and earns 30 million won a month (2025-04-02)
+- Date: 2025-04-02
+- CreateDate: 2025-04-02
+- Title: [노트북이 자동으로 달러 채굴해주고 한달에 3000만원 버는 23살 대표님](https://www.youtube.com/watch?v=Ql7LcqatDzc&list=WL&index=4&t=615s)
+- Categories: life
+- Tags: money,earn
+- Description: 쇼피파이 매장 - 찐 인듯!  뭔가 분석 또는 프로그래밍하여 전문가된다면 살아남을 수 있다. 로봇과의 경쟁은 힘들지만 , 사람들이 고객이면 뭔가 niche market이 있을 것으로 보인다.
+
+
+<a name="category:tool"></a>
+
+## 6.10\. category : tool
+<a name="youtubetomp3downloader2025-04-02"></a>
+
+### 6.10.1\. Youtube to MP3 downloader (2025-04-02)
+- Date: 2025-04-02
+- CreateDate: 2025-04-02
+- Title: [Youtube to MP3 downloader](https://github.com/fajicbenjamin/youtube-to-mp3-downloader/releases/tag/v0.4.9)
+- Categories: tool
+- Tags: youtube,download,tool
+- Description: Youtube-to-MP3-Downloader-Setup-0.4.9.exe  설치 : parameter는 watch까지만 넣으면 잘 download됨
+
 
 <a name="./agile-dev-unit"></a>
 
-# 6\. [./agile-dev-unit](./agile-dev-unit/index.md)
+# 7\. [./agile-dev-unit](./agile-dev-unit/index.md)
 
 <a name="category:devop"></a>
 
-## 6.1\. category : devop
+## 7.1\. category : devop
 <a name="agile-dev-unitdevelopmentenvironmentsetup2025-02-14"></a>
 
-### 6.1.1\. Agile-dev-unit development environment Setup (2025-02-14)
+### 7.1.1\. Agile-dev-unit development environment Setup (2025-02-14)
 - Date: 2025-02-14
 - CreateDate: 2025-02-14
 - Title: [agile-dev-unit 개발환경 setup]()
@@ -907,7 +987,7 @@
 
 <a name="processmap"></a>
 
-# 7\. process Map
+# 8\. process Map
 - svg through tiger02.lge.com server
   - ![](http://tiger02.lge.com:18080/svg/nLTDRwCm4BtpAopjfQqAtDiewiTMrKhRhRIxbrLRHGvCmOtn8DiaZLRzxskW93G911EgvSJ7pBmtppFsSA4qbJfBED6eAVTI4JdcKZCcKYffGZ850LL0_ZeECTSL3MQHn4o4ryXHZaRavXM2J3CKP3mcVu1pNDnA0F5kZp84kT-sCNf26S-jlxCerh-0DiTki2njBwN4HM5AxZcRW-EybH_AIqAWgOWua5HY04hTqTHD8C4gxqg6epiwWsV6uPXGLN_Qo6x3Aq0n1wadWPfFD4wIq4kNPOJTNzgZHQ1TohaRWWeaItCZbuhGrJHoDRe2z0Bbp8qaJUCLaBLJRmvT8BiWC1rdKp_DffofsCzNmvSmPyfOJm89D7TROtMsRaTDg9o5k11kcfQ1FxpOuzjEiJyd33qUWHTWubj8qiEjdOSqZdEOv0MlLYXRBtV6A98_9guxhZVD5yu4d4LvevxdjzuKUNYkuLMNByaPcRpxhvsA6DRLR07LLhOl2iN_fR0xTi78ywtyOftmJgn6Fqe_SflxLIjwuYKXUJ1e96Jv_ecIWNfwfx9L5HR9R_cMSkzey9DkzAynNH8KV4bq3AI8InOncf8skX2cY00J7AJP_DcSQY3271EcSnv5WHQGuYGuWbUFQ0XYOOwHQ7ayRgNRsdo3yKPTSNuKtpHX8k2PMVkSl7buHfaKlTrfoLgsXIvaA-toCFMcRmYv3McuTKDwU8YrJjMPxvSrKMWSn83y1R4KUCfnwfk1GFYR4AHs__HK4MqehiR2Eq2cTKMrWRU8rcO-a8PLR5iPznNz_ixeBsnUyXzgpnwcEprBdOtCcs4hhJqEiC9mxHN_O5KxdGvJSzAhWKjucsEkhPJhH-sGBTW5tBRjh3FlLcNrzVoKhh6YqxjPhDNP6FPs_oDPn3lncGZDyMq271foHDdf575s2c4M56gSBZ7JsHIgbjmTka2jU7JTFGx3Mi-hWs2r3W_xVlK66h_NtRXtHhSgZ-wZ_N1rqYdFt_VNNQkbogPoAHkq_lTgio7K_Of8FsyklzxTVEAGjW8WgxlrELScjI8pN5gxjlL1KssOfLgptQRPkj7sujjx9cbc_kOu5o32BE7EFm==)
 - png through www.plantuml.com
@@ -916,11 +996,11 @@
 
 <a name="plantumlserverinstall"></a>
 
-## 7.1\. plantuml server install 
+## 8.1\. plantuml server install 
   - ```$ docker run -d -p 18080:8080 plantuml/plantuml-server:tomcat```
 
   
 <a name="revision"></a>
 
-# 8\. REVISION
+# 9\. REVISION
 - [revision.md](./revision.md)

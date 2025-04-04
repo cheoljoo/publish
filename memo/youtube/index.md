@@ -432,3 +432,21 @@
   - 새로운 주택의 기준?  재생 에너지 / AI등 모든 기술을 넣은 집 (스마트함 / 세련됨)
   - premium minimalism
 
+## 노트북이 자동으로 달러 채굴해주고 한달에 3000만원 버는 23살 대표님 (2025-04-02)
+- Date: 2025-04-02
+- CreateDate: 2025-04-02
+- Title: [노트북이 자동으로 달러 채굴해주고 한달에 3000만원 버는 23살 대표님](https://www.youtube.com/watch?v=Ql7LcqatDzc&list=WL&index=4&t=615s)
+- Categories: life
+- Tags: money,earn
+- Description: 쇼피파이 매장 - 찐 인듯!  뭔가 분석 또는 프로그래밍하여 전문가된다면 살아남을 수 있다. 로봇과의 경쟁은 힘들지만 , 사람들이 고객이면 뭔가 niche market이 있을 것으로 보인다.
+
+
+# tool
+## Youtube to MP3 downloader (2025-04-02)
+- Date: 2025-04-02
+- CreateDate: 2025-04-02
+- Title: [Youtube to MP3 downloader](https://github.com/fajicbenjamin/youtube-to-mp3-downloader/releases/tag/v0.4.9)
+- Categories: tool
+- Tags: youtube,download,tool
+- Description: Youtube-to-MP3-Downloader-Setup-0.4.9.exe  설치 : parameter는 watch까지만 넣으면 잘 download됨
+

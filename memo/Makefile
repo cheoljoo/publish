@@ -37,6 +37,8 @@ simple:
 	python3 get-all-description-and-tag-to-network-graph.py
 	markdown-pp TOC.mdpp -o README.md
 	rm -rf processMap-memo.md ./__debug data.py ./lib ./server-data
+del:
+	rm -rf ../github_publish  ../mod_publish
 t:
 	git checkout -f revision.json
 	python3 revision_creation.py
