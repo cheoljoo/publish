@@ -1,0 +1,349 @@
+That was a lot of design patterns.
+
+So let's try to summarize all the things that we've learned about every single one of them.
+
+So we're going to begin with the creation of design patterns, and we'll start with the builder.
+
+So we saw that the builder is a separate component for when object construction gets too complicated,
+
+when you cannot just create an object using a single statement, but you have to make several calls
+
+to actually initialize the object.
+
+That's when you need a builder.
+
+So essentially you can also, if the object is really complicated, what you can do is you can create
+
+several mutually cooperating sub builders which will build the different aspects of your object.
+
+We also saw that builders often have a fluent interface.
+
+You make a fluent interface simply by returning self, and that allows you to chain several calls together.
+
+So then we looked at factories.
+
+So first we saw the factory method, which is more expressive than an initializer because it can have
+
+a unique name.
+
+And in addition you can have several factory methods with same sets of arguments just differently named.
+
+And this way you can you can understand better what kind of object you're creating.
+
+We also saw that the factory can either be just a separate standalone class, so if you're building
+
+a factory as a class, it can be a standalone class or it can be an inner class of whatever object you're
+
+creating, which certainly does introduce a bit more coupling, but the factory and the object being
+
+constructed are tightly coupled Anyway.
+
+We also looked at abstract factories which allow you to have a corresponding set of factories to a hierarchy
+
+of objects, and we saw how to use those.
+
+Then we looked at the prototype design pattern.
+
+So the idea with the prototype is that you make an object not from scratch, but from an existing object,
+
+which sometimes is easier to have sort of predefined objects that you simply replicate.
+
+Now, in order to replicate them correctly, you need something called deep copy.
+
+So you need to copy the data structure recursively, including all of its members and their members
+
+to infinity.
+
+So we have library support for doing this and as a result, we can implement the prototype factory.
+
+And indeed the prototype factory makes the prototype more convenient.
+
+So you make a couple of prototypes and then you simply deep copy them and allow the user of the factory
+
+to customize them and return customized instances.
+
+And then we looked at the singleton, probably the most controversial design pattern out of them all.
+
+We saw that this pattern is required when you need to ensure that only one instance of a particular
+
+class exists.
+
+And we saw that it's easy to make a singleton either with a decorator or a metaclass, so you can have
+
+a reusable approach to making singletons.
+
+And we saw that there are problems in testability that are solved by using dependency injection.
+
+And here I don't just mean using some heavyweight dependency injection framework.
+
+I mean that you can simply inject the class to be used as the singleton into the constructor.
+
+For example, you can inject it by hand by providing it as a parameter and that way you can replace
+
+that class, thereby allowing for easier testability.
+
+So these are the creational design patterns.
+
+Let's talk about the structural design patterns.
+
+So first of all, we saw the adapter basically a pattern that allows you to convert the interface that
+
+you get from some other system.
+
+Let's suppose some other developer gives you an interface and says, Well, this is the only interface
+
+you're going to have, and then you have a different interface, you have a different set of data structures
+
+and you need to adapt those to the interface that you are actually given.
+
+Then we looked at Bridge, a very simple pattern which simply decouples abstraction from implementation.
+
+So essentially the bridge kind of avoids the Cartesian product complexity explosion by having by introducing
+
+dependencies.
+
+In our case it was initialize the dependencies.
+
+So then we looked at the composite design pattern which allows clients to treat both individual objects
+
+and compositions of objects uniformly, also very convenient in all sorts of settings.
+
+We looked at the decorator design pattern where you can attach additional responsibilities to objects
+
+without necessarily modifying those objects or inheriting from those objects.
+
+We saw that Python has a particular type of decorator called the functional decorator, which is not
+
+directly related to the decorator design pattern as per the Gang of four.
+
+But it's also very useful because Python functional decorators allow you to wrap a function with another
+
+function, and you can do things like, for example, measuring the amount of time that a function takes
+
+to execute just by using that decorator on top of the function.
+
+And we've suddenly used lots of decorators in this entire course because we looked for we used, for
+
+example, the property decorators.
+
+We used the decorator for making a singleton.
+
+And there were lots of other decorators all over the place.
+
+So very convenient functionality, but not directly related to the decorator as it is defined in by
+
+the Gang of Four.
+
+Okay.
+
+So continuing with the structural patterns, we looked at the facade pattern.
+
+Essentially you provide a single unified interface over a set of interfaces, over a set of types.
+
+So you're trying to hide all the gory implementation details, but you give the user a friendly and
+
+easy to use interface, but you can also provide access to the low level features in the sense that
+
+you can allow the user to use those low level features if they are a.
+
+User.
+
+If they understand exactly how the system works, then why not let them?
+
+Additional Why not give them additional possibilities for customizing the system and doing things in
+
+a more sophisticated way, shall we say?
+
+Then we looked at flyweight, which is an efficiency technique.
+
+It's basically attempting to efficiently support a large number of similar objects without spending
+
+huge amounts of memory on actually storing those objects.
+
+We looked at the proxy design pattern, which provides essentially a surrogate object which forwards
+
+the calls to the real object while performing additional kind of functions.
+
+And we looked at different kinds of proxies that exist, like access control proxies, for example.
+
+And that's it for the structural design patterns.
+
+So behavioral design patterns then.
+
+So we looked at chain of responsibility, which allows components to process information or events in
+
+a chain one after another.
+
+We saw that each element in the chain can refer to the next element.
+
+That was the method chain approach.
+
+Or you can have some sort of list and go through that list and therefore notify each of the elements
+
+in turn.
+
+And that is the approach taken by the event broker, because an event is essentially just a list of
+
+functions that you can call one after another.
+
+We looked at the command design pattern, which encapsulates a request into a separate object.
+
+So instead of just calling something directly, you package your request, you send that request to
+
+somebody and then that request gets processed.
+
+And that's very convenient for lots of reasons.
+
+It's good for audit, it's good for replaying the sequence of events, for doing undo and redo functionality
+
+as well.
+
+And it's also part of Cqrs.
+
+And so Kqrs is this command query separation that we've talked about essentially having separate systems
+
+for commands and queries.
+
+This is something that happens with database processing systems and where you are prepared to go for
+
+eventual consistency as opposed to at the moment, consistency.
+
+And it's also related to command query responsibility segregation, which is another technique that's
+
+also used in sort of heavy software engineering.
+
+We haven't gone into it in any great depth because it would be part of maybe an enterprise patterns
+
+course rather than the design patterns course.
+
+So the interpreter design pattern, it's everywhere.
+
+It's all around us in this very room because it transforms textual input into object oriented design
+
+structures.
+
+And then those structures can be traversed using the visitor pattern, for example, to get some get
+
+some output.
+
+It's used everywhere.
+
+It's used by interpreters, compilers, static analysis tools.
+
+So it's all over the place, really.
+
+This is actually a separate branch of computer science called compiler theory.
+
+And if you go to university, if you're lucky, you might end up being taught this branch of computer
+
+science, but maybe not because it's a bit niche and it's going out of fashion in most universities.
+
+So it depends on how lucky you are.
+
+But certainly if you go to work for a company that makes, let's say, static analysis tools, then
+
+this is something worth knowing.
+
+And it's an interesting topic in and of itself.
+
+Then we looked at the iterator design pattern, essentially providing some sort of interface for accessing
+
+the elements of an aggregate object.
+
+So going through the elements one after another, we saw that you can just go ahead and use Iter and
+
+next.
+
+But these are stateful and they often result in really ugly implementations of common algorithms.
+
+But if you use the yield keyword, then everything becomes nicer and more convenient and more readable
+
+and reads more like what you would read from an algorithm description in Wikipedia.
+
+So I prefer the yield approach, certainly more behavioral patterns.
+
+So we looked at Mediator, which provides mediation services between two or more objects.
+
+Indeed.
+
+So you have ways of objects coming into the system and exiting the system without necessarily being
+
+aware of one another and a chat room or something is a typical example of something that you would build
+
+using a mediator.
+
+The memento design pattern, which yields tokens representing the system state.
+
+So basically the memento is like a snapshot of the system and you can use that memento to subsequently
+
+rollback the that system back into the state stored by the memento.
+
+The the memento itself doesn't have any API for manipulating the system, but you feed that memento
+
+into some API and that memento is subsequently used to turn the system back into a state which it was
+
+in when the memento was generated.
+
+Then we looked at the observer design pattern.
+
+Essentially, the observer allows notification of changes or any kind of happenings in one component
+
+so other components can subscribe to the observer and get notifications of when something happens.
+
+So then we looked at the state design pattern, basically this idea of modeling systems by having a
+
+set of possible states and describing the transitions between those states.
+
+Such a system is typically called a state machine or a finite state machine.
+
+And we saw that, well, we didn't look at special frameworks.
+
+But I'll tell you, now that you do typically work with frameworks rather than hand-rolling the state
+
+machine.
+
+So there are special frameworks which exist to actually orchestrate state machines so that you can just
+
+grab an existing framework and use it without having to build everything by your by hand.
+
+Although in the examples that I gave, we actually did build several state machines by hand and provided
+
+those state machines are simple, there is no problem in building them.
+
+But there is a lot more that the state machine can give you in addition to those hand-rolled examples.
+
+So using a framework might be worth your time.
+
+So then we looked at two strategies, two patterns rather strategy and template method.
+
+They're very similar.
+
+Both of them define some sort of skeleton.
+
+The high level description of an algorithm where the details are filled in by the implementer and then
+
+their approach is different.
+
+So strategy is boring, it just uses ordinary composition.
+
+So whatever sub parts of a, the overall algorithm you require, you just take them as parameters in
+
+the initializer, for example, and you sort of use them together.
+
+Whereas the template method is a bit smarter because it uses inheritance.
+
+So it defines a base class with a couple of abstract members and the algorithm which uses those abstract
+
+members.
+
+And then you inherit from that base class and you provide the actual implementations.
+
+Finally, we looked at the visitor design pattern.
+
+So the idea here is that a visitor allows a non-intrusive addition of functionality to hierarchies,
+
+allows us to effectively traverse complicated data structures which might have references to one another.
+
+So that's it.
+
+Those are the patterns that we've seen as part of this course.

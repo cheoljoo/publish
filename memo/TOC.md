@@ -35,10 +35,11 @@
 - [education/index.md](./education/index.md) : education review : 교육 받은 내용 정리
 - [education/react-완벽-가이드-2025-with-react-router--redux/index.md](./education/react-완벽-가이드-2025-with-react-router--redux/index.md) : (education정리) React 완벽 가이드 2025 with React Router & Redux
 - [education/react-완벽-가이드-2025-with-react-router--redux/section30-summary.md](./education/react-완벽-가이드-2025-with-react-router--redux/section30-summary.md) : (education정리) React 완벽 가이드 2025 with React Router & Redux : Section 33. React 요약 및 핵심 정리
-- [education/손에-잡히는-소프트웨어-아키텍처-설계_Python/index.md](./education/손에-잡히는-소프트웨어-아키텍처-설계_Python/index.md) : (education정리) 손에-잡히는-소프트웨어-아키텍처-설계_Python
+- [education/손에-잡히는-소프트웨어-아키텍처-설계_Python/index.md](./education/손에-잡히는-소프트웨어-아키텍처-설계_Python/index.md) : (education정리) 손에-잡히는-소프트웨어-아키텍처-설계_Python / 소프트웨어 아키텍처 및 대규모 시스템 설계 / Design Patterns in Python
 - [education/업무-효율을-확-끌어올리는-GitHub-Copilot활용-프로그래밍/index.md](./education/업무-효율을-확-끌어올리는-GitHub-Copilot활용-프로그래밍/index.md) : (education정리) AI 업무-효율을-확-끌어올리는-GitHub-Copilot활용-프로그래밍
 - [education/업무-효율을-확-끌어올리는-LangChain과-함께하는-LLM-기반-애플리케이션-개발/index.md](./education/업무-효율을-확-끌어올리는-LangChain과-함께하는-LLM-기반-애플리케이션-개발/index.md) : (education정리) AI 업무-효율을-확-끌어올리는-LangChain과-함께하는-LLM-기반-애플리케이션-개발
 - [english.md](./english.md) : somedaytalk 영어를 준비하기 위한 페이지로써 영어 공부를 하기 위한 페이지이다. 주로 article을 읽고 나의 summary를 한 후에 이에 대한 수정을 chatGPT에 맡긴 내용을 담고 있다.
+- [ftp-server.md](./ftp-server.md) : windows 에서 ftp server를 어떻게 설정하는가?
 - [get-all-description-and-tag-to-network-graph.py](./get-all-description-and-tag-to-network-graph.py) : memo subdirectories가 다루는 내용들을 network graph map 으로 보여준다.
 - [get-all-description-and-tag.py](./get-all-description-and-tag.py) : get all description and tag from memo sub-directories (output:get-all-description-and-tag.json)
 - [getting_started_doxygen_2024Y.md](./getting_started_doxygen_2024Y.md) : doxygen 관련 내가 한 내용들을 정리한 것이다. 여기에 추가하여 doxygen의 internal document를 만들어 ebook으로 만들기를 원한다.
@@ -77,35 +78,17 @@
 - [youtube/챗GPT로-미국-주식-포트폴리오-자동으로-관리하는-방법-feat-구글-스프레드-시트-Apps-Script-코드-작성/readme.md](./youtube/챗GPT로-미국-주식-포트폴리오-자동으로-관리하는-방법-feat-구글-스프레드-시트-Apps-Script-코드-작성/readme.md) : (youtube정리) 챗GPT로 미국 주식 포트폴리오 자동으로 관리하는 방법 feat 구글 스프레드 시트, Apps Script 코드 작성
 - [쿠버네티스_입문(책_요약).md](./쿠버네티스_입문(책_요약).md) : 쿠버네티스 () 정리 : 미진 (보다가 중단함)
 
-# [./misc](./misc/index.md)
+# [./agile-dev-unit](./agile-dev-unit/index.md)
 
-## category : study
-### What is htmx? (2025-04-03)
-- Date: 2025-04-03
-- CreateDate: 2025-04-03
-- Title: [HTMX 가 무엇인가?](https://velog.io/@betalabs/%EB%82%98-%ED%98%BC%EC%9E%90-%EB%8B%A4%ED%95%B4%EB%A8%B9%EC%9D%84-htmx)
-- Categories: study
-- Tags: htmx
-- Description: SPA를 쉽게 구현할수 있게 하는 framework으로 frontend와 backend간의 communication(AJAX)을 자동으로 해주게 만든 간략한 framework이다.
-  - [링크2](https://velog.io/@eunbinn/htmx-the-newest-old-way-to-make-web-apps)
-
-
-## category : news
-### program?I'll AI.27% decrease in US jobs (2025-04-03)
-- Date: 2025-04-03
-- CreateDate: 2025-04-03
-- Title: [프로그램? AI 시킬께. 미국 일자리 27% 감소](https://mail2.scrapmaster.co.kr/mail/include/iitp_display.php?news_id=69599&scrapBookNo=2176&scrapinfo=202504030&article_serial=20250403ja00b03001&q=aWl0cHwyMDI1MDQwMzB8MjAyNbPiIDA0v%2FkgMDPAzyAgKNnKKSDBtrCj)
-- Categories: news
-- Tags: ai
-
-
-## category : education
-### Khan Free Training Site (Billgate Donation) (2025-04-03)
-- Date: 2025-04-03
-- CreateDate: 2025-04-03
-- Title: [Khan 무료 교육 사이트 (빌게이트 donation)](https://www.khanacademy.org/)
-- Categories: education
-- Tags: khan,education,url
+## category : devop
+### Agile-dev-unit development environment Setup (2025-02-14)
+- Date: 2025-02-14
+- CreateDate: 2025-02-14
+- Title: [agile-dev-unit 개발환경 setup]()
+- Categories: devop
+- Tags: python,dbeaver,studio3T
+- [NotesLink](./개발환경-setup/index.md)
+- Description: pvs-crawler,pvs-trender를 개발하기 위한 개발 환경 setup
 
 
 # [./ai](./ai/index.md)
@@ -161,31 +144,11 @@
 
 # [./book](./book/index.md)
 
-## category : data-science
-### Fundamentals of data engineering (2025-03-30)
-- Date: 2025-03-30
-- Category: done
-- Title: [Fundamentals of data engineering](https://www.redpanda.com/guides/fundamentals-of-data-engineering)
-- Categories: data-science
-- Tags: de
-- Remarks: DE Top 1 of 3
-
-### Designing Data-Intensive Applications The Big Ideas Behind Reliable, Scalable, and Maintainable Systems ( PDFDrive ) (2025-04-30)
-- Date: 2025-04-30
-- CreateDate: 2025-02-04
+## category : 
+### Illon Musk Plan 3 (2025-04-15)
+- Date: 2025-04-15
 - Category: going
-- Title: [Designing Data-Intensive Applications The Big Ideas Behind Reliable, Scalable, and Maintainable Systems ( PDFDrive )](https://github.com/samayun/devbooks/blob/master/Designing%20Data-Intensive%20Applications%20The%20Big%20Ideas%20Behind%20Reliable%2C%20Scalable%2C%20and%20Maintainable%20Systems%20(%20PDFDrive%20).pdf)
-- Categories: data-science
-- Tags: de
-- Remarks: DE Top 2 of 3
-
-### Designing Machine Learning Systems with Python (2025-06-30)
-- Date: 2025-06-30
-- Category: going
-- Title: [Designing Machine Learning Systems with Python](https://github.com/shahumar/Free-Machine-Learning-Books.git)
-- Categories: data-science
-- Tags: de
-- Remarks: DE Top 3 of 3
+- Title: [일론머스크 플랜3]()
 
 
 ## category : coding
@@ -222,11 +185,31 @@
 - Remarks: algorithms-and-data-structures-for-massive-datasets
 
 
-## category : 
-### Illon Musk Plan 3 (2025-04-15)
-- Date: 2025-04-15
+## category : data-science
+### Fundamentals of data engineering (2025-03-30)
+- Date: 2025-03-30
+- Category: done
+- Title: [Fundamentals of data engineering](https://www.redpanda.com/guides/fundamentals-of-data-engineering)
+- Categories: data-science
+- Tags: de
+- Remarks: DE Top 1 of 3
+
+### Designing Data-Intensive Applications The Big Ideas Behind Reliable, Scalable, and Maintainable Systems ( PDFDrive ) (2025-04-30)
+- Date: 2025-04-30
+- CreateDate: 2025-02-04
 - Category: going
-- Title: [일론머스크 플랜3]()
+- Title: [Designing Data-Intensive Applications The Big Ideas Behind Reliable, Scalable, and Maintainable Systems ( PDFDrive )](https://github.com/samayun/devbooks/blob/master/Designing%20Data-Intensive%20Applications%20The%20Big%20Ideas%20Behind%20Reliable%2C%20Scalable%2C%20and%20Maintainable%20Systems%20(%20PDFDrive%20).pdf)
+- Categories: data-science
+- Tags: de
+- Remarks: DE Top 2 of 3
+
+### Designing Machine Learning Systems with Python (2025-06-30)
+- Date: 2025-06-30
+- Category: going
+- Title: [Designing Machine Learning Systems with Python](https://github.com/shahumar/Free-Machine-Learning-Books.git)
+- Categories: data-science
+- Tags: de
+- Remarks: DE Top 3 of 3
 
 
 # [./education](./education/index.md)
@@ -265,7 +248,49 @@
 - [NotesLink](./업무-효율을-확-끌어올리는-MS365-Copilot-프롬프트-마스터-클래스/index.md)
 
 
+# [./misc](./misc/index.md)
+
+## category : education
+### Khan Free Training Site (Billgate Donation) (2025-04-03)
+- Date: 2025-04-03
+- CreateDate: 2025-04-03
+- Title: [Khan 무료 교육 사이트 (빌게이트 donation)](https://www.khanacademy.org/)
+- Categories: education
+- Tags: khan,education,url
+
+
+## category : news
+### program?I'll AI.27% decrease in US jobs (2025-04-03)
+- Date: 2025-04-03
+- CreateDate: 2025-04-03
+- Title: [프로그램? AI 시킬께. 미국 일자리 27% 감소](https://mail2.scrapmaster.co.kr/mail/include/iitp_display.php?news_id=69599&scrapBookNo=2176&scrapinfo=202504030&article_serial=20250403ja00b03001&q=aWl0cHwyMDI1MDQwMzB8MjAyNbPiIDA0v%2FkgMDPAzyAgKNnKKSDBtrCj)
+- Categories: news
+- Tags: ai
+
+
+## category : study
+### What is htmx? (2025-04-03)
+- Date: 2025-04-03
+- CreateDate: 2025-04-03
+- Title: [HTMX 가 무엇인가?](https://velog.io/@betalabs/%EB%82%98-%ED%98%BC%EC%9E%90-%EB%8B%A4%ED%95%B4%EB%A8%B9%EC%9D%84-htmx)
+- Categories: study
+- Tags: htmx
+- Description: SPA를 쉽게 구현할수 있게 하는 framework으로 frontend와 backend간의 communication(AJAX)을 자동으로 해주게 만든 간략한 framework이다.
+  - [링크2](https://velog.io/@eunbinn/htmx-the-newest-old-way-to-make-web-apps)
+
+
 # [./youtube](./youtube/index.md)
+
+## category : IT
+### [Breaking News] Tesla FSD13 (Scam !!) (2025-01-24)
+- Date: 2025-01-24
+- CreateDate: 2024-12-03
+- Title: [[속보] 테슬라 FSD13 (사기다!!)](https://www.youtube.com/watch?v=LpMHYI4yIbs&ab_channel=%EC%9E%90%EB%8F%99%EC%B0%A8%EB%AF%B8%EC%83%9DAutoEngineerAmericanLife)
+- Categories: IT
+- Tags: FSD , tesla , self-driving
+- Description: 테슬라는 이 시스템을 다른 OEM에 팔 것이다. 카메라만 사용하고 network을 사용하므로 전기차/게솔린차 모두 될 것이다.  비보호 좌회전도 된다.  한국의 자율주행의 수준을 알아야 한다. 
+- Remarks: https://stibee.com/api/v1.0/emails/share/rjYnaa6OtEF8ykRO0h6c3o2x9eItcBg
+
 
 ## category : ai
 ### How to automatically manage US stock portfolio with a chat GPT Feat Google Seat Sheet, Apps Script Code (2025-01-14)
@@ -487,76 +512,6 @@
 - Remarks: [회의 요약하는 어플도 제공](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa1lTdV9uem5NNl9PaGFlTUxzVkFta2I4azZTZ3xBQ3Jtc0tsUUIxZkFpMnpRdWlGZUxIVlJ5aktkNHdjNFFlMVBhU3dvV2hFd19kTld6MFJuZVNwOHE1UGV4NUU5RUZSZy1DblJGZ0IxUk1wbW1VX3ZBMU80ZFBKampiaDNrWDNYYVoxU25DRWdvMlBKNjJsRHpJZw&q=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F156h5Wt9-x-uRtwhXojIILrhTMMO0w2K0%2Fview%3Fusp%3Dsharing&v=SU6q4wMYUJw)
 
 
-## category : IT
-### [Breaking News] Tesla FSD13 (Scam !!) (2025-01-24)
-- Date: 2025-01-24
-- CreateDate: 2024-12-03
-- Title: [[속보] 테슬라 FSD13 (사기다!!)](https://www.youtube.com/watch?v=LpMHYI4yIbs&ab_channel=%EC%9E%90%EB%8F%99%EC%B0%A8%EB%AF%B8%EC%83%9DAutoEngineerAmericanLife)
-- Categories: IT
-- Tags: FSD , tesla , self-driving
-- Description: 테슬라는 이 시스템을 다른 OEM에 팔 것이다. 카메라만 사용하고 network을 사용하므로 전기차/게솔린차 모두 될 것이다.  비보호 좌회전도 된다.  한국의 자율주행의 수준을 알아야 한다. 
-- Remarks: https://stibee.com/api/v1.0/emails/share/rjYnaa6OtEF8ykRO0h6c3o2x9eItcBg
-
-
-## category : economy
-### River dollar end?Wonhwa quickly rebounds |Deep Coomy with Park So -yeon Shin Young Securities Researcher (2025-01-26)
-- Date: 2025-01-26
-- CreateDate: 2025-01-23
-- Title: [강달러 끝? 원화 빠르게 반등하나 | 딥코노미 With 박소연 신영증권 연구원](https://www.youtube.com/watch?v=BfjOTI_2YVA&list=WL&index=5&ab_channel=%ED%95%9C%EA%B2%BD%EC%BD%94%EB%A6%AC%EC%95%84%EB%A7%88%EC%BC%93)
-- Categories: economy
-- Tags: 환율하락,경기
-- Description: 한국 국채를 사러 달러들 들어올수 있어 환율이 내릴 여지가 많지만, 미국에서 이자율을 낮추지 않으면 환율이 내리기 쉽지 않다.
-  - 트럼프는 규제 완화에 집중.
-
-
-## category : stock
-### 100 million is ISA (2025-01-28)
-- Date: 2025-01-28
-- CreateDate: 2025-01-28
-- Title: [1억 있으면 ISA (김범곤 대표, 달물결 작가)](https://www.youtube.com/watch?v=H0hDNLlhVAc&ab_channel=%EB%B6%80%ED%8B%B0%ED%94%8C-%EB%B6%80%EC%9D%98%EB%B0%B0%EC%88%98%EB%A5%BC%EB%86%92%EC%97%AC%EB%9D%BC)
-- Categories: stock
-- Tags: etf,isa
-- Description: 3가지
-  - 현금성자산: RISE 머니마켓액티브
-  - 미국주식: KODEX 미국S&P500TR/ KODEX 미국나스닥100TR
-  - 월배당 ETF: TIGER 미국배당다우존스 / TIGER 미국배당다우존스타켓커버드콜1호 / TIGER 미국배당다우존스타켓커버드콜2호 / KODEX 미국배당다우존스타켓커버드콜
-- Remarks: 채권 포트폴리오는 20%이상 수익이 나오는때도 있지만, 13년간 연평균 수익률은 0.63%로 , 채권보다는 현금성 자산의 비중을 높이는게 더 좋겠다고 함.
-
-
-## category : tax
-### 2025 Tax Law Amendment-IRP, ISA, Pension Savings, US Stocks, Gold Tax, Bitcoin, Health Insurance Premium (2025-01-28)
-- Date: 2025-01-28
-- CreateDate: 2025-01-26
-- Title: [2025년 세법 개정안- IRP , ISA, 연금 저축 , 미국 주식 , 금투세 , 비트코인 ,건강보험료](https://www.youtube.com/watch?v=wAakZl3RPQM&ab_channel=%EB%98%91%EC%9E%ACTV)
-- Categories: tax
-- Tags: irp,isa,pasion,stock,stock-tax,bitcoin,insurance-contribution
-- Description: 2025 현황
-  - 금투세 폐지
-  - ISA : 2천 -> 4천은 없던 것으로 현행유지 : 2천에 1억
-  - **TR ETF 폐지** (RISE 머니마켓액티브도 변경 예정)
-  - **양도소득세 이뤌과제 적용대산 자산확대** : 증여받은 주식을 1년이내 매도시 증여시점이 아닌 취득가액(최초 산 금액)으로 환산 하여 양도세 계산
-  - 가상 자산 과세 유예
-  - 연금저축 , IRP : 기존과 동일 (합이 600+300))
-  - 건강보험요율 동일 : 점수당 208.4원 (직접 자신의 점수를 앱으로 문의하면됨)
-
-### "If you use the money like this, you will be rich in the whole family. (2025-01-30)
-- Date: 2025-01-30
-- Title: ["법인 돈 이렇게 사용하면 온가족 부자됩니다" 가족법인 노후걱정 없이 설계하는 방법을 국세청 출신 세무사가 정확하게 알려드립니다.](https://www.youtube.com/watch?v=UxSfuHcj6GU&ab_channel=%EA%B5%AD%EC%84%B8%EC%B2%AD%EC%95%84%EB%8A%94%ED%98%95)
-- Categories: tax
-- Tags: 법인
-- Description: 법인은 10~20% 세금 (소득세는 40%까지)
-  - 임대소득 20%내 해결 (임대 소득세 최대 50%)
-  - 법인은 법인 설립할때 자녀를 주주로 포함시켜 추후 법인에서 발생하는 소득에 대해서 상속증여세를 내지 않는다.
-  - 법인에서 돈을 쉽게 못 빼는데 , 이것은 안 빼면 된다. 빼려면 월급 / 상여금 / 배당 등으로.. : 더 불리는게 유리
-  - 예1 : 다가구주택을 법인으로 하는 것은 절세 안된다.  주택의 경우는 법인 안 좋다. 세금이 매우 많다.
-  - 법인 활용법 : 근로 소득 / 사업 소득이 놓은 사람이 반 이상이 공과금으로 나가는 경우
-    - 가족 법인 만들어 운영
-  - 법인은 세금 이연 기능도 있음.
-  - 예2 : 오래된 상가를 철거하고 새 건물을 신축할때, 자녀를 주주로 하는 법인 명의로 건물을 신축 (Great!)
-  - [ ] 얼마나 있어야 법인을 하는게 의미가 있을까?  보통 고객은 병원장이라는데...
-- Remarks: 자녀가 주주인 가족법인으로 건물 취득하기
-
-
 ## category : crawling
 ### Crawle all website without coding with make and chat GPT! (2025-01-28)
 - Date: 2025-01-28
@@ -570,6 +525,17 @@
   - dynamic web site : 동적사이트는 순차적으로 보여주기에 HTTP module대신 apify moudle을 사용하여 크롤링을 해주어야 한다.  Make에서 apify를 사용 (무료 5$까지) apify (web scraper) apify의 API token 필요
 - Remarks: 웹크롤링 예제 : https://docs.google.com/spreadsheets/d/1Na1ESgG_QANJpT6IbMjnbg1N4MdrYs6Iw6mqfk6ZR3A/edit?gid=631861055#gid=631861055
   - https://regex101.com/ 에서 우리가 만든 regex 시험 가능
+
+
+## category : economy
+### River dollar end?Wonhwa quickly rebounds |Deep Coomy with Park So -yeon Shin Young Securities Researcher (2025-01-26)
+- Date: 2025-01-26
+- CreateDate: 2025-01-23
+- Title: [강달러 끝? 원화 빠르게 반등하나 | 딥코노미 With 박소연 신영증권 연구원](https://www.youtube.com/watch?v=BfjOTI_2YVA&list=WL&index=5&ab_channel=%ED%95%9C%EA%B2%BD%EC%BD%94%EB%A6%AC%EC%95%84%EB%A7%88%EC%BC%93)
+- Categories: economy
+- Tags: 환율하락,경기
+- Description: 한국 국채를 사러 달러들 들어올수 있어 환율이 내릴 여지가 많지만, 미국에서 이자율을 낮추지 않으면 환율이 내리기 쉽지 않다.
+  - 트럼프는 규제 완화에 집중.
 
 
 ## category : education
@@ -698,6 +664,84 @@
 - Tags: money,earn
 - Description: 쇼피파이 매장 - 찐 인듯!  뭔가 분석 또는 프로그래밍하여 전문가된다면 살아남을 수 있다. 로봇과의 경쟁은 힘들지만 , 사람들이 고객이면 뭔가 niche market이 있을 것으로 보인다.
 
+### Digital Noma Age, Portuguese dilemma [Global Y] / YTN Korean (2025-04-06)
+- Date: 2025-04-06
+- CreateDate: 2025-03-06
+- Title: [디지털 유목민 시대, 포르투갈의 딜레마 [글로벌Y] / YTN korean](https://www.youtube.com/watch?v=BNlXWyfiwWo&ab_channel=YTNkorean)
+- Categories: life
+- Tags: tax
+- Description: 디지털 유목민의 소득 때문에 현지인과의 소득격차 발생
+- Remarks: 포르투칼 재산 증여세는 0.8%이며, 개인의 무상 취득(상속 및 증여)에는 10%의 세율이 부과됩니다. 직계 후손과 직계 후손에게는 상속세가 적용되지 않습니다.
+  - https://www.dixcart.com/ko/practical-tax-guide-to-inheritance-and-gifts-recieved-in-portugal/
+
+
+## category : stock
+### 100 million is ISA (2025-01-28)
+- Date: 2025-01-28
+- CreateDate: 2025-01-28
+- Title: [1억 있으면 ISA (김범곤 대표, 달물결 작가)](https://www.youtube.com/watch?v=H0hDNLlhVAc&ab_channel=%EB%B6%80%ED%8B%B0%ED%94%8C-%EB%B6%80%EC%9D%98%EB%B0%B0%EC%88%98%EB%A5%BC%EB%86%92%EC%97%AC%EB%9D%BC)
+- Categories: stock
+- Tags: etf,isa
+- Description: 3가지
+  - 현금성자산: RISE 머니마켓액티브
+  - 미국주식: KODEX 미국S&P500TR/ KODEX 미국나스닥100TR
+  - 월배당 ETF: TIGER 미국배당다우존스 / TIGER 미국배당다우존스타켓커버드콜1호 / TIGER 미국배당다우존스타켓커버드콜2호 / KODEX 미국배당다우존스타켓커버드콜
+- Remarks: 채권 포트폴리오는 20%이상 수익이 나오는때도 있지만, 13년간 연평균 수익률은 0.63%로 , 채권보다는 현금성 자산의 비중을 높이는게 더 좋겠다고 함.
+
+### The 300 trillion won rolls are warned by US managers, "The stock bonds are expensive.Direct Interview: Katie Coach TCW Group CEO (2025-04-06)
+- Date: 2025-04-06
+- CreateDate: 2025-04-06
+- Title: [300조원 굴리는 美운용사의 경고 "주식 채권 다 비싸다. 현금쥐고 기회노릴 때" | 직격 인터뷰 : 케이티 코치 TCW 그룹 CEO](https://www.youtube.com/watch?v=PMcSEqapw98)
+- Categories: stock
+- Description: 미국 주식 시장은 장기적으로 여전히 매력적이지만, 밸류에이션이 비싸고 변동성이 예상되므로 신중한 접근이 필요하다.
+  - 미국 외 투자처로는 유럽과 일부 신흥 시장이 유망하며, 특히 유럽은 미국 정책 변화에 자극받아 자체 성장에 집중하고 있다.
+  - 미국 경제 둔화와 소비 위축 징후가 나타나고 있으며, 금리 인상 유지 가능성으로 인해 경기 침체 가능성에 대비해야 한다.
+- Remarks: 트럼프의 고관세 영향으로 경기 침체가 예상됨.
+  - 워렌버핏도 현금화시키고 했는데 , 3개월 늦게 뒤쫓아 현인의 포트폴리오를 그대로 답습하면 어떨까?!!
+
+### Is it a panic shock, retaliation tariffs starting/Trump? (2025-04-06)
+- Date: 2025-04-06
+- CreateDate: 2025-04-06
+- Title: [역대급 패닉쇼크, 보복관세전쟁 시작일까/트럼프 5월까지 증시 무조건 누른다?](https://www.youtube.com/watch?v=El_OEO2fh1M&ab_channel=%EC%86%8C%EC%88%98%EB%AA%BD%ED%82%A4)
+- Categories: stock
+- Tags: 소수몽키
+- Description: 22%폭락 - 빅7 폭락... 사자! 더 내리면 더 사야 하나?
+- Remarks: 이때 앞으로 어떻게 살지를 고려해보자. 달러 가격은?
+
+
+## category : tax
+### 2025 Tax Law Amendment-IRP, ISA, Pension Savings, US Stocks, Gold Tax, Bitcoin, Health Insurance Premium (2025-01-28)
+- Date: 2025-01-28
+- CreateDate: 2025-01-26
+- Title: [2025년 세법 개정안- IRP , ISA, 연금 저축 , 미국 주식 , 금투세 , 비트코인 ,건강보험료](https://www.youtube.com/watch?v=wAakZl3RPQM&ab_channel=%EB%98%91%EC%9E%ACTV)
+- Categories: tax
+- Tags: irp,isa,pasion,stock,stock-tax,bitcoin,insurance-contribution
+- Description: 2025 현황
+  - 금투세 폐지
+  - ISA : 2천 -> 4천은 없던 것으로 현행유지 : 2천에 1억
+  - **TR ETF 폐지** (RISE 머니마켓액티브도 변경 예정)
+  - **양도소득세 이뤌과제 적용대산 자산확대** : 증여받은 주식을 1년이내 매도시 증여시점이 아닌 취득가액(최초 산 금액)으로 환산 하여 양도세 계산
+  - 가상 자산 과세 유예
+  - 연금저축 , IRP : 기존과 동일 (합이 600+300))
+  - 건강보험요율 동일 : 점수당 208.4원 (직접 자신의 점수를 앱으로 문의하면됨)
+
+### "If you use the money like this, you will be rich in the whole family. (2025-01-30)
+- Date: 2025-01-30
+- Title: ["법인 돈 이렇게 사용하면 온가족 부자됩니다" 가족법인 노후걱정 없이 설계하는 방법을 국세청 출신 세무사가 정확하게 알려드립니다.](https://www.youtube.com/watch?v=UxSfuHcj6GU&ab_channel=%EA%B5%AD%EC%84%B8%EC%B2%AD%EC%95%84%EB%8A%94%ED%98%95)
+- Categories: tax
+- Tags: 법인
+- Description: 법인은 10~20% 세금 (소득세는 40%까지)
+  - 임대소득 20%내 해결 (임대 소득세 최대 50%)
+  - 법인은 법인 설립할때 자녀를 주주로 포함시켜 추후 법인에서 발생하는 소득에 대해서 상속증여세를 내지 않는다.
+  - 법인에서 돈을 쉽게 못 빼는데 , 이것은 안 빼면 된다. 빼려면 월급 / 상여금 / 배당 등으로.. : 더 불리는게 유리
+  - 예1 : 다가구주택을 법인으로 하는 것은 절세 안된다.  주택의 경우는 법인 안 좋다. 세금이 매우 많다.
+  - 법인 활용법 : 근로 소득 / 사업 소득이 놓은 사람이 반 이상이 공과금으로 나가는 경우
+    - 가족 법인 만들어 운영
+  - 법인은 세금 이연 기능도 있음.
+  - 예2 : 오래된 상가를 철거하고 새 건물을 신축할때, 자녀를 주주로 하는 법인 명의로 건물을 신축 (Great!)
+  - [ ] 얼마나 있어야 법인을 하는게 의미가 있을까?  보통 고객은 병원장이라는데...
+- Remarks: 자녀가 주주인 가족법인으로 건물 취득하기
+
 
 ## category : tool
 ### Youtube to MP3 downloader (2025-04-02)
@@ -708,18 +752,14 @@
 - Tags: youtube,download,tool
 - Description: Youtube-to-MP3-Downloader-Setup-0.4.9.exe  설치 : parameter는 watch까지만 넣으면 잘 download됨
 
-
-# [./agile-dev-unit](./agile-dev-unit/index.md)
-
-## category : devop
-### Agile-dev-unit development environment Setup (2025-02-14)
-- Date: 2025-02-14
-- CreateDate: 2025-02-14
-- Title: [agile-dev-unit 개발환경 setup]()
-- Categories: devop
-- Tags: python,dbeaver,studio3T
-- [NotesLink](./개발환경-setup/index.md)
-- Description: pvs-crawler,pvs-trender를 개발하기 위한 개발 환경 setup
+### Excel + Python, this far?!Copilot takes care of the analysis |Try it right now! (2025-04-06)
+- Date: 2025-04-06
+- CreateDate: 2025-04-02
+- Title: [엑셀 + 파이썬, 이 정도까지 된다고?! 코파일럿이 분석을 알아서 해줍니다 | 지금 바로 사용해보세요!](https://www.youtube.com/watch?v=L2nUvMVhJ3o&ab_channel=%EC%98%A4%EB%B9%A0%EB%91%90%EC%97%91%EC%85%80l%EC%97%91%EC%85%80%EA%B0%95%EC%9D%98%EB%8C%80%ED%91%9C%EC%B1%84%EB%84%90)
+- Categories: tool
+- Tags: excel,python,data,data-science
+- Description: excel에서 python 이용 : dictionary이용으로 인한 속도 증가 가능할까?
+- Remarks: M365에서 이용가능 : https://www.oppadu.com/%ec%97%91%ec%85%80-%ed%8c%8c%ec%9d%b4%ec%8d%ac-%ea%b3%a0%ea%b8%89-%eb%b6%84%ec%84%9d/
 
 
 

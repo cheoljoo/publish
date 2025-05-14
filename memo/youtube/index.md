@@ -264,6 +264,26 @@
   - 월배당 ETF: TIGER 미국배당다우존스 / TIGER 미국배당다우존스타켓커버드콜1호 / TIGER 미국배당다우존스타켓커버드콜2호 / KODEX 미국배당다우존스타켓커버드콜
 - Remarks: 채권 포트폴리오는 20%이상 수익이 나오는때도 있지만, 13년간 연평균 수익률은 0.63%로 , 채권보다는 현금성 자산의 비중을 높이는게 더 좋겠다고 함.
 
+## 300조원 굴리는 美운용사의 경고 "주식 채권 다 비싸다. 현금쥐고 기회노릴 때" | 직격 인터뷰 : 케이티 코치 TCW 그룹 CEO (2025-04-06)
+- Date: 2025-04-06
+- CreateDate: 2025-04-06
+- Title: [300조원 굴리는 美운용사의 경고 "주식 채권 다 비싸다. 현금쥐고 기회노릴 때" | 직격 인터뷰 : 케이티 코치 TCW 그룹 CEO](https://www.youtube.com/watch?v=PMcSEqapw98)
+- Categories: stock
+- Description: 미국 주식 시장은 장기적으로 여전히 매력적이지만, 밸류에이션이 비싸고 변동성이 예상되므로 신중한 접근이 필요하다.
+  - 미국 외 투자처로는 유럽과 일부 신흥 시장이 유망하며, 특히 유럽은 미국 정책 변화에 자극받아 자체 성장에 집중하고 있다.
+  - 미국 경제 둔화와 소비 위축 징후가 나타나고 있으며, 금리 인상 유지 가능성으로 인해 경기 침체 가능성에 대비해야 한다.
+- Remarks: 트럼프의 고관세 영향으로 경기 침체가 예상됨.
+  - 워렌버핏도 현금화시키고 했는데 , 3개월 늦게 뒤쫓아 현인의 포트폴리오를 그대로 답습하면 어떨까?!!
+
+## 역대급 패닉쇼크, 보복관세전쟁 시작일까/트럼프 5월까지 증시 무조건 누른다? (2025-04-06)
+- Date: 2025-04-06
+- CreateDate: 2025-04-06
+- Title: [역대급 패닉쇼크, 보복관세전쟁 시작일까/트럼프 5월까지 증시 무조건 누른다?](https://www.youtube.com/watch?v=El_OEO2fh1M&ab_channel=%EC%86%8C%EC%88%98%EB%AA%BD%ED%82%A4)
+- Categories: stock
+- Tags: 소수몽키
+- Description: 22%폭락 - 빅7 폭락... 사자! 더 내리면 더 사야 하나?
+- Remarks: 이때 앞으로 어떻게 살지를 고려해보자. 달러 가격은?
+
 
 # tax
 ## 2025년 세법 개정안- IRP , ISA, 연금 저축 , 미국 주식 , 금투세 , 비트코인 ,건강보험료 (2025-01-28)
@@ -440,6 +460,16 @@
 - Tags: money,earn
 - Description: 쇼피파이 매장 - 찐 인듯!  뭔가 분석 또는 프로그래밍하여 전문가된다면 살아남을 수 있다. 로봇과의 경쟁은 힘들지만 , 사람들이 고객이면 뭔가 niche market이 있을 것으로 보인다.
 
+## 디지털 유목민 시대, 포르투갈의 딜레마 [글로벌Y] / YTN korean (2025-04-06)
+- Date: 2025-04-06
+- CreateDate: 2025-03-06
+- Title: [디지털 유목민 시대, 포르투갈의 딜레마 [글로벌Y] / YTN korean](https://www.youtube.com/watch?v=BNlXWyfiwWo&ab_channel=YTNkorean)
+- Categories: life
+- Tags: tax
+- Description: 디지털 유목민의 소득 때문에 현지인과의 소득격차 발생
+- Remarks: 포르투칼 재산 증여세는 0.8%이며, 개인의 무상 취득(상속 및 증여)에는 10%의 세율이 부과됩니다. 직계 후손과 직계 후손에게는 상속세가 적용되지 않습니다.
+  - https://www.dixcart.com/ko/practical-tax-guide-to-inheritance-and-gifts-recieved-in-portugal/
+
 
 # tool
 ## Youtube to MP3 downloader (2025-04-02)
@@ -449,4 +479,13 @@
 - Categories: tool
 - Tags: youtube,download,tool
 - Description: Youtube-to-MP3-Downloader-Setup-0.4.9.exe  설치 : parameter는 watch까지만 넣으면 잘 download됨
+
+## 엑셀 + 파이썬, 이 정도까지 된다고?! 코파일럿이 분석을 알아서 해줍니다 | 지금 바로 사용해보세요! (2025-04-06)
+- Date: 2025-04-06
+- CreateDate: 2025-04-02
+- Title: [엑셀 + 파이썬, 이 정도까지 된다고?! 코파일럿이 분석을 알아서 해줍니다 | 지금 바로 사용해보세요!](https://www.youtube.com/watch?v=L2nUvMVhJ3o&ab_channel=%EC%98%A4%EB%B9%A0%EB%91%90%EC%97%91%EC%85%80l%EC%97%91%EC%85%80%EA%B0%95%EC%9D%98%EB%8C%80%ED%91%9C%EC%B1%84%EB%84%90)
+- Categories: tool
+- Tags: excel,python,data,data-science
+- Description: excel에서 python 이용 : dictionary이용으로 인한 속도 증가 가능할까?
+- Remarks: M365에서 이용가능 : https://www.oppadu.com/%ec%97%91%ec%85%80-%ed%8c%8c%ec%9d%b4%ec%8d%ac-%ea%b3%a0%ea%b8%89-%eb%b6%84%ec%84%9d/
 

@@ -11,7 +11,7 @@ Date,CreateDate,Title,URL,Categories,Tags,NotesLink,Description,Remarks
 2025-01-20,2025-01-10,"AI에게 맡기는 비트코인 투자 자동화 with 빗썸, GPT, Gemini",https://www.youtube.com/watch?v=g71g8GKlmjE&t=26s,ai,"google,bitcoin,gemini,trading,auto,automation,jocoding",,"Remarks의 내용을 보면 gpt에 물어보고 , 물어보기 위한 fear&greed index 값을 받아오는 등의 작업을 이해 할수 있다. 여러가지 값을 넣어주고 , GPT에게 buy/sell  중에 선택을 하게 한다.","https://jocoding.net/gptbitcoin-bithumb
   - 유사 youtube : https://www.youtube.com/watch?v=EOnaOpZy9ew
   - https://jocoding.net/gptbitcoin"
-2025-01-20,2022-07-04,CC) Automate stock investment easily - Complete automatic trading system in 20 minutes,https://www.youtube.com/watch?v=2Hxfb5HT4kE,automation,"jocoding,stock,trading",,한국투자증권은 restAPI사용한다. ,https://github.com/youtube-jocoding/koreainvestment-autotrade
+2025-01-20,2022-07-04,CC) Automate stock investment easily - Complete automatic trading system in 20 minutes,https://www.youtube.com/watch?v=2Hxfb5HT4kE,automation,"jocoding,stock,trading",,"한국투자증권은 restAPI사용한다. ",https://github.com/youtube-jocoding/koreainvestment-autotrade
 2025-01-20,2025-01-13,"ChatGPT, Perplexity, Claude 보다 시각화에 엄청 더 쎈놈이 나타났다! 이제는 Felo의 시대! I AI에 날개를 달다 | 노가다헌터 | 정진일",https://www.youtube.com/watch?v=_n4nmIwLcJk,ai,"chatgpt,perplexity,claude,felo",,"FELO 를 사용하자. (시각화)
   - mindmap , notion 연동 가능 (유료는 ppt 생성)
   - 기본적으로 URL을 넣으면 기사나 동영상을 요약해서 보여준다.
@@ -21,7 +21,7 @@ Date,CreateDate,Title,URL,Categories,Tags,NotesLink,Description,Remarks
   1. Agents can leverage one or more language models to decide when and how to transition through states and use external tools to complete any number of complex tasks that would be difficult or impossible for the model to complete on its own.
   2. ReAct, Chain-of-Thought, and Tree-of-Thoughts
   3. Tools, such as Extensions, Functions, and Data Stores, serve as the keys to the outside world for agents",
-2025-01-24,2024-12-03,[속보] 테슬라 FSD13 (사기다!!),https://www.youtube.com/watch?v=LpMHYI4yIbs&ab_channel=%EC%9E%90%EB%8F%99%EC%B0%A8%EB%AF%B8%EC%83%9DAutoEngineerAmericanLife,IT,"FSD , tesla , self-driving",,테슬라는 이 시스템을 다른 OEM에 팔 것이다. 카메라만 사용하고 network을 사용하므로 전기차/게솔린차 모두 될 것이다.  비보호 좌회전도 된다.  한국의 자율주행의 수준을 알아야 한다. ,https://stibee.com/api/v1.0/emails/share/rjYnaa6OtEF8ykRO0h6c3o2x9eItcBg
+2025-01-24,2024-12-03,[속보] 테슬라 FSD13 (사기다!!),https://www.youtube.com/watch?v=LpMHYI4yIbs&ab_channel=%EC%9E%90%EB%8F%99%EC%B0%A8%EB%AF%B8%EC%83%9DAutoEngineerAmericanLife,IT,"FSD , tesla , self-driving",,"테슬라는 이 시스템을 다른 OEM에 팔 것이다. 카메라만 사용하고 network을 사용하므로 전기차/게솔린차 모두 될 것이다.  비보호 좌회전도 된다.  한국의 자율주행의 수준을 알아야 한다. ",https://stibee.com/api/v1.0/emails/share/rjYnaa6OtEF8ykRO0h6c3o2x9eItcBg
 2025-01-26,2025-01-23,강달러 끝? 원화 빠르게 반등하나 | 딥코노미 With 박소연 신영증권 연구원,https://www.youtube.com/watch?v=BfjOTI_2YVA&list=WL&index=5&ab_channel=%ED%95%9C%EA%B2%BD%EC%BD%94%EB%A6%AC%EC%95%84%EB%A7%88%EC%BC%93,economy,"환율하락,경기",,"한국 국채를 사러 달러들 들어올수 있어 환율이 내릴 여지가 많지만, 미국에서 이자율을 낮추지 않으면 환율이 내리기 쉽지 않다.
   - 트럼프는 규제 완화에 집중.",
 2025-01-26,2024-12-29,"Github Copilot vs Cursor, Windsurf | 제가 대신 비교 해봤습니다",https://www.youtube.com/watch?v=82UUYNEu2iM&list=WL&index=33&pp=gAQBiAQB,ai,"github,copilot,cursor,windsurf,comparison",,"github copilot 사용법을 proudct생성으로 간단히 보여줌. (markdown으로 PRD를 만들어 사용)
@@ -141,3 +141,11 @@ Date,CreateDate,Title,URL,Categories,Tags,NotesLink,Description,Remarks
   - (1:05:24) Outro"
 2025-04-02,2025-04-02,Youtube to MP3 downloader,https://github.com/fajicbenjamin/youtube-to-mp3-downloader/releases/tag/v0.4.9,tool,"youtube,download,tool",,Youtube-to-MP3-Downloader-Setup-0.4.9.exe  설치 : parameter는 watch까지만 넣으면 잘 download됨,
 2025-04-02,2025-04-02,노트북이 자동으로 달러 채굴해주고 한달에 3000만원 버는 23살 대표님,https://www.youtube.com/watch?v=Ql7LcqatDzc&list=WL&index=4&t=615s,life,"money,earn",,"쇼피파이 매장 - 찐 인듯!  뭔가 분석 또는 프로그래밍하여 전문가된다면 살아남을 수 있다. 로봇과의 경쟁은 힘들지만 , 사람들이 고객이면 뭔가 niche market이 있을 것으로 보인다.",
+2025-04-06,2025-04-06,"300조원 굴리는 美운용사의 경고 ""주식 채권 다 비싸다. 현금쥐고 기회노릴 때"" | 직격 인터뷰 : 케이티 코치 TCW 그룹 CEO",https://www.youtube.com/watch?v=PMcSEqapw98,stock,,,"미국 주식 시장은 장기적으로 여전히 매력적이지만, 밸류에이션이 비싸고 변동성이 예상되므로 신중한 접근이 필요하다.
+  - 미국 외 투자처로는 유럽과 일부 신흥 시장이 유망하며, 특히 유럽은 미국 정책 변화에 자극받아 자체 성장에 집중하고 있다.
+  - 미국 경제 둔화와 소비 위축 징후가 나타나고 있으며, 금리 인상 유지 가능성으로 인해 경기 침체 가능성에 대비해야 한다.","트럼프의 고관세 영향으로 경기 침체가 예상됨.
+  - 워렌버핏도 현금화시키고 했는데 , 3개월 늦게 뒤쫓아 현인의 포트폴리오를 그대로 답습하면 어떨까?!!"
+2025-04-06,2025-03-06,"디지털 유목민 시대, 포르투갈의 딜레마 [글로벌Y] / YTN korean",https://www.youtube.com/watch?v=BNlXWyfiwWo&ab_channel=YTNkorean,life,tax,,디지털 유목민의 소득 때문에 현지인과의 소득격차 발생,"포르투칼 재산 증여세는 0.8%이며, 개인의 무상 취득(상속 및 증여)에는 10%의 세율이 부과됩니다. 직계 후손과 직계 후손에게는 상속세가 적용되지 않습니다.
+  - https://www.dixcart.com/ko/practical-tax-guide-to-inheritance-and-gifts-recieved-in-portugal/"
+2025-04-06,2025-04-02,"엑셀 + 파이썬, 이 정도까지 된다고?! 코파일럿이 분석을 알아서 해줍니다 | 지금 바로 사용해보세요!",https://www.youtube.com/watch?v=L2nUvMVhJ3o&ab_channel=%EC%98%A4%EB%B9%A0%EB%91%90%EC%97%91%EC%85%80l%EC%97%91%EC%85%80%EA%B0%95%EC%9D%98%EB%8C%80%ED%91%9C%EC%B1%84%EB%84%90,tool,"excel,python,data,data-science",,excel에서 python 이용 : dictionary이용으로 인한 속도 증가 가능할까?,M365에서 이용가능 : https://www.oppadu.com/%ec%97%91%ec%85%80-%ed%8c%8c%ec%9d%b4%ec%8d%ac-%ea%b3%a0%ea%b8%89-%eb%b6%84%ec%84%9d/
+2025-04-06,2025-04-06,"역대급 패닉쇼크, 보복관세전쟁 시작일까/트럼프 5월까지 증시 무조건 누른다?",https://www.youtube.com/watch?v=El_OEO2fh1M&ab_channel=%EC%86%8C%EC%88%98%EB%AA%BD%ED%82%A4,stock,소수몽키,,22%폭락 - 빅7 폭락... 사자! 더 내리면 더 사야 하나?,이때 앞으로 어떻게 살지를 고려해보자. 달러 가격은?

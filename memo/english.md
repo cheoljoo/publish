@@ -57,6 +57,17 @@ TOC
     - [1.23.1. correction](#1231-correction)
     - [1.23.2. learnt](#1232-learnt)
   - [1.24. Topic 1: Should Students Take Notes on a Tablet Instead of Paper in Class?](#124-topic-1-should-students-take-notes-on-a-tablet-instead-of-paper-in-class)
+  - [1.25. Topic 1: Spender or Saver: What's Your 'Money Personality'?](#125-topic-1-spender-or-saver-whats-your-money-personality)
+  - [1.26. Topic 2: Marriages with foreign spouses in S. Korea rise for 3rd year in 2024 \[\[Date:2025-04-05\_W14-6\]\]](#126-topic-2-marriages-with-foreign-spouses-in-s-korea-rise-for-3rd-year-in-2024-date2025-04-05_w14-6)
+  - [1.27. Topic 3: Should you be sleepmaxxing to boost health and happiness? \[\[Date:2025-04-05\_W14-6\]\]](#127-topic-3-should-you-be-sleepmaxxing-to-boost-health-and-happiness-date2025-04-05_w14-6)
+  - [1.28. Topic 3: This Butter Swap Could Help You Live Longer, According to a Harvard-Led Study \[\[Date:2025-04-05\_W14-6\]\]](#128-topic-3-this-butter-swap-could-help-you-live-longer-according-to-a-harvard-led-study-date2025-04-05_w14-6)
+  - [1.29. Topic 4: From fad to lifestyle: Slow-aging diet gains momentum among young Koreans \[\[Date:2025-04-05\_W14-6\]\]](#129-topic-4-from-fad-to-lifestyle-slow-aging-diet-gains-momentum-among-young-koreans-date2025-04-05_w14-6)
+  - [1.30. Topic 5: Korean box office slumps in Feb. amid lack of hit films \[\[Date:2025-04-05\_W14-6\]\]](#130-topic-5-korean-box-office-slumps-in-feb-amid-lack-of-hit-films-date2025-04-05_w14-6)
+  - [1.31. Topic 2: 'North Korea-view Starbucks' becomes new attraction in South Korea's DMZ](#131-topic-2-north-korea-view-starbucks-becomes-new-attraction-in-south-koreas-dmz)
+  - [1.32. Topic 3: Coca-Cola is on pace to dump 1.3 billion pounds of plastic into our oceans each year](#132-topic-3-coca-cola-is-on-pace-to-dump-13-billion-pounds-of-plastic-into-our-oceans-each-year)
+  - [1.33. Topic 4: Netanyahu is on his way to Washington to meet with Trump about tariffs, Iran and hostages](#133-topic-4-netanyahu-is-on-his-way-to-washington-to-meet-with-trump-about-tariffs-iran-and-hostages)
+  - [1.34. Topic 1: Why some Americans have stockpiled Korean sunscreen](#134-topic-1-why-some-americans-have-stockpiled-korean-sunscreen)
+  - [1.35. Topic 2: Samsung remains vigilant despite US tariff exemptions for smartphones](#135-topic-2-samsung-remains-vigilant-despite-us-tariff-exemptions-for-smartphones)
 
 ------------------
 
@@ -579,3 +590,47 @@ The Doomsday Clock is a symbol of the threats to humanity. It moves closer to mi
 ## 1.24. [Topic 1: Should Students Take Notes on a Tablet Instead of Paper in Class?](https://band.us/band/57062236/post/2587)
 - [source](https://www.scmp.com/yp/discover/your-voice/opinion/article/3300519/face-should-students-take-notes-tablet-instead-paper-class%3E)
 - That's a great idea which students can use tablet instead of paper.  In my case I load a lot of paper book to study everyday. So my shoulder are leaned (different levle of my shoulder). Tablet can reduce the bag weights and they can find easier and faster when they want to find any solution and prepare to study. However it has some disadvnatages. They will open their circumstance into social media. Most of students open and show contents of social media and they lose their time. Young people is digital generation. It means they are familiar with electric devices. They use fluently without any explanation. And they need the pen to write easily on the tablet. Pencil is mendatory item. 
+
+## 1.25. [Topic 1: Spender or Saver: What's Your 'Money Personality'?](https://band.us/band/57062236/post/2589)
+- [source](https://engoo.com/app/daily-news/article/spender-or-saver-whats-your-money-personality/lOwq8ANfEfCiZBfDaKOavg)  [[Date:2025-04-05_W14-6]]
+- Money is not all. However it is the most important things in our lives. We think differently. So we have money persoanlity. Surely I am a saver. I am comfortable when I get the money or asset instead of products. I want to be affordable.  And I think that nobody can help as our financial advisor.  Change our mind and try / practice several methods by ourselves.
+
+## 1.26. [Topic 2: Marriages with foreign spouses in S. Korea rise for 3rd year in 2024](https://band.us/band/57062236/post/2590) [[Date:2025-04-05_W14-6]]
+- [source](https://www.pna.gov.ph/articles/1246429)
+- The number of marriages between South Koreans and foreign spouses rose for the third consecutive year in 2024. We know that the count is increased continuously. And we need more immigration sincerely since our population decreased.
+
+## 1.27. [Topic 3: Should you be sleepmaxxing to boost health and happiness?](https://band.us/band/57062236/post/2591) [[Date:2025-04-05_W14-6]]
+- [source](https://www.health.harvard.edu/blog/should-you-be-sleepmaxxing-to-boost-health-and-happiness-202503063090)
+- Sleepmaxxing recommends a good sleep with dark mood and deep / pure sleep. However everything is not verified scientifically. Nowadays I have a lot of sleep time. So I ask my colleagues. Then they said it is not related to ages because they have the same status. Relative cold temperature in spring makes me sleepy.
+
+## 1.28. [Topic 3: This Butter Swap Could Help You Live Longer, According to a Harvard-Led Study](https://band.us/band/57062236/post/2592) [[Date:2025-04-05_W14-6]]
+- [source](https://www.foodandwine.com/butter-vs-plant-based-oils-mortality-harvard-study-11705242)
+- Question is "How often they had certain types of food". They finds key that butter consumer has more 15% risk than less consumer and plant-based oil consumer has less 16% risk for death. Plant-based oil is better than butter for our health. What means swap? I know swap is change. Does it mean change your custom to eat butter?  Onion seems not delicious but healthy.
+
+## 1.29. [Topic 4: From fad to lifestyle: Slow-aging diet gains momentum among young Koreans](https://band.us/band/57062236/post/2593) [[Date:2025-04-05_W14-6]]
+- [source](https://www.koreaherald.com/article/10446190)
+- Do you want to try the same thing for diet? In my case I do not want to eat it because it seems not delicious.
+
+## 1.30. [Topic 5: Korean box office slumps in Feb. amid lack of hit films](https://band.us/band/57062236/post/2594) [[Date:2025-04-05_W14-6]]
+- [source](https://www.koreaherald.com/article/10444847)
+- Our box office (ex. CGV,MEGA-BOX) slumps for a long time but not Feb. How do you think what is a reason of slumps? Already most of people know that main reason is ticket price. The price is more expensive that netflix subscription fee. Minsik.choi which is famous actor in korea film said that he would not go theater if he were a watcher. Already our era was changed into online era.
+
+## 1.31. [Topic 2: 'North Korea-view Starbucks' becomes new attraction in South Korea's DMZ](https://band.us/band/57062236/post/2596)
+- [source](https://www.chosun.com/english/travel-food-en/2025/03/30/JBPX6SYYLVEUPBXXC2765PW4IY/%3E)
+- DMZ shows our reality between north and south Korea. Starbucks was the america's symbolic company. But now ShinSaeGae acquired all stocks of starbucks Korea from head quarters. So it is easy to get acceptance from starbucks korea to build starbucks anywhere. I will write it in my visit list. JungEun.kim is afraid of our propaganda with western and our curlture. The examples are K-Pop and christmas tree and so on. 
+
+## 1.32. [Topic 3: Coca-Cola is on pace to dump 1.3 billion pounds of plastic into our oceans each year](https://band.us/band/57062236/post/2597)
+- [source](https://www.earth.com/news/coca-cola-may-dump-1-3b-pounds-plastic-into-oceans-by-2030/)
+- Coca-Cola's shape resembles the waist of beautiful woman. Coke is the top 1 company in baverage market. Nowadays Coke market share decreased al lot about 27%. But this is not end story of Coca-Cola.  Zero coke appered as a nre brand in diet beverage market.    Coke is forever.    However it poluted the ocean. Microplatic are melted in the deep ocean. Finally it goes to humans. Plastic is not rotten materials.  We need to reduce the usage of it.
+
+## 1.33. [Topic 4: Netanyahu is on his way to Washington to meet with Trump about tariffs, Iran and hostages](https://band.us/band/57062236/post/2598)
+- [source](https://edition.cnn.com/politics/live-news/trump-tariffs-news-04-06-25#cm95lnfx900003b6pdrud5hnx)
+- I do not understand why Trump supports the Israel. Netanyahu is like a bad fish in the pond (middle-east area). America lost the trust/credibility.  America start suiciding by himself to break his great wall (trust). Time is not now but now will be the small hole of big water tak (Dam).
+
+## 1.34. [Topic 1: Why some Americans have stockpiled Korean sunscreen](https://band.us/band/57062236/post/2600)
+- [source](https://www.koreatimes.co.kr/lifestyle/trends/20250413/why-some-americans-have-stockpiled-korean-sunscreen)
+- Americans need to use it continuously in summer. Specially this summer will be hotter than another year. So they need sun cream to protect their skin. They can not burn their skin lightly under the strong sunshine.  And Trump will increase tax rate. Therefore many amricans stocked many products before increasing price.   From the end of last year, Korea had more positive profit from trade. The reason is tariff.  We will ahve the crisis of wave from america. We are afraid of this wave. We do not have any power and preparation because our government is empty or dummer.
+
+## 1.35. [Topic 2: Samsung remains vigilant despite US tariff exemptions for smartphones](https://band.us/band/57062236/post/2601)
+- [source](https://www.koreatimes.co.kr/business/companies/20250413/samsung-cautious-as-us-smartphone-tariff-exemptions-seen-to-favor-apple)
+- Some experts said that it is a good chance to expand our market. Because we need to show it relatively. Our tax rate is 25%. But Chaina is more than 100% and other countries has more tax rate. Who will have the chance in changible ages?

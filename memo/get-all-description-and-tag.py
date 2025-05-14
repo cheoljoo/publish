@@ -128,10 +128,10 @@ if __name__ == "__main__":
         for fttdk , fttdv in sorted(file_to_tag_dict.items()):
             f.write('- [{a}]({b}) : {c}\n'.format(b=fttdk,a=fttdk.lstrip("./"),c=fttdv['description']))
 
-        for tag_dir , tag_v in tag_json.items():
+        for tag_dir , tag_v in sorted(list(tag_json.items())):
             tag_dir = tag_dir.encode('utf-8', errors='ignore').decode('utf-8')
             f.write('\n# [{d}]({d}/index.md)\n'.format(d=tag_dir))
-            for tag_category , tag_items in tag_v.items():
+            for tag_category , tag_items in sorted(list(tag_v.items())):
                 tag_category = tag_category.encode('utf-8', errors='ignore').decode('utf-8')
                 f.write('\n## category : {d}\n'.format(d=tag_category))
                 items = sorted(tag_items, key=lambda x: x["Date"])
