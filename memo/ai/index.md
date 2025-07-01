@@ -44,6 +44,14 @@
   - https://serpapi.com/google-news-api
   - https://serpapi.com/google-finance-api
 
+## 커서 1.0 업데이트 + 클로드코드 + 코덱스로 완전자동 앱개발하기 (2025-06-29)
+- Date: 2025-06-29
+- CreateDate: 2025-06-29
+- Title: [커서 1.0 업데이트 + 클로드코드 + 코덱스로 완전자동 앱개발하기](https://www.youtube.com/watch?v=5gjKIwF4JMw&ab_channel=%EC%BD%94%EB%82%9C%EC%8C%A4conanssam)
+- Categories: ai
+- Tags: cursor,claude
+- Remarks: 실제로 이 툴들을 이용해서 직접해봐야 할 듯하다. replit와는 또 다른 것으로 MCP를 활용하는게 필요. 그러나 무엇보다 뭘 할지를 정해야한다.
+
 
 # url
 ## Ngrok - 특징 및 사용법 (로컬 서버를 공개 서버로) (2025-01-29)

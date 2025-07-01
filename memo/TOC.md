@@ -8,7 +8,11 @@
 - [ai-robot.md](./ai-robot.md) : 로봇 관련 글들을 모아놓은 것이다. 로봇에 대한 설명과 요즘의 추세를 적어둔 페이지이다.
 - [ai.elice.io_파이썬 데이터 분석 기초.md](./ai.elice.io_파이썬 데이터 분석 기초.md) : ai 관련 교육 내용중 내가 모르던 것을 요약했다.  교육명 : 파이썬 데이터 분석 기초
 - [ai/convert_csv_to_md-for-ai.py](./ai/convert_csv_to_md-for-ai.py) : youtube 시청한 csv내용을 markdown으로 변환하는 프로그램
+- [ai/gemini_cli/index.md](./ai/gemini_cli/index.md) : Google’s Gemini CLI is INSANE—After 1 Hour of Coding, It’s Still 95% Full! & MCP
+- [ai/gemini_visualization/index.md](./ai/gemini_visualization/index.md) : Prompt , AI 문서 시각화, 이제 돈 내지 마세요! 제미나이 젬 활용 가이드 / 단 몇 초 만에 유튜브 전문가 되는 비법 공개! youtube 요약 및 8가지 기능 /  | GEMINI 활용법 6편
 - [ai/index.md](./ai/index.md) : AI URLs
+- [ai/stock_samsung/index.md](./ai/stock_samsung/index.md) : 삼성전자와 삼성전자(우)의 비교 : 언제 어떤 것을 사야 유리한지?
+- [ai/supergoop_javascript_crawling/index.md](./ai/supergoop_javascript_crawling/index.md) : javascript crawling for supergoop (suncream company) in replit
 - [airflow.md](./airflow.md) : airflow 관련 내용을 정리해두는 페이지이다.
 - [autohotkey_mini_keyboard.md](./autohotkey_mini_keyboard.md) : 구매한 autohotkey와 mini keyboard의 사용 조합에 대한 페이지이다.
 - [binary_data_int_console_system_popen.md](./binary_data_int_console_system_popen.md) : python에서 Popen (process run)을 사용할때의 주의점
@@ -30,6 +34,7 @@
 - [data-science.md](./data-science.md) : data science에 대해서 추천 책 / 글들을 모아둔 페이지를 그대로 copy해둔 것이다. origin을 참조하기 바란다.
 - [dreamhack.md](./dreamhack.md) : dreamhack (LGE 해킹대회 사전 교육) 관련 정리하던 것으로 , 제대로 끝내지 못한 교육이었음.
 - [education/Gen-AI-RAG-실전-가이드_Langchain을-활용한-AI-챗봇-완전정복/index.md](./education/Gen-AI-RAG-실전-가이드_Langchain을-활용한-AI-챗봇-완전정복/index.md) : (education정리) Gen AI RAG 실전 가이드, Langchain을 활용한 AI 챗봇 완전정복 : 실습을 통한 설명과 zip파일로 소스 pdf등 제공
+- [education/Learn-Object-Oriented-Programming-in-Python/index.md](./education/Learn-Object-Oriented-Programming-in-Python/index.md) : (education정리) Learn Object Oriented Programming in Python (OOP)
 - [education/Qlik-Sense_Data-Science_and_BI/index.md](./education/Qlik-Sense_Data-Science_and_BI/index.md) : (education정리) Data Science 와 BI 를 위한 Qlik Sense 클릭센스 : 차원이 존재하는 엑셀
 - [education/convert_csv_to_md-for-education.py](./education/convert_csv_to_md-for-education.py) : education 관련 csv내용을 markdown으로 변환하는 프로그램
 - [education/index.md](./education/index.md) : education review : 교육 받은 내용 정리
@@ -129,6 +134,14 @@
 - Remarks: 링크:
   - https://serpapi.com/google-news-api
   - https://serpapi.com/google-finance-api
+
+### Cursor 1.0 Update + Claude Code + Codex Develop a fully automatic app (2025-06-29)
+- Date: 2025-06-29
+- CreateDate: 2025-06-29
+- Title: [커서 1.0 업데이트 + 클로드코드 + 코덱스로 완전자동 앱개발하기](https://www.youtube.com/watch?v=5gjKIwF4JMw&ab_channel=%EC%BD%94%EB%82%9C%EC%8C%A4conanssam)
+- Categories: ai
+- Tags: cursor,claude
+- Remarks: 실제로 이 툴들을 이용해서 직접해봐야 할 듯하다. replit와는 또 다른 것으로 MCP를 활용하는게 필요. 그러나 무엇보다 뭘 할지를 정해야한다.
 
 
 ## category : url

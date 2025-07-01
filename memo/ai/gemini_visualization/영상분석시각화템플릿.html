@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[영상 제목 삽입] - YouTube 영상 분석 리포트</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            line-height: 1.7;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .card-shadow {
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        .timeline-item {
+            position: relative;
+            padding-left: 2rem;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0.5rem;
+            width: 0.75rem;
+            height: 0.75rem;
+            background: #667eea;
+            border-radius: 50%;
+        }
+        .tag {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 1rem;
+            font-size: 0.875rem;
+            display: inline-block;
+            margin: 0.25rem;
+        }
+        .highlight-icon {
+            color: #f59e0b;
+        }
+        .section-header {
+            border-left: 4px solid #667eea;
+            padding-left: 1rem;
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- Header -->
+    <div class="gradient-bg text-white py-12">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center">
+                <i class="fas fa-video text-6xl mb-4 opacity-90"></i>
+                <h1 class="text-4xl font-bold mb-4">YouTube 영상 분석 리포트</h1>
+                <p class="text-xl opacity-90">[영상 제목 삽입] 완전 분석</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="max-w-6xl mx-auto px-6 py-8">
+        <!-- 영상 기본 정보 -->
+        <section class="mb-12">
+            <div class="section-header">
+                <h2 class="text-2xl font-bold text-gray-800 flex items-center">
+                    <i class="fas fa-info-circle text-blue-600 mr-3"></i>
+                    영상 기본 정보
+                </h2>
+            </div>
+            <div class="bg-white rounded-xl card-shadow p-8">
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <i class="fas fa-film text-purple-600 mt-1 mr-3"></i>
+                            <div>
+                                <div class="font-semibold text-gray-700">영상 제목</div>
+                                <div class="text-lg text-gray-900">[영상 제목 삽입]</div>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-tv text-red-600 mr-3"></i>
+                            <div>
+                                <span class="font-semibold text-gray-700">채널명:</span>
+                                <span class="ml-2 text-gray-900">[채널명 삽입]</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <i class="fas fa-clock text-green-600 mr-3"></i>
+                            <div>
+                                <span class="font-semibold text-gray-700">영상 길이:</span>
+                                <span class="ml-2 text-gray-900">[영상 길이 삽입]</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-calendar-alt text-blue-600 mr-3"></i>
+                            <div>
+                                <span class="font-semibold text-gray-700">게시일:</span>
+                                <span class="ml-2 text-gray-900">[게시일 삽입]</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 한 줄 핵심 요약 -->
+        <section class="mb-12">
+            <div class="section-header">
+                <h2 class="text-2xl font-bold text-gray-800 flex items-center">
+                    <i class="fas fa-lightbulb text-yellow-500 mr-3"></i>
+                    한 줄 핵심 요약
+                </h2>
+            </div>
+            <div class="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-xl card-shadow p-8 border-l-4 border-yellow-400">
+                <p class="text-lg text-gray-800 leading-relaxed">
+                    [영상의 전체 내용을 압축하는 가장 중요한 한 문장]
+                </p>
+            </div>
+        </section>
+
+        <!-- 상세 분석 및 요약 -->
+        <section class="mb-12">
+            <div class="section-header">
+                <h2 class="text-2xl font-bold text-gray-800 flex items-center">
+                    <i class="fas fa-search text-purple-600 mr-3"></i>
+                    상세 분석 및 요약
+                </h2>
+            </div>
+            <div class="space-y-6">
+                <!-- 상세 분석 문단 1 (서론) -->
+                <div class="bg-white rounded-xl card-shadow p-8">
+                    <div class="flex items-start mb-4">
+                        <i class="fas fa-star text-blue-500 mt-1 mr-3"></i>
+                        <h3 class="text-xl font-semibold text-gray-800">[상세 분석 소제목 1: 예: 도입 및 핵심 소개]</h3>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        [상세 분석 문단 1 내용]
+                    </p>
+                </div>
+                <!-- 상세 분석 문단 2 (본론) -->
+                <div class="bg-white rounded-xl card-shadow p-8">
+                    <div class="flex items-start mb-4">
+                        <i class="fas fa-users text-green-500 mt-1 mr-3"></i>
+                        <h3 class="text-xl font-semibold text-gray-800">[상세 분석 소제목 2: 예: 주요 개념 및 사례]</h3>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        [상세 분석 문단 2 내용]
+                    </p>
+                </div>
+                <!-- 상세 분석 문단 3 (결론) -->
+                <div class="bg-white rounded-xl card-shadow p-8">
+                    <div class="flex items-start mb-4">
+                        <i class="fas fa-rocket text-purple-500 mt-1 mr-3"></i>
+                        <h3 class="text-xl font-semibold text-gray-800">[상세 분석 소제목 3: 예: 의의 및 전망]</h3>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">
+                        [상세 분석 문단 3 내용]
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 주요 키워드 및 태그 -->
+        <section class="mb-12">
+            <div class="section-header">
+                <h2 class="text-2xl font-bold text-gray-800 flex items-center">
+                    <i class="fas fa-tags text-orange-600 mr-3"></i>
+                    주요 키워드 및 태그
+                </h2>
+            </div>
+            <div class="bg-white rounded-xl card-shadow p-8">
+                <div class="flex flex-wrap justify-center">
+                    <!-- 키워드 개수(5~7개)만큼 이 span 태그를 반복 생성합니다. -->
+                    <span class="tag">[#키워드1]</span>
+                    <span class="tag">[#키워드2]</span>
+                    <span class="tag">[#키워드3]</span>
+                    <span class="tag">[#키워드4]</span>
+                    <span class="tag">[#키워드5]</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 타임라인별 하이라이트 -->
+        <section class="mb-12">
+            <div class="section-header">
+                <h2 class="text-2xl font-bold text-gray-800 flex items-center">
+                    <i class="fas fa-clock text-indigo-600 mr-3"></i>
+                    타임라인별 하이라이트 ✨
+                </h2>
+            </div>
+            <div class="bg-white rounded-xl card-shadow p-8">
+                <div class="space-y-6">
+                    <!-- 영상의 주요 구간만큼 이 'timeline-item' div를 반복 생성합니다. -->
+                    <div class="timeline-item">
+                        <div class="flex items-start justify-between">
+                            <div class="flex-1">
+                                <div class="font-semibold text-blue-600 mb-1">[타임스탬프] [구간 제목: 예: 도입부]</div>
+                                <p class="text-gray-700">[해당 구간 요약 내용]</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="flex items-start justify-between">
+                            <div class="flex-1">
+                                <div class="font-semibold text-blue-600 mb-1 flex items-center">
+                                    [타임스탬프] [구간 제목: 예: 핵심 개념 1] <i class="fas fa-lightbulb highlight-icon ml-2"></i>
+                                </div>
+                                <p class="text-gray-700">[해당 구간 요약 내용]</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="flex items-start justify-between">
+                            <div class="flex-1">
+                                <div class="font-semibold text-blue-600 mb-1 flex items-center">
+                                    [타임스탬프] [구간 제목: 예: 주요 사례] <i class="fas fa-map-marker-alt highlight-icon ml-2"></i>
+                                </div>
+                                <p class="text-gray-700">[해당 구간 요약 내용]</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="flex items-start justify-between">
+                            <div class="flex-1">
+                                <div class="font-semibold text-blue-600 mb-1 flex items-center">
+                                    [타임스탬프] [구간 제목: 예: 결론 및 마무리] <i class="fas fa-flag highlight-icon ml-2"></i>
+                                </div>
+                                <p class="text-gray-700">[해당 구간 요약 내용]</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 영상 분위기 및 스타일 분석 -->
+        <section class="mb-12">
+            <div class="section-header">
+                <h2 class="text-2xl font-bold text-gray-800 flex items-center">
+                    <i class="fas fa-palette text-pink-600 mr-3"></i>
+                    영상 분위기 및 스타일 분석
+                </h2>
+            </div>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white rounded-xl card-shadow p-6">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-volume-up text-blue-500 mr-3"></i>
+                        <h3 class="text-lg font-semibold text-gray-800">톤앤매너</h3>
+                    </div>
+                    <p class="text-gray-700">[톤앤매너 분석 결과]</p>
+                </div>
+                <div class="bg-white rounded-xl card-shadow p-6">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-play-circle text-red-500 mr-3"></i>
+                        <h3 class="text-lg font-semibold text-gray-800">전달 방식</h3>
+                    </div>
+                    <p class="text-gray-700">[전달 방식 분석 결과]</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 타겟 오디언스 -->
+        <section class="mb-12">
+            <div class="section-header">
+                <h2 class="text-2xl font-bold text-gray-800 flex items-center">
+                    <i class="fas fa-bullseye text-red-600 mr-3"></i>
+                    이 영상을 시청하면 좋을 대상
+                </h2>
+            </div>
+            <div class="bg-white rounded-xl card-shadow p-8">
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="text-center p-4 bg-blue-50 rounded-lg">
+                        <i class="fas fa-user text-blue-600 text-3xl mb-3"></i>
+                        <h3 class="font-semibold text-gray-800 mb-2">[타겟 1 이름]</h3>
+                        <p class="text-sm text-gray-600">[타겟 1 설명]</p>
+                    </div>
+                    <div class="text-center p-4 bg-green-50 rounded-lg">
+                        <i class="fas fa-brush text-green-600 text-3xl mb-3"></i>
+                        <h3 class="font-semibold text-gray-800 mb-2">[타겟 2 이름]</h3>
+                        <p class="text-sm text-gray-600">[타겟 2 설명]</p>
+                    </div>
+                    <div class="text-center p-4 bg-purple-50 rounded-lg">
+                        <i class="fas fa-graduation-cap text-purple-600 text-3xl mb-3"></i>
+                        <h3 class="font-semibold text-gray-800 mb-2">[타겟 3 이름]</h3>
+                        <p class="text-sm text-gray-600">[타겟 3 설명]</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 핵심 실행 포인트 -->
+        <section class="mb-12">
+            <div class="section-header">
+                <h2 class="text-2xl font-bold text-gray-800 flex items-center">
+                    <i class="fas fa-check-circle text-green-600 mr-3"></i>
+                    핵심 실행 포인트
+                </h2>
+            </div>
+            <div class="bg-white rounded-xl card-shadow p-8">
+                <div class="space-y-6">
+                    <!-- 핵심 실행 포인트 개수(1~3개)만큼 이 블록을 반복 생성합니다. -->
+                    <div class="flex items-start">
+                        <div class="bg-green-100 rounded-full p-2 mr-4 mt-1">
+                            <i class="fas fa-mouse-pointer text-green-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-800 mb-2">[실행 포인트 1 제목]</h3>
+                            <p class="text-gray-700">[실행 포인트 1 설명]</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <div class="bg-blue-100 rounded-full p-2 mr-4 mt-1">
+                            <i class="fas fa-cogs text-blue-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-800 mb-2">[실행 포인트 2 제목]</h3>
+                            <p class="text-gray-700">[실행 포인트 2 설명]</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <div class="bg-purple-100 rounded-full p-2 mr-4 mt-1">
+                            <i class="fas fa-sync-alt text-purple-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-800 mb-2">[실행 포인트 3 제목]</h3>
+                            <p class="text-gray-700">[실행 포인트 3 설명]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 마무리 요약 -->
+        <section class="mb-12">
+            <div class="section-header">
+                <h2 class="text-2xl font-bold text-gray-800 flex items-center">
+                    <i class="fas fa-flag-checkered text-indigo-600 mr-3"></i>
+                    마무리 요약
+                </h2>
+            </div>
+            <div class="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-xl card-shadow p-8 border-l-4 border-indigo-400">
+                <p class="text-lg text-gray-800 leading-relaxed">
+                    [영상이 궁극적으로 전달하고자 하는 메시지와 그 가치를 한 문단으로 종합적으로 정리]
+                </p>
+            </div>
+        </section>
+
+        <!-- 영상 시청 후 생각해 볼 질문 -->
+        <section class="mb-12">
+            <div class="section-header">
+                <h2 class="text-2xl font-bold text-gray-800 flex items-center">
+                    <i class="fas fa-question-circle text-orange-600 mr-3"></i>
+                    영상 시청 후 생각해 볼 질문
+                </h2>
+            </div>
+            <div class="space-y-6">
+                <!-- 질문 개수(2~3개)만큼 이 블록을 반복 생성합니다. -->
+                <div class="bg-white rounded-xl card-shadow p-6">
+                    <div class="flex items-start">
+                        <div class="bg-orange-100 rounded-full p-2 mr-4 mt-1 flex-shrink-0">
+                            <span class="text-orange-600 font-bold text-sm">1</span>
+                        </div>
+                        <p class="text-gray-700">[생각해 볼 질문 1]</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl card-shadow p-6">
+                    <div class="flex items-start">
+                        <div class="bg-blue-100 rounded-full p-2 mr-4 mt-1 flex-shrink-0">
+                            <span class="text-blue-600 font-bold text-sm">2</span>
+                        </div>
+                        <p class="text-gray-700">[생각해 볼 질문 2]</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 분석 참고사항 -->
+        <section class="mb-8">
+            <div class="bg-gray-100 rounded-xl p-6 border-l-4 border-gray-400">
+                <div class="flex items-start">
+                    <i class="fas fa-info-circle text-gray-500 mt-1 mr-3"></i>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">분석 참고사항</h3>
+                        <p class="text-gray-600 text-sm">
+                            이 분석은 영상의 음성 스크립트(자막)를 기반으로 생성되었으며, 시각적 정보나 배경음악 등 비언어적 정보는 일부만 반영될 수 있습니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <div class="gradient-bg text-white py-8">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <p class="opacity-90">
+                <i class="fas fa-chart-line mr-2"></i>
+                YouTube 영상 분석 리포트 - [영상 제목 삽입]
+            </p>
+        </div>
+    </div>
+</body>
+</html>

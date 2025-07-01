@@ -9,3 +9,4 @@ Date,CreateDate,Title,URL,Categories,Tags,NotesLink,Description,Remarks
 2025-02-03,2024-07-23,뉴스 주식 분석 GPTs 만들기,https://www.youtube.com/watch?v=HD6yhTCWzgQ,ai,"stock,analysis,GPTs",,[ ] 따라해보자.,"링크:
   - https://serpapi.com/google-news-api
   - https://serpapi.com/google-finance-api"
+2025-06-29,2025-06-29,커서 1.0 업데이트 + 클로드코드 + 코덱스로 완전자동 앱개발하기,https://www.youtube.com/watch?v=5gjKIwF4JMw&ab_channel=%EC%BD%94%EB%82%9C%EC%8C%A4conanssam,ai,"cursor,claude",,,실제로 이 툴들을 이용해서 직접해봐야 할 듯하다. replit와는 또 다른 것으로 MCP를 활용하는게 필요. 그러나 무엇보다 뭘 할지를 정해야한다.
