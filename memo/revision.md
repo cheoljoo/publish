@@ -2,6 +2,10 @@
 - tag : revision , changes
 - date : [today]
 
+# 2025-07-02 11:27:15.680433
+- modified: [ai/gemini_cli/index.md](ai/gemini_cli/index.md) : desc - Google’s Gemini CLI is INSANE—After 1 Hour of Coding, It’s Still 95% Full! & MCP
+- modified: [ai/stock_samsung/index.md](ai/stock_samsung/index.md) : desc - 삼성전자와 삼성전자(우)의 비교 : 언제 어떤 것을 사야 유리한지?
+
 # 2025-07-01 10:09:21.569657
 - new file: [ai/gemini_cli/index.md](ai/gemini_cli/index.md) : desc - Google’s Gemini CLI is INSANE—After 1 Hour of Coding, It’s Still 95% Full! & MCP
 - new file: [ai/gemini_visualization/index.md](ai/gemini_visualization/index.md) : desc - Prompt , AI 문서 시각화, 이제 돈 내지 마세요! 제미나이 젬 활용 가이드 / 단 몇 초 만에 유튜브 전문가 되는 비법 공개! youtube 요약 및 8가지 기능 /  | GEMINI 활용법 6편

@@ -13,6 +13,7 @@ TOC
   - [3.1. private repository 안의 내용을 query](#31-private-repository-안의-내용을-query)
   - [3.2. MCP 사용 - github](#32-mcp-사용---github)
 - [4. linux에서 gemini-cli 수행하기](#4-linux에서-gemini-cli-수행하기)
+  - [4.1. MCP](#41-mcp)
 - [5. In this video you’ll learn:](#5-in-this-video-youll-learn)
 
 -------
@@ -299,10 +300,11 @@ TOC
       ```
 
 # 4. linux에서 gemini-cli 수행하기
-- git clone http://mod.lge.com/hub/cheoljoo.lee/misc.git
-    - cd misc/gemini-cli
-    - make build
-    - make
+- Google AI Studio API 키를 얻으려면 Google AI Studio 웹사이트(aistudio.google.com)에서 API 키 페이지로 이동하여 API 키를 생성하고 복사해야 합니다. 
+  - Google AI Studio 접속: Google AI Studio 웹사이트에 접속합니다. 
+  - API 키 페이지 이동: 왼쪽 탐색 메뉴에서 "Get API Key"를 클릭하거나, API 키 페이지로 직접 이동합니다. 
+  - API 키 생성: 제공된 지침에 따라 API 키를 생성합니다. 
+  - API 키 복사: 생성된 API 키를 복사하여 안전한 곳에 보관합니다. 
 - Dockerfile
     - ```
       # Use the latest LTS version of Node.js as the base image
@@ -318,7 +320,7 @@ TOC
       RUN npm install -g @google/gemini-cli
 
       # 환경 변수를 설정합니다.
-      ENV GEMINI_API_KEY=AIzaSyB647F_VzNA0tT8kacPMLTbL62EWEChmyw
+      ENV GEMINI_API_KEY=[your_gemini_api_key]
 
       # 현재 호스트의 사용자 ID와 그룹 ID를 환경 변수로 전달합니다.
       ARG USER_ID
@@ -334,16 +336,94 @@ TOC
       # 컨테이너가 시작될 때 실행할 명령을 설정합니다.
       CMD ["gemini", "-y"]
       ```
-- docker build --build-arg USER_ID=`id -u` --build-arg GROUP_ID=`id -g` -t gemini-app .
-- docker run -it --rm --name gemini-container2 -v $(pwd):/usr/src/app  --user `id -u`:`id -g`  gemini-app
+    - edit [your_gemini_api_key]
+- git clone http://mod.lge.com/hub/cheoljoo.lee/misc.git
+    - cd misc/gemini-cli
+    - make build
+      - ```docker build --build-arg USER_ID=`id -u` --build-arg GROUP_ID=`id -g` -t gemini-app .```
+    - make
+      - ```docker run -it --rm --name gemini-container2 -v ./:/usr/src/app  -e GEMINI_API_KEY=[your-gemini-api-key] gemini-app```
 - prompt
   - ```
-    > - samsung_ltd_price.json : 삼성전자의 2015년 1월 1일 부터의 일별 시작가 , 종가 확보
+    > - 설치가 필요시 sudo 를 이용하여 설치해줘
+      - samsung_ltd_price.json : 삼성전자의 2015년 1월 1일 부터의 일별 시작가 , 종가 확보
       - dictionary type으로 만들어주세요. { 'YY-mm-dd' : 'open': 시작가격 , 'close': 종가 }
       - 정보를 획득하는 python code를 만들고 저장해주며 , 이를 수행하여 samsung_ltd_price.json 결과도 저장을 해주십시요.
     ```
 - 여기서는 -y 로 수행했기에 여러가지를 설치를 자동으로 하고 수행하여 , 수행한 directory에 get_samsung_stock_price.py  samsung_ltd_price.json을 생성시켜준다.
+## 4.1. MCP
+  - .gemini/settings.json
+    - ```json
+      {
+            "theme": "Default",
+            "selectedAuthType": "gemini-api-key",
+            "mcpServers": {
+              "playwright-stealth": {
+                "command": "npx",
+                "args": ["-y", "@pvinis/playwright-stealth-mcp-server"]
+              },
+              "youtube": {
+                  "command": "npx",
+                  "args": ["-y", "youtube-data-mcp-server"],
+                  "env": {
+                    "YOUTUBE_API_KEY": "[your-api-key]",
+                    "YOUTUBE_TRANSCRIPT_LANG": "ko"
+                  }
+              },
+              "github": {
+                  "command": "npx",
+                  "args": [
+                    "-y",
+                    "@modelcontextprotocol/server-github"
+                  ],
+                  "env": {
+                    "GITHUB_TOKEN": "[your-api-key]"
+                  }
+              }
+            }
+      }
+      ```
+    - 수행할 곳에 ```mkdir .gemini``` 한 후에 ```vi .gemini/settings.json```으로 위의 내용을 넣어주세요.
+  - 수행 결과
+    - ```
+      > youtube 의 한국내 top3 trend를 URL과 같이 보여주세요
 
+      ╭─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+      │ ✔  getTrendingVideos (youtube MCP Server) {"regionCode":"KR","maxResults":3}                                                                                                                                                        │
+      │    [                                                                                                                                                                                                                                │
+      │      {                                                                                                                                                                                                                              │
+      │        "id": "80qpfeBklWc",                                                                                                                                                                                                         │
+      │        "title": "[SUB] 사회의 쓴맛을 본 사랑이의 눈물💦 오열하는 딸의 모습에 같이 울컥한 야노 시호 #내아이의사생활 EP.27",                                                                                                          │
+      │        "channelTitle": "ENA 이엔에이",                                                                                                                                                                                              │
+      │        "publishedAt": "2025-06-29T12:22:01Z",                                                                                                                                                                                       │
+      │        "viewCount": "3223687",                                                                                                                                                                                                      │
+      │        "likeCount": "21641"                                                                                                                                                                                                         │
+      │      },                                                                                                                                                                                                                             │
+      │      {                                                                                                                                                                                                                              │
+      │        "id": "EbxCy2GEPIs",                                                                                                                                                                                                         │
+      │        "title": "윤형빈 (YOON HYUNG-BIN) vs 밴쯔 (BANZZ) [FULL FIGHT] [굽네 ROAD FC 073]",                                                                                                                                          │
+      │        "channelTitle": "ROAD FIGHTING CHAMPIONSHIP",                                                                                                                                                                                │
+      │        "publishedAt": "2025-06-28T12:28:18Z",                                                                                                                                                                                       │
+      │        "viewCount": "1484628",                                                                                                                                                                                                      │
+      │        "likeCount": "7610"                                                                                                                                                                                                          │
+      │      },                                                                                                                                                                                                                             │
+      │      {                                                                                                                                                                                                                              │
+      │        "id": "katO8j29gJw",                                                                                                                                                                                                         │
+      │        "title": "ALLDAY PROJECT - FAMOUS | SBS 250629 방송",                                                                                                                                                                        │
+      │        "channelTitle": "SBSKPOP X INKIGAYO",                                                                                                                                                                                        │
+      │        "publishedAt": "2025-06-29T07:03:04Z",                                                                                                                                                                                       │
+      │        "viewCount": "1128121",                                                                                                                                                                                                      │
+      │        "likeCount": "46297"                                                                                                                                                                                                         │
+      │      }                                                                                                                                                                                                                              │
+      │    ]                                                                                                                                                                                                                                │
+      ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+      ✦ 한국 유튜브 트렌드 Top 3:
+        1. [SUB] 사회의 쓴맛을 본 사랑이의 눈물💦 오열하는 딸의 모습에 같이 울컥한 야노 시호 #내아이의사생활 EP.27: https://www.youtube.com/watch?v=80qpfeBklWc
+        2. 윤형빈 (YOON HYUNG-BIN) vs 밴쯔 (BANZZ) [FULL FIGHT] [굽네 ROAD FC 073]: https://www.youtube.com/watch?v=EbxCy2GEPIs
+        3. ALLDAY PROJECT - FAMOUS | SBS 250629 방송: https://www.youtube.com/watch?v=katO8j29gJw
+
+      Using 3 MCP servers (ctrl+t to view)                                     
+      ```
 
 # 5. In this video you’ll learn:
 - [youtube](https://www.youtube.com/watch?v=-8Q0wyFaB4M&ab_channel=%EC%86%8C%EC%8A%A4%EB%86%80%EC%9D%B4%ED%84%B0)
