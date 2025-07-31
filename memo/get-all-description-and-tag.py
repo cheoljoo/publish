@@ -11,6 +11,7 @@ import re
 import json
 import unicodedata
 from googletrans import Translator
+import asyncio
 
 
 import string
@@ -32,7 +33,7 @@ def deflate_and_encode(plantuml_text):
 
 
 def remove_non_utf8_regex(text):
-    return re.sub(r'[^\x00-\x7F\u0080-\uFFFF]', '', text)
+    return re.sub(r'[^\x00-\x7F\u0080-\uFFFF]', '', text)
 
 def remove_non_utf8_unicodedata(text):
     return ''.join(c for c in text if unicodedata.category(c) not in ['Co', 'Cs'])
@@ -43,7 +44,7 @@ def is_ascii(s):
 def remove_non_ascii(s):
     return ''.join(c for c in s if ord(c) < 128)
 
-if __name__ == "__main__":
+async def main():
      #parser = argparse.ArgumentParser(description="Convert CSV to Markdown")
      #parser.add_argument("input_file", nargs='?', default="index.csv", help="Input CSV file")
      #parser.add_argument("output_file", nargs='?', default="index.md", help="Output Markdown file")
@@ -51,9 +52,9 @@ if __name__ == "__main__":
 
     translator = Translator()
 
-    descRe = re.compile('^\s*#?\s*-\s*description\s*:\s*(?P<s>.*$)')
-    tagRe = re.compile('^\s*#?\s*-\s*tag\s*:\s*(?P<s>.*$)')
-    dateRe = re.compile('^\s*#?\s*-\s*date\s*:\s*(?P<s>.*$)')
+    descRe = re.compile(r'^\s*#?\s*-\s*description\s*:\s*(?P<s>.*$)')
+    tagRe = re.compile(r'^\s*#?\s*-\s*tag\s*:\s*(?P<s>.*$)')
+    dateRe = re.compile(r'^\s*#?\s*-\s*date\s*:\s*(?P<s>.*$)')
     file_to_tag_dict = {}
     tag_count_dict = defaultdict(int)
 
@@ -139,7 +140,7 @@ if __name__ == "__main__":
                     row_title = row['Title'].encode('utf-8', errors='ignore').decode('utf-8')
                     if not is_ascii(row_title):
                         if row_title not in trans_dict:
-                            res = translator.translate(row_title, src='ko', dest='en')
+                            res = await translator.translate(row_title, src='ko', dest='en')
                             print(row_title , '->',res.text)
                             trans_dict[row_title] = remove_non_ascii(res.text)
                             row_title = remove_non_ascii(res.text)
@@ -177,3 +178,5 @@ if __name__ == "__main__":
         print('write : get-all-description-and-tag-trans.json <- trans_dict')
         json.dump(trans_dict, json_file)
 
+if __name__ == "__main__":
+    asyncio.run(main())

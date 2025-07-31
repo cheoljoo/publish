@@ -12,7 +12,7 @@ TOC
 - [3. github 연결하기](#3-github-연결하기)
   - [3.1. private repository 안의 내용을 query](#31-private-repository-안의-내용을-query)
   - [3.2. MCP 사용 - github](#32-mcp-사용---github)
-- [4. linux에서 gemini-cli 수행하기](#4-linux에서-gemini-cli-수행하기)
+- [4. linux에서 docker를 이용하여 gemini-cli 수행하기](#4-linux에서-docker를-이용하여-gemini-cli-수행하기)
   - [4.1. MCP](#41-mcp)
 - [5. In this video you’ll learn:](#5-in-this-video-youll-learn)
 
@@ -299,7 +299,7 @@ TOC
         * doxygen_aspice: 모든 파이썬 개발자를 위한 ASPICE 문서 생성기
       ```
 
-# 4. linux에서 gemini-cli 수행하기
+# 4. [linux에서 docker를 이용하여 gemini-cli 수행하기](https://github.com/cheoljoo/gemini-cli-docker)
 - Google AI Studio API 키를 얻으려면 Google AI Studio 웹사이트(aistudio.google.com)에서 API 키 페이지로 이동하여 API 키를 생성하고 복사해야 합니다. 
   - Google AI Studio 접속: Google AI Studio 웹사이트에 접속합니다. 
   - API 키 페이지 이동: 왼쪽 탐색 메뉴에서 "Get API Key"를 클릭하거나, API 키 페이지로 직접 이동합니다. 

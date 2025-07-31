@@ -2,6 +2,13 @@
 - tag : revision , changes
 - date : [today]
 
+# 2025-08-01 07:42:38.667383
+- modified: [ai/gemini_cli/index.md](ai/gemini_cli/index.md) : desc - Google’s Gemini CLI is INSANE—After 1 Hour of Coding, It’s Still 95% Full! & MCP
+- modified: [get-all-description-and-tag.py](get-all-description-and-tag.py) : desc - get all description and tag from memo sub-directories (output:get-all-description-and-tag.json)
+- modified: [memo-2025-misc.md](memo-2025-misc.md) : desc - 2025 year 메모 모음 - 관심되는 것들을 모아두는 곳 입니다. 어디선가 이런 것을 모아서 발표해도 될
+- new file: [python.md](python.md) : desc - python language에 대해서 몰랐던 코딩 스킬 (OOP)
+- modified: [vscode.md](vscode.md) : desc - vscode 관련 나의 정리
+
 # 2025-07-02 11:27:15.680433
 - modified: [ai/gemini_cli/index.md](ai/gemini_cli/index.md) : desc - Google’s Gemini CLI is INSANE—After 1 Hour of Coding, It’s Still 95% Full! & MCP
 - modified: [ai/stock_samsung/index.md](ai/stock_samsung/index.md) : desc - 삼성전자와 삼성전자(우)의 비교 : 언제 어떤 것을 사야 유리한지?

@@ -65,6 +65,7 @@
 - [mouse.md](./mouse.md) : JIRA / CodeBeamer / Gerrit등의 개발 시스템을 사용하는 사용자들의 performance가 어떻게 되는지를 check하기 위한 project (MOUSE)
 - [openai_chatgpt.md](./openai_chatgpt.md) : openai chatGPT에 대한 글 (out-of-date)
 - [pilates-2025.md](./pilates-2025.md) : 2025 year 필라테스 내용들을 적어두는 것이다. 가능하면 집에서 할 수 있는 것 위주로.
+- [python.md](./python.md) : python language에 대해서 몰랐던 코딩 스킬 (OOP)
 - [recruit.md](./recruit.md) : recruit 관련 글 모음 - 이력서 작성도 연관됨.
 - [remove_files.py](./remove_files.py) : copy first then remove unproper files when this file tag has --remove_tag
 - [revision.md](./revision.md) : revision information : what is changed per date

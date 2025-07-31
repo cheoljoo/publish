@@ -9,7 +9,8 @@ TOC
   - [1.3. 2022-11-20 how to create extensions](#13-2022-11-20-how-to-create-extensions)
   - [1.4. Fast Developing : Don't Use the Sidebar in VS Code!!](#14-fast-developing--dont-use-the-sidebar-in-vs-code)
   - [1.5. 2022-11-20 how to create extensions](#15-2022-11-20-how-to-create-extensions)
-  - [1.6. vscode shortkey](#16-vscode-shortkey)
+  - [1.6. avoid password prompt](#16-avoid-password-prompt)
+  - [1.7. vscode shortkey](#17-vscode-shortkey)
 
 
 ------------------
@@ -103,7 +104,10 @@ TOC
 - How To Create And Deploy A VSCode Extension : https://www.youtube.com/watch?v=q5V4T3o3CXE&ab_channel=WebDevSimplified
   - publishing
 
-## 1.6. vscode shortkey
+## 1.6. avoid password prompt
+- Windows에서 생성한 공개키(id_rsa.pub)의 내용을 Linux 서버의 ~/.ssh/authorized_keys 파일에 추가하는 것이 핵심입니다.
+
+## 1.7. vscode shortkey
 - 파일 or 창 선택 : ^+1 , , ^+2
 - 여러줄의 앞에 -을 삽입 : 
   - Multi-Line Editing with same string : Ctrl + Alt + Arrow Keys
