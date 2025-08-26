@@ -495,3 +495,387 @@ https://www.youtube.com/watch?v=B4y6Oy1sdeI
 ## 오픈AI 내부 문서가 유출됐습니다 (문서요약 프롬프트의 진실)
 - https://www.youtube.com/watch?v=d3xQx9gXzIE
 - 이 블로그를 따라가면서 직접 chatgpt에서 해봐라.   blog : https://blog.naver.com/survivalai777/223948217842 
+
+## 2025-08-07 13:28:52  claude-code를 직접 해볼 것
+
+## cheoljoo.github.io 에 대해서 정리를 할 것
+- 사용하는 것도 제대로 되는지 점검
+- 여기에 자동으로 올릴수 있게 해주는 script를 구성 : memo에서 가져오게 하면 될 듯
+  - directory 구조를 지키며 움직일 수 있게 할 것
+- 더 좋은 github.io 구조가 있으면 변경 할 것
+
+## 25년 하반기 나의 주차권 : A123883
+
+
+## super claude를 gemini cli에서...
+- https://www.youtube.com/watch?v=whLEc7lO_xY
+- 새우 MCP도 같이 사용하면 good!
+
+4:41 경의 슈퍼클로드 커스텀 커맨즈 적용을 위한 지침 사항입니다. (아래 내용을 복사하여, 영상대로 실행하시면 됩니다)
+(이 댓글의 답글에 제미나이CLI MCP 자동설치를 위한 지침 사항 있습니다)
+(그리고 이 영상의 내용을 실행하려면, 먼저 클로드 코드에 슈퍼클로드가 이미 설치된 상태여야 합니다. 
+클로드 코드에 슈퍼클로드를 설치하려면 다음 영상 참조해 주세요.   https://youtu.be/YxjLqtFGh1c   )
+
+~/.gemini/commands 폴더에 마크다운 파일들이 있어. 각 파일의 확장자를 toml로 바꾸고, 아래의 예시를 보고 각 파일의 내용도 바꿔줘.
+
+예시:
+~/.gemini/commands/sc/build.md 파일의 변경전 내용:
+---
+/description: "Build, compile, and package projects with error handling and optimization"
+---
+- ```txt
+  # /sc:build - Project Building
+
+  ## Purpose
+  Build, compile, and package projects with comprehensive error handling and optimization.
+
+  ## Usage
+  /sc:build [target] [--type dev|prod|test] [--clean] [--optimize]
+
+  ## Arguments
+  - `target` - Project or specific component to build
+  - `--type` - Build type (dev, prod, test)
+  - `--clean` - Clean build artifacts before building
+  - `--optimize` - Enable build optimizations
+  - `--verbose` - Enable detailed build output
+
+  ## Execution
+  1. Analyze project structure and build configuration
+  2. Validate dependencies and environment setup
+  3. Execute build process with error monitoring
+  4. Handle build errors and provide diagnostic information
+  5. Optimize build output and report results
+
+  ## Claude Code Integration
+  - Uses Bash for build command execution
+  - Leverages Read for build configuration analysis
+  - Applies TodoWrite for build progress tracking
+  - Maintains comprehensive error handling and reporting
+
+  ~/.gemini/commands/sc/build.md 파일의 변경후 내용:
+  # ~/.gemini/commands/sc/build.toml
+  description="Build, compile, and package projects with error handling and optimization"
+  prompt = """
+  ---
+  allowed-tools: [Read, Bash, Glob, TodoWrite, Edit]
+  description: "Build, compile, and package projects with error handling and optimization"
+  ---
+
+  # /sc:build - Project Building
+
+  ## Purpose
+  Build, compile, and package projects with comprehensive error handling and optimization.
+
+  ## Usage
+  /sc:build [target] [--type dev|prod|test] [--clean] [--optimize]
+
+  ## Arguments
+  - target - Project or specific component to build
+  - --type - Build type (dev, prod, test)
+  - --clean - Clean build artifacts before building
+  - --optimize - Enable build optimizations
+  - --verbose - Enable detailed build output
+
+  ## Execution
+  1. Analyze project structure and build configuration
+  2. Validate dependencies and environment setup
+  3. Execute build process with error monitoring
+  4. Handle build errors and provide diagnostic information
+  5. Optimize build output and report results
+
+  ## Claude Code Integration
+  - Uses Bash for build command execution
+  - Leverages Read for build configuration analysis
+  - Applies TodoWrite for build progress tracking
+  - Maintains comprehensive error handling and reporting
+  '''
+
+## assigner관련 소스의 시작이  어떤 파일의 어떤 함수인지요?
+- poc_defect_agent_auto_assignment 입니당~
+- 철주 확인 사항 :
+  - 100번을 1개씩을 random하게 정하여 이것이 test 데이터이고 , 나머지 모든 ticket들의 assignee와 summary정보가 training data가 된다.
+- 추가 아이디어 :
+  - test는 이와 같은 방식으로 하면 될 것으로 보인다.  그러나, 100개는 많고 5개로 나누어 1/5을 test로 쓰는 방식을 취하는게 좋을 것이다.  5개의 파트로 구분하는 것은 약간 random하게 하는 것을 선택하면 좋을 듯. random하게 전체 갯수에서 1개를 선택해서 빼내면서 5개의 영역에 한번씩 나누어주거나, 그냥 5개 영역을 한 영역씩 채우거나...
+  - LLM에 물어보는 것은 data를 줄이는 것으로 해야 할 듯
+    - binary 데이터를 표시하는 것을 지워준다. hexa나 binary data를 지워준다.
+    - comments의 경우 ~님 하며 , 호칭으로 나오는 부분들은 지워달라.
+    - [~..] 은 사람이름을 뜻한다.
+    - [^..] 은 첨부 파일을 의미하므로 지워달라.
+    - comments에 DLT daa도 필요한 것들이 들어있음.  버릴 수 없음.
+
+## https://youtu.be/DGwXIi9wgIQ?si=5F9Olpmbv0zVxQx8 에 대한 사이트 요약입니다:
+
+👉[클로드 스쿼드 쓰면 워크트리 병렬 작업이 너무 쉽습니다.. 심지어 무료예요]
+✨ 클로드 스쿼드는 여러 클로드 코드 인스턴스를 병렬로 관리하며, 복잡한 멀티 에이전트 작업을 간편하게 수행하도록 돕는 터미널 앱입니다.
+🚀 홈브루로 쉽게 설치 가능하며, 프로젝트 디렉토리에서 `CS` 명령어로 실행하여 워크트리 생성 및 동시 작업을 직관적으로 관리할 수 있습니다.
+✅ 이 도구는 워크트리 자동 생성/삭제 및 세션 유지 기능을 제공하여, 병렬 작업의 효율성을 극대화하고 수동 관리의 번거로움을 해소합니다.
+
+## https://youtu.be/goJfNYviruk?si=0g5DrnJmbS7Sdvf4 에 대한 사이트 요약입니다:
+
+👉[Google's NEW Vibe Coding App: Opal (5 GAME-CHANGING Use Cases)]
+✨ Google의 새로운 'Opal'은 드래그 앤 드롭 방식으로 미니 AI 애플리케이션을 만들 수 있는 노코드 플랫폼입니다.
+🛠️ 이 플랫폼은 텍스트, 이미지, 음성 생성 등 다양한 AI 기능을 활용하여 블로그 게시물 작성이나 영화 요약과 같은 맞춤형 앱을 구축할 수 있습니다.
+⚠️ 현재 실험 단계로, '할당량 초과' 오류와 긴 처리 시간 등 불안정한 문제가 있어 실용적인 사용을 위해서는 개선이 필요합니다.
+
+## https://youtu.be/r-Rl2Bv2HPc 에 대한 사이트 요약입니다:
+
+👉[매일 아침 7시, 당신의 영어 실력을 깨우는 AI 루틴! (구글 Gemini)]
+🗣️ Gemini를 활용하여 매일 영어 회화 스케줄을 설정하고 체계적인 영어 학습을 진행할 수 있습니다.
+📰 학습 시 Gemini는 뉴스 기사, 요약, 어휘, 토론 질문을 제공하며 실시간 대화 및 쉐도잉, 피드백까지 지원합니다.
+💎 또한 'Gem' 기능을 통해 비즈니스 커뮤니케이션 강화 등 사용자가 원하는 목표에 맞춰 맞춤형 영어 학습 환경을 구축할 수 있습니다.
+
+## [Morphik의 이미지 RAG]: Morphik은 시각적 문서에서 이미지 기반으로 RAG 시스템의 정확도를 높이는 ColPali 모델을 개발했습니다. (https://www.morphik.ai/blog/stop-parsing-docs)
+
+## 디자이너들에게 AI 코딩을 도와주는 대표적인 AI 코딩 도구인 Cursor AI, Replit AI, GitHub Copilot, Windsurf 4가지의 특장점을 정리해 보았습니다 : )
+
+https://brunch.co.kr/@ghidesigner/300
+
+## https://vibetunnel.sh/ 에 대한 사이트 요약입니다:
+
+👉[Vibetunnel: Your Mac Terminal in Any Browser | Secure & Retro]
+✨ VibeTunnel은 Mac 터미널을 웹 브라우저에서 원격으로 사용할 수 있도록 프록시해주는 도구입니다.
+💻 복잡한 설정 없이 macOS 14.0 이상에서 즉시 사용 가능하며, Tailscale이나 ngrok을 통해 어디서든 터미널에 접속할 수 있습니다.
+🚀 이를 통해 사용자는 실시간으로 명령을 실행하고 새로운 세션을 생성하며, 언제 어디서든 유연하게 코딩할 수 있습니다.
+
+## aws kiro ide 키로 사용해보고 싶은 분들은, 아래 링크에서 본인 os에 맞는 버전을 다운로드 하셔서 설치 후 나오는 로그인 메뉴로 가입하시면 waitlist 등록없이 바로 사용가능합니다.
+
+--
+
+Windows (x64, 설치형 EXE)
+https://prod.download.desktop.kiro.dev/stable/metadata-win32-x64-user-stable.json
+
+macOS (Apple Silicon ARM64)
+https://prod.download.desktop.kiro.dev/stable/metadata-dmg-darwin-arm64-stable.json
+
+macOS (Intel x64)
+https://prod.download.desktop.kiro.dev/stable/metadata-dmg-darwin-x64-stable.json
+
+
+
+## https://youtu.be/6LhkvHfpjAY?si=ayZAcnRpztxnG_28 에 대한 사이트 요약입니다:
+
+👉[This Is How To Use Google Veo 3 Like A PRO: JSON Prompt (The Only Guide You Need)]
+🎥 AI를 활용하여 10만 달러급 고품질 광고 영상을 단 하나의 텍스트 프롬프트로 손쉽게 제작하실 수 있습니다.
+✍️ ChatGPT/Gemini로 JSON 프롬프트를 생성하신 후, Voree(Flow.google)를 통해 영상을 제작하실 수 있으며, 한 달간 무료 이용이 가능합니다.
+✨ JSON 프롬프트는 AI가 정확히 원하는 바를 이해하도록 돕고, 생성된 720p 영상은 4K까지 업스케일링하여 시네마틱한 결과물을 얻을 수 있습니다.
+
+## [애기도 이해하는 RAG (Graph RAG 까지)]
+https://youtu.be/5-N6N0Rp_nU?si=62R9oM1YfRYGRZRx 에 대한 사이트 요약입니다:
+
+👉[애기도 이해하는 RAG (Graph RAG 까지)]
+💡 RAG(검색 증강 생성)는 LLM이 최신 정보를 반영하지 못하거나 특정 데이터에 한계가 있고 환각 현상을 보이는 등의 문제점을 극복하는 기술입니다.
+ 🔍 RAG는 질문에 대한 관련 정보를 검색하여 답변을 생성하며, 의미 유사성 검색에 강한 벡터 RAG와 복잡한 관계 분석에 유리한 그래프 RAG로 구분됩니다.
+ 🛠️ 본 자료는 랭체인, 파이스, 네오포제이 등 주요 도구를 활용한 벡터 및 그래프 RAG 개발 실습 코드와 상세한 설명을 제공하여 실제 구현에 도움을 드립니다.
+
+ ## https://ai.google.dev/gemini-api/docs?hl=ko 에 대한 사이트 요약입니다:
+
+👉[Gemini API | Google AI for Developers]
+✨ Gemini API는 Google의 강력한 생성형 AI 모델을 활용하여 개발자가 다양한 AI 기능을 구현할 수 있도록 지원합니다.
+🔑 API 키를 발급받아 Gemini, Veo, Imagen 등 여러 모델로 텍스트, 이미지, 동영상 생성 및 이해 기능을 활용하실 수 있습니다.
+💡 특히 Gemini 모델은 복잡한 추론, 긴 컨텍스트 처리, 구조화된 JSON 출력 등 고급 기능을 제공하며 Python, JavaScript 등으로 쉽게 시작 가능합니다.
+
+
+## https://youtu.be/EUG65dIY-2k?si=RxaKKMKaVR45oesF 에 대한 사이트 요약입니다:
+
+👉[Make your AI Agents 10x Smarter with GraphRAG (n8n)]
+💡 그래프 RAG는 AI 에이전트의 정확도와 신뢰성을 크게 향상시키며, 복잡하게 느껴지는 지식 그래프를 `light rag`와 N8N을 활용하여 쉽고 빠르게 구축하고 자동 채울 수 있음을 보여드립니다.
+📚 지식 그래프는 문서에서 핵심 개체와 관계를 추출하여, 기존 RAG 대비 훨씬 상세하고 포괄적인 AI 에이전트 응답을 가능하게 합니다.
+🔗 이러한 최첨단 N8N RAG 시스템(지식 그래프 생성 포함)은 'AI Automators' 커뮤니티를 통해 이용하실 수 있습니다.
+
+
+## 클코 20딸라 + 코드래빗 30달라.. 이걸로 좀 비벼볼려구요.. 코드래빗이 코드리뷰를 왠만큼해주는 것 같아서요.
+
+## [개발정보]Gemini CLI 커스텀 슬래시 명령어로 반복 작업을 자동화하는 방법
+URL : https://digitalbourgeois.tistory.com/m/1718
+
+## tkinter 좋긴한데 pyside6로 해보시면 더 좋은 작품 만드실것같습니다
+
+c언어부터 파생되온 라이브러리인데 파이썬에선 qt6 까지 나왔고 이게 유료인데 이거 개발자들이 나와서 만든게 파이싸이드6 일거에요
+
+## https://news.hada.io/topic?id=22293 에 대한 사이트 요약입니다:
+
+👉[AI는 "천장"이 아니라 "바닥"을 올려주는 기술임 | GeekNews]
+🚀 AI는 학습 곡선에서 입문자와 중급자의 진입 장벽을 낮추어 '바닥'을 올려주는 기술입니다.
+🚧 그러나 전문가 수준의 마스터리 도달은 여전히 어렵고, AI 의존 시 실질적 성장이 정체될 수 있는 한계가 있습니다.
+🗺️ AI의 영향력은 코딩, 창작 등 분야별로 상이하며, 각자의 필요와 맥락에 따라 활용 가치가 다르게 평가됩니다.
+
+## https://news.hada.io/topic?id=22288 에 대한 사이트 요약입니다:
+
+👉[Claude Code Router - Claude Code 요청을 다양한 모델로 라우팅하는 | GeekNews]
+🚀 Claude Code Router는 Claude Code 요청을 OpenRouter, DeepSeek 등 여러 LLM 및 API 제공업체로 자동 라우팅하는 오픈소스 도구입니다.
+🔄 이 도구는 상황별 모델 선택, 실시간 전환, 용도별 자동 분기 기능을 제공하여 요청을 효율적으로 처리합니다.
+💡 또한 요청/응답 변환, 플러그인, GitHub Actions 연동 등 확장 기능을 통해 유연한 비용 관리 및 자동화가 가능합니다.
+
+## https://youtu.be/Er-VdaCWEis?si=pQsFxToWHPM-AYuK 에 대한 사이트 요약입니다:
+
+👉[인간이 쓸모없어지는 날이 온다｜AI 시대의 일자리]
+🤖 AI는 과거 기술과 달리 인간의 단순 지적 노동을 대체하며, AI를 활용하는 인력이 비활용 인력의 일자리를 대체하여 전반적인 인력 감축을 초래할 수 있습니다.
+ 🧠 AI는 이미 특정 분야에서 인간을 능가하는 지식과 능력을 보유하고 있으며, 스스로 발전 가능한 초지능이 10~20년 내 도래하여 거의 모든 면에서 인간을 뛰어넘을 것으로 예측됩니다.
+ ⚖️ 이러한 AI의 발전은 생산성 향상과 동시에 부의 불평등을 심화시킬 우려가 크므로, 보편적 기본 소득과 같은 사회적 안전망 및 AI의 안전한 개발에 대한 논의가 시급합니다.
+
+ ## self study
+ https://www.kdnuggets.com/large-language-models-a-self-study-roadmap 에 대한 사이트 요약입니다:
+
+👉[Large Language Models: A Self-Study Roadmap - KDnuggets]
+📈 대규모 언어 모델(LLM) 시장은 2024년 64억 달러에서 2030년 361억 달러로 급성장할 전망이며, 지금이 LLM 학습을 시작하기에 가장 좋은 시기입니다.
+🗺️ 본 로드맵은 파이썬 프로그래밍 기초부터 LLM 개념, 고급 아키텍처 및 훈련, 애플리케이션 구축 및 배포까지 체계적인 학습 경로를 제공합니다.
+🛠️ 특히 LangChain을 활용한 LLM 애플리케이션 구축, 로컬 배포, LLMOps, 그리고 정확도 향상을 위한 RAG 및 벡터 데이터베이스 활용법을 다룹니다.
+
+
+## https://news.hada.io/topic?id=22339 에 대한 사이트 요약입니다:
+
+👉[클로드 AI의 MCP를 시계열 데이터베이스와 연동해 보았습니다. | GeekNews]
+✨ 클로드 AI의 MCP를 시계열 데이터베이스와 성공적으로 연동하여 데이터 추출, 분석, 이상 탐지까지 수행할 수 있었습니다.
+💡 처음에는 비정상적인 SQL을 생성했으나, 반복 시도 끝에 정확한 결과를 도출하는 클로드의 학습 능력이 인상 깊었습니다.
+🔗 클로드가 알지 못하는 데이터베이스 문법에도 불구하고, MCP 소스코드의 few-shot 기능을 활용하여 정확한 SQL을 생성하는 성과를 보였습니다.
+
+
+## [TMUX보다 조금 편한 터미널 멀티플렛서 Zellij]
+https://pinkwink.kr/1470 에 대한 사이트 요약입니다:
+
+👉[TMUX보다 조금 편한 터미널 멀티플렛서 Zellij]
+✨ Zellij는 기존 TMUX보다 사용이 편리한 터미널 멀티플렉서로, 효율적인 화면 분할 및 검색 기능을 제공합니다.
+🛠️ 설치는 Rust의 Cargo를 통해 간편하게 가능하며, 기본적인 패널 제어는 `Ctrl+p`로, 검색은 `Ctrl+s`로 이용하실 수 있습니다.
+🎨 사용자는 다양한 테마를 적용하고 터미널 시작 시 자동 실행되도록 설정하여 맞춤형 환경을 구축할 수 있습니다.
+
+
+## [좋은 설계 문서 작성법 | GeekNews]
+https://news.hada.io/topic?id=22338 에 대한 사이트 요약입니다:
+
+👉[좋은 설계 문서 작성법 | GeekNews]
+🎯 좋은 설계 문서는 독자를 설득하고 저자의 사고를 명확히 하며, 시스템 구현 전략을 정리하는 핵심 도구입니다.
+✍️ 문서는 논리적인 흐름으로 구성하고 불필요한 내용을 과감히 편집하여 독자의 이해를 돕고 집중력을 아껴야 합니다.
+🚀 짧은 단락과 부록을 효과적으로 활용하고, 꾸준한 연습을 통해 설득력 있는 문서 작성 역량을 기르실 수 있습니다.
+
+
+## [Google의 AI 프롬프팅 정석 TCREI 알려드립니다]
+https://www.youtube.com/watch?v=3TSjxs2oP-Q 에 대한 사이트 요약입니다:
+
+👉[Google의 AI 프롬프팅 정석 TCREI 알려드립니다]
+✨ AI 응답의 안정성과 재현성을 높이려면, Google이 권장하는 TCREI(Task, Context, Reference, Evaluate, Iterate) 프롬프팅 구조를 활용해 보십시오.
+🎯 TCREI는 명확한 작업 지시, 풍부한 맥락 제공, 원하는 형태의 샘플 제시, 결과물 자체 점검, 그리고 구체적인 반복 개선 요청을 포함합니다.
+✅ 이 구조를 통해 AI에 정확한 방향성을 제시하여 일관적이고 품질 높은 결과물을 얻을 수 있으며, 필요에 따라 Temperature를 조절하여 창의성을 제어할 수 있습니다.
+
+## https://youtu.be/3oI0VvBYl_s?si=RaQT2zKaw9BVqOz9 에 대한 사이트 요약입니다:
+
+👉[MAKE로 카톡봇 쉽게 만드는 법｜AI비서로 업무 효율 2배 올리는 방법｜메이크 입문자용]
+🤖 카카오톡 봇은 별도 앱과 'Make' 플랫폼을 활용하여, AI 및 외부 서비스와 연동된 자동 응답 기능을 구현할 수 있습니다.
+🗺️ 이는 네이버 지도, 채용 공고, 사내 정보 조회 등 다양한 맞춤형 기능을 카카오톡 내에서 자동 처리하며, AI의 성격과 말투도 자유롭게 설정 가능합니다.
+⚠️ 다만 아이폰에서는 작동하지 않고, 카카오톡 대화방이 열려있지 않아야 하는 등 일부 제약사항이 있으니 유의하시기 바랍니다.
+
+## RAG 영상인데, 챠트와 이미지 파싱할때 vlm을 사용한다고 하네요. LLM에 눈깔을 붙여서... 이미지를 자연어로 변환..https://www.youtube.com/live/-7jZoe__kBE?si=4c1kT0deUHWlQV6I
+
+## https://youtu.be/iIuRpp_UREg?si=q5l1lSG6msAnkuLq 에 대한 사이트 요약입니다:
+
+👉[요즘 돈 벌고 싶으면 이 영상은 무조건 봐야 합니다]
+✨유튜브 비즈니스 크리에이터 포리얼님은 무자본으로 10억을 버는 지식 상품 사업 노하우를 공유합니다.
+💡그는 로버트 치알디니의 '상호성의 법칙'에 기반하여 '돈 벌려면 먼저 퍼주는' 것이 성공의 핵심 전략이라고 강조합니다.
+📈실제 벚꽃 축제 장사, 노인 요양 사업 등 다양한 경험을 통해 신뢰를 쌓고 성과를 이룬 구체적인 비결을 제시합니다.
+
+## https://www.warp.dev/windows-terminal 에 대한 사이트 요약입니다:
+
+👉[Warp: Warp for Windows: Agentic Development Environment]
+✨ Warp는 AI 에이전트와 팀의 지식을 결합하여 개발 생산성을 혁신하는 지능형 터미널입니다.
+🚀 스마트 자동 완성, IDE와 같은 편집 기능, 다양한 셸 지원으로 개발자 경험을 극대화합니다.
+🤝 Warp Drive를 통해 팀 지식 공유, 실시간 협업 및 프로세스 표준화가 용이하며, 강력한 보안 기능도 제공합니다.
+
+## https://youtu.be/-E_sFFi3YeA?si=Dfd6I9Ip4GMSyoe4 에 대한 사이트 요약입니다:
+
+👉[이젠 실시간으로 가상세계를 만들고, 조작할 수 있다. 구글만든 괴물 지니3 (Genie3)]
+🌍 구글 딥마인드가 공개한 'Genie 3'는 프롬프트만으로 실시간 상호작용이 가능한 가상 세계를 생성하는 혁신적인 AI 기술입니다.
+✨ 이전 버전보다 훨씬 선명한 품질과 몇 분 이상의 공간 생성이 가능하며, 키보드뿐 아니라 프롬프트를 통해서도 움직임 및 이벤트를 제어할 수 있습니다.
+💡 현재 품질과 1분 메모리 유지 등 일부 한계가 있으나, 향후 멀티플레이와 AI 학습 시뮬레이션, 진정한 메타버스 구현에 큰 잠재력을 지닙니다.
+
+## https://www.youtube.com/watch?v=LorEJPrALcg 에 대한 사이트 요약입니다:
+
+👉[The Official BMad-Method Masterclass (The Complete IDE Workflow)]
+✨ Brian이 개발한 BMAD 메서드는 Claude Code를 포함한 다양한 IDE에서 에이전트와 옵션을 활용하여 효율적인 개발 워크플로우를 제공합니다.
+📝 이 방법은 제품 요구사항 정의(PRD), 최소 기능 제품(MVP) 범위 설정, 품질 보증(QA) 등 체계적인 개발 절차를 지원합니다.
+🔗 더 자세한 정보와 시작 방법은 BMAD 메서드 GitHub Readme에서 확인하실 수 있으며, YouTube 튜토리얼 및 Discord 커뮤니티를 통해 도움을 받을 수 있습니다.
+
+
+## https://www.clien.net/service/board/news/19039549?od=T31&po=0&category=0&groupCd= 에 대한 사이트 요약입니다:
+
+👉[구글, AI 코딩 에이전트 'Jules' 정식 서비스로 전환 : 클리앙]
+🤖 구글의 AI 코딩 에이전트 'Jules'가 베타 서비스를 마치고 정식 서비스로 전환되었습니다.
+🚀 이 도구는 Gemini 2.5 Pro 기반으로 GitHub와 연동하여 코드를 자동으로 수정하며, 사용자가 다른 작업을 하는 동안 비동기적으로 실행되는 것이 가장 큰 특징입니다.
+💸 정식 출시와 함께 일일 작업 제한이 있는 무료 플랜과 유료 요금제가 도입되었으며, 비공개 저장소의 데이터는 AI 훈련에 사용되지 않습니다.
+
+
+## https://news.hada.io/topic?id=22373 에 대한 사이트 요약입니다:
+
+👉[LangChain의 DeepAgents 프레임워크 | GeekNews]
+✨ 기존 LLM 에이전트의 한계를 넘어, 복잡하고 장기적인 과업을 해결하기 위해 계획적이고 구조적인 'DeepAgents' 프레임워크가 제시되었습니다.
+💡 이 프레임워크는 상세 시스템 프롬프트, 계획 도구, 서브 에이전트, 파일 시스템을 핵심 요소로 활용하여 깊이 있는 문제 해결 능력을 제공합니다.
+🔗 LangChain은 누구나 도메인에 맞는 딥 에이전트를 쉽게 구축할 수 있도록 오픈소스 패키지 'deepagents'를 배포하였으며, 이는 연구·개발 등 다양한 분야에 응용 가능합니다.
+
+## [AI로 직접 만든 툴로 고가 소프트웨어를 대체한 사람들의 이야기 | GeekNews]
+https://news.hada.io/topic?id=22379 에 대한 사이트 요약입니다:
+
+👉[AI로 직접 만든 툴로 고가 소프트웨어를 대체한 사람들의 이야기 | GeekNews]
+🤖 AI 프롬프트만으로 비개발자도 고가 소프트웨어를 대체하는 맞춤형 툴을 직접 개발하여 비용을 절감하는 사례가 확산되고 있습니다.
+🚀 이러한 AI 기반 툴은 몇 시간에서 몇 주 만에 엔지니어링 팀 수준의 결과물을 제공하며, 신속한 프로토타이핑과 MVP 제작을 가능하게 합니다.
+💰 이를 통해 수천만 원에서 억대 비용 절감 및 신규 매출 창출이 이루어지고 있으며, 비개발 직군이 주도하는 업무 혁신 트렌드를 보여줍니다.
+
+1. 3시간 만에 5만 달러 절감 – 커뮤니티 매칭 툴 (Joshua Wöhle, Mindstone)
+창업자 Joshua Wöhle는 커뮤니티 멤버 간 문제·스킬 매칭 툴을 도입하려 했으나, 가격이 너무 비싸(연 5만 달러) 직접 만들어보기로 결심
+AI 프롬프트만으로 전체 앱을 구축, 단 한 줄의 수동 코딩도 하지 않고 AI가 코드 생성 및 반복 개선
+실제 사용해보니, 시중 SaaS보다 오히려 더 적합한 맞춤형 결과를 얻고, 대규모 예산 절감
+2. 자체 온라인 강의 플랫폼 – Brian Christner
+기존 Kajabi를 이용해 강의를 제공했으나, 요금 인상으로 인해 수익이 감소
+Replit AI 에이전트로 맞춤 강의 플랫폼을 단기간 내 직접 개발, 필요 기능만 담고 불필요한 요소는 제거
+운영 비용을 기존의 1/10 이하로 줄이며, 플랫폼 주도권과 경제적 이점 동시에 확보
+3. 엔터프라이즈 벤더 포털 – Manny Bernabe
+벤더 관리, 인보이스, 계약서 업로드 등 기업 내부용 관리 포털 필요
+Replit AI와 “vibe coding” 방식으로 전체 코드의 95%를 AI가 생성, 엔지니어는 주로 방향성과 요구사항만 전달
+수주 비용 및 개발 기간을 기존 대비 극적으로 단축, 내부 관리 자동화 실현
+4. Docusign 대체 전자서명 서비스 – Michael Luo (Stripe PM)
+"Docusign 대체가 얼마나 어려울까?"라는 호기심에서 시작, 주말만에 UETA/ESIGN 준수 전자서명 앱을 직접 개발
+총 소요 비용은 50달러 이하, 무료로 배포 후 큰 반향
+코드 생성은 Cursor 활용(전문 개발자 출신), 나머지 사례와 달리 직접 코딩/AI 혼합 방식
+5. 마케팅 UTM 자동화 앱 – Matt Palmer
+여러 마케팅 채널의 UTM 파라미터 생성·관리가 수작업+엑셀로 번거로움
+Replit AI로 1시간 만에 자동 UTM 생성/관리 앱을 완성, 오류와 반복 작업 완전 제거
+누구나 코드 없이 프롬프트만으로 활용 가능
+6. 뉴스 큐레이션·요약 자동화 앱 – Action Digest 에디터
+뉴스 소스 선정·큐레이션·요약에 시간이 너무 많이 소요되어 신제품 아이디어 실행을 미루던 상황
+Replit AI로 RSS 수집→기사 중요도 판단→자동 요약까지 한 번에 처리하는 내부 앱 개발
+복잡한 뉴스레터 운영도 단 몇 시간 내 자동화 가능
+7. 이메일 약속 자동 추출 및 관리 – Karan Peri (Coinbase, Twitter, Amazon 전 PM)
+이메일에서 중요한 약속·리마인더를 자동 추출해 관리하는 앱을 프롬프트 기반으로 개발
+기존엔 매주 3~7시간 소요되던 반복 업무를 단순 자동화
+전체 코드의 90% 이상을 AI가 자동 작성, 프로젝트 기간도 2달 → 1주일 미만으로 단축
+8. 고객 서비스 QA 자동화 – Zinus
+매트리스 회사 Zinus는 고객 응대 QA를 기존에 외주로 진행, 비용·시간 부담 큼
+외주 대신 Replit AI로 사내 개발팀이 자체 자동화 앱을 제작, 1억4천만 원 이상 비용 절감 및 개발기간 절반 단축
+AI가 반복 업무를 대체, 남은 리소스를 추가 피드백 및 신규 기능 개발에 집중
+9. 비개발자 AI 패션 이커머스 창업 – Gustav Linder (‘Look’)
+코딩 경험 없는 창업자가 Loveable 프롬프트만으로 AI 패션 스타일링/이커머스 MVP 제작
+사이트 오픈 후 이용자 증가, 투자자 관심 및 5억 원 투자 유치 성공
+100% 프롬프트 기반, 비개발자도 창업→사업 확장에 성공한 대표 사례
+10. AI 유언장 MVP로 첫 매출 – 작성자 본인
+웹앱 경험이 없던 필자가 스타트업 의뢰로 AI 상속 설계 MVP를 한 달 만에 구축
+프롬프트로 Replit에 챗봇, 인증, 이메일 연동 기능까지 구현
+초기 고객 확보·아이디어 검증·투자 유치 등 스타트업 필수 단계 신속 통과
+11. 3일 만에 AI 교육 서비스 론칭 – Jon Cheney
+Jon Cheney는 48시간 안에 AI 온라인 트레이닝 스쿨(GenAIPI) 제작을 도전, 실제론 3일 소요
+코딩 경험 없었으나, AI와의 협업으로 서비스 오픈 후 단기간 내 18만 달러 매출 달성
+비개발자도 AI와 함께 실제 서비스·수익 창출 가능성 입증
+12. PRD(요구사항 문서) 대신 즉시 프로토타이핑 – Homebase (John Waldmann)
+기존에는 기획안/기능 요청시 PRD를 길게 작성해 검토하는 방식이 비효율적이었음
+이제는 Lovable 등 AI툴로 기획 단계부터 실동작 프로토타입을 몇 시간 내 만들어 실제로 시연
+제품·디자인팀 등 비개발 직군이 주도, 문서 기반 의사결정에서 직접 사용해볼 수 있는 프로토타입 중심 의사결정으로 전환
+기획→검증→리뷰 프로세스가 획기적으로 간소화
+
+## 저는 지금까지 끌로드 코드에서 제미나이 cli 를 호출할 때 zen mcp 를 사용했는데요, 이것을 서브에이전트로 호출하는 방법을 알게 되어 공유합니다.
+다른것 보다도 서브에이전트를 만드는 커맨드를 끌로드 문서로 대체하는 과정이 좀 충격이네요. 이런게 창의력인가 싶습니다. 어떻게 생각해낸거지?
+https://egghead.io/create-a-gemini-cli-powered-subagent-in-claude-code~adkge  
+
+https://egghead.io/create-a-gemini-cli-powered-subagent-in-claude-code~adkge 에 대한 사이트 요약입니다:
+
+👉[Create a Gemini CLI Powered Subagent in Claude Code | egghead.io]
+🤖 Claude Code에서 Gemini CLI를 활용하는 '서브에이전트'를 생성하여, 대규모 코드 분석을 Gemini의 100만 토큰 컨텍스트 윈도우로 효율적으로 오프로드합니다.
+🛠️ 이 서브에이전트는 Claude의 요청에 따라 Gemini CLI 명령을 정확히 실행하고 결과를 반환하며, 직접 분석하는 대신 전문 관리자 역할을 수행합니다.
+💰 이 워크플로우를 통해 Claude는 비용을 절감하고 Gemini의 강력한 분석 능력을 활용하여 복잡한 작업을 자동화하며, 주 AI 대화의 효율성을 극대화합니다.
+
+## 

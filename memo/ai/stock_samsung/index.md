@@ -195,3 +195,8 @@ TOC
 
 # error
 - ![너무 많이 쓴 에러](image.png)
+
+# 최종 [[date:2025-08-01 14:19:23]]
+- gemini cli의 경우 특히 docker에서 하다보니 안해도 될 것을 너무 많이 하여 token을 모두 사용하여 limitation에 도달하게 됨.
+- 이를 copilot 유료로 옮겨서 수행한 결과
+  - https://github.com/cheoljoo/stock_samsung.git

@@ -2,6 +2,7 @@
 - tag : readme, TOC
 - First, run ```$ bash readme.sh```. It is created by get-all-description-and-tag.py.
 - [Network Graph (Map)](get-all-description-and-tag-network_graph.html) <- download and run in browser.
+- how to run : ```uv run make```
 
 
 1\.  [memo TOC](#memotoc)  
@@ -108,6 +109,9 @@
 - [ai-replit-analysis-for-runOnSave.md](./ai-replit-analysis-for-runOnSave.md) : runOnSave라는 vscode extension에 대한 분석을 replit에 맡긴 결과를 적어놓은 것이다.
 - [ai-robot.md](./ai-robot.md) : 로봇 관련 글들을 모아놓은 것이다. 로봇에 대한 설명과 요즘의 추세를 적어둔 페이지이다.
 - [ai.elice.io_파이썬 데이터 분석 기초.md](./ai.elice.io_파이썬 데이터 분석 기초.md) : ai 관련 교육 내용중 내가 모르던 것을 요약했다.  교육명 : 파이썬 데이터 분석 기초
+- [ai/ai-english-conversation.md](./ai/ai-english-conversation.md) : english conversation with AI
+- [ai/ai-misc.md](./ai/ai-misc.md) : AI 관련 여러가지 이야기
+- [ai/ai-prompt.md](./ai/ai-prompt.md) : ai를 위한 prompt 관련 공부 해야 하는 내용 : prompt engineering
 - [ai/convert_csv_to_md-for-ai.py](./ai/convert_csv_to_md-for-ai.py) : youtube 시청한 csv내용을 markdown으로 변환하는 프로그램
 - [ai/gemini_cli/index.md](./ai/gemini_cli/index.md) : Google’s Gemini CLI is INSANE—After 1 Hour of Coding, It’s Still 95% Full! & MCP
 - [ai/gemini_visualization/index.md](./ai/gemini_visualization/index.md) : Prompt , AI 문서 시각화, 이제 돈 내지 마세요! 제미나이 젬 활용 가이드 / 단 몇 초 만에 유튜브 전문가 되는 비법 공개! youtube 요약 및 8가지 기능 /  | GEMINI 활용법 6편
@@ -136,6 +140,7 @@
 - [dreamhack.md](./dreamhack.md) : dreamhack (LGE 해킹대회 사전 교육) 관련 정리하던 것으로 , 제대로 끝내지 못한 교육이었음.
 - [education/Gen-AI-RAG-실전-가이드_Langchain을-활용한-AI-챗봇-완전정복/index.md](./education/Gen-AI-RAG-실전-가이드_Langchain을-활용한-AI-챗봇-완전정복/index.md) : (education정리) Gen AI RAG 실전 가이드, Langchain을 활용한 AI 챗봇 완전정복 : 실습을 통한 설명과 zip파일로 소스 pdf등 제공
 - [education/Learn-Object-Oriented-Programming-in-Python/index.md](./education/Learn-Object-Oriented-Programming-in-Python/index.md) : (education정리) Learn Object Oriented Programming in Python (OOP)
+- [education/Prompt-Engineering-Advanced-Course/index.md](./education/Prompt-Engineering-Advanced-Course/index.md) : (education정리) 2025 개발자를 위한 고급 프롬프트 엔지니어링
 - [education/Qlik-Sense_Data-Science_and_BI/index.md](./education/Qlik-Sense_Data-Science_and_BI/index.md) : (education정리) Data Science 와 BI 를 위한 Qlik Sense 클릭센스 : 차원이 존재하는 엑셀
 - [education/convert_csv_to_md-for-education.py](./education/convert_csv_to_md-for-education.py) : education 관련 csv내용을 markdown으로 변환하는 프로그램
 - [education/index.md](./education/index.md) : education review : 교육 받은 내용 정리
@@ -145,6 +150,7 @@
 - [education/업무-효율을-확-끌어올리는-GitHub-Copilot활용-프로그래밍/index.md](./education/업무-효율을-확-끌어올리는-GitHub-Copilot활용-프로그래밍/index.md) : (education정리) AI 업무-효율을-확-끌어올리는-GitHub-Copilot활용-프로그래밍
 - [education/업무-효율을-확-끌어올리는-LangChain과-함께하는-LLM-기반-애플리케이션-개발/index.md](./education/업무-효율을-확-끌어올리는-LangChain과-함께하는-LLM-기반-애플리케이션-개발/index.md) : (education정리) AI 업무-효율을-확-끌어올리는-LangChain과-함께하는-LLM-기반-애플리케이션-개발
 - [english.md](./english.md) : somedaytalk 영어를 준비하기 위한 페이지로써 영어 공부를 하기 위한 페이지이다. 주로 article을 읽고 나의 summary를 한 후에 이에 대한 수정을 chatGPT에 맡긴 내용을 담고 있다.
+- [find-recent-updated-file.py](./find-recent-updated-file.py) : Git에서 추적하는 파일들 중에서 최근 수정된 파일들을 찾아 절대 경로와 함께 표시하는 스크립트입니다. 기본적으로 최근 30개 파일을 표시하며, 수정 날짜 순으로 정렬됩니다.
 - [ftp-server.md](./ftp-server.md) : windows 에서 ftp server를 어떻게 설정하는가?
 - [get-all-description-and-tag-to-network-graph.py](./get-all-description-and-tag-to-network-graph.py) : memo subdirectories가 다루는 내용들을 network graph map 으로 보여준다.
 - [get-all-description-and-tag.py](./get-all-description-and-tag.py) : get all description and tag from memo sub-directories (output:get-all-description-and-tag.json)
@@ -163,6 +169,7 @@
 - [memo-2025-misc.md](./memo-2025-misc.md) : 2025 year 메모 모음 - 관심되는 것들을 모아두는 곳 입니다. 어디선가 이런 것을 모아서 발표해도 될
 - [memory-release-RAII.md](./memory-release-RAII.md) : C++ automatic memory management (protect memroy leak) - made by chatgpt
 - [misc/index.md](./misc/index.md) : 가지각색
+- [misc/sshl.md](./misc/sshl.md) : support more than two services through 1 port (sshl) : sshl -> ssh or http
 - [mouse.md](./mouse.md) : JIRA / CodeBeamer / Gerrit등의 개발 시스템을 사용하는 사용자들의 performance가 어떻게 되는지를 check하기 위한 project (MOUSE)
 - [openai_chatgpt.md](./openai_chatgpt.md) : openai chatGPT에 대한 글 (out-of-date)
 - [pilates-2025.md](./pilates-2025.md) : 2025 year 필라테스 내용들을 적어두는 것이다. 가능하면 집에서 할 수 있는 것 위주로.

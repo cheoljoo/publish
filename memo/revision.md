@@ -2,6 +2,18 @@
 - tag : revision , changes
 - date : [today]
 
+# 2025-08-26 16:41:05.297911
+- new file: [ai/ai-english-conversation.md](ai/ai-english-conversation.md) : desc - english conversation with AI
+- new file: [ai/ai-misc.md](ai/ai-misc.md) : desc - AI 관련 여러가지 이야기
+- new file: [ai/ai-prompt.md](ai/ai-prompt.md) : desc - ai를 위한 prompt 관련 공부 해야 하는 내용 : prompt engineering
+- modified: [ai/gemini_cli/index.md](ai/gemini_cli/index.md) : desc - Google’s Gemini CLI is INSANE—After 1 Hour of Coding, It’s Still 95% Full! & MCP
+- modified: [ai/stock_samsung/index.md](ai/stock_samsung/index.md) : desc - 삼성전자와 삼성전자(우)의 비교 : 언제 어떤 것을 사야 유리한지?
+- new file: [education/Prompt-Engineering-Advanced-Course/index.md](education/Prompt-Engineering-Advanced-Course/index.md) : desc - (education정리) 2025 개발자를 위한 고급 프롬프트 엔지니어링
+- new file: [find-recent-updated-file.py](find-recent-updated-file.py) : desc - Git에서 추적하는 파일들 중에서 최근 수정된 파일들을 찾아 절대 경로와 함께 표시하는 스크립트입니다. 기본적으로 최근 30개 파일을 표시하며, 수정 날짜 순으로 정렬됩니다.
+- modified: [memo-2025-misc.md](memo-2025-misc.md) : desc - 2025 year 메모 모음 - 관심되는 것들을 모아두는 곳 입니다. 어디선가 이런 것을 모아서 발표해도 될
+- new file: [misc/sshl.md](misc/sshl.md) : desc - support more than two services through 1 port (sshl) : sshl -> ssh or http
+- modified: [tax.md](tax.md) : desc - 세금 (tax) 관련 정리
+
 # 2025-08-01 07:42:38.667383
 - modified: [ai/gemini_cli/index.md](ai/gemini_cli/index.md) : desc - Google’s Gemini CLI is INSANE—After 1 Hour of Coding, It’s Still 95% Full! & MCP
 - modified: [get-all-description-and-tag.py](get-all-description-and-tag.py) : desc - get all description and tag from memo sub-directories (output:get-all-description-and-tag.json)

@@ -44,3 +44,8 @@ t:
 	python3 revision_creation.py
 p:
 	python3 ../processMap/draw_pm.py --authname cheoljoo.lee --authpasswd your_host_passwd --input processmap.csv
+updated-list:
+	python3 find-recent-updated-file.py -n 30 --use-git-date --show-size --oneline
+updated-list-in-detail:
+	python3 find-recent-updated-file.py -n 10 --use-git-date --show-size
+

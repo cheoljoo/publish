@@ -2,6 +2,7 @@
 - tag : readme, TOC
 - First, run ```$ bash readme.sh```. It is created by get-all-description-and-tag.py.
 - [Network Graph (Map)](get-all-description-and-tag-network_graph.html) <- download and run in browser.
+- how to run : ```uv run make```
 
 
 !TOC

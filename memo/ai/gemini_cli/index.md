@@ -15,6 +15,7 @@ TOC
 - [4. linux에서 docker를 이용하여 gemini-cli 수행하기](#4-linux에서-docker를-이용하여-gemini-cli-수행하기)
   - [4.1. MCP](#41-mcp)
 - [5. In this video you’ll learn:](#5-in-this-video-youll-learn)
+- [6. reference](#6-reference)
 
 -------
 
@@ -439,3 +440,7 @@ TOC
   - Huge context window (95 % tokens free) and zero cost are major perks, but early-release bugs still pop up.
 - Efficient AI-Coding Tactics
   - Build a logging system, keep MVC separation, use “deep questioning” for better debugging, and break big tasks into smaller loops for rock-solid reliability.
+
+# 6. reference
+- [Gemini CLI와 프롬프트 래핑(Wrapping)으로 자동화 프롬프트 활용하기](https://adjh54.tistory.com/700#5.%20%ED%84%B0%EB%AF%B8%EB%84%90%EC%97%90%EC%84%9C%20Gemini%20CLI%EB%A5%BC%20%EC%8B%A4%ED%96%89%ED%95%A9%EB%8B%88%EB%8B%A4-1-13)
+  - https://github.com/cheoljoo/english.git
