@@ -2,6 +2,9 @@
 - tag : revision , changes
 - date : [today]
 
+# 2025-09-10 10:49:00.808348
+- modified: [memo-2025-misc.md](memo-2025-misc.md) : desc - 2025 year 메모 모음 - 관심되는 것들을 모아두는 곳 입니다. 어디선가 이런 것을 모아서 발표해도 될
+
 # 2025-08-26 16:41:05.297911
 - new file: [ai/ai-english-conversation.md](ai/ai-english-conversation.md) : desc - english conversation with AI
 - new file: [ai/ai-misc.md](ai/ai-misc.md) : desc - AI 관련 여러가지 이야기
